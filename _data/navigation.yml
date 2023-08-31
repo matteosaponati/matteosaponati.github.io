@@ -11,7 +11,7 @@ main:
     url: /music/    
 
   - title: "blog"
-    url: /blog/    
+    url: /year-archive/    
     
   - title: "else"
     url: /else/
