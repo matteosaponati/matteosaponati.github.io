@@ -1,10 +1,31 @@
 ---
 layout: archive
-title: "publications"
+title: 
 permalink: /publications/
 author_profile: true
 ---
 
+My google scholar is [here](https://scholar.google.com/citations?user=kF4valcAAAAJ&)
+
+<style type="text/css">
+  .paper_metadata a {
+  	text-decoration: none!important;
+  	color: #494e52;
+  }
+	table, th, td {
+	  border: 0px solid black;
+	}
+	table.pub_table {
+		width: 100%;
+		font-size: 12pt;
+	}
+	td.pub_td1 {
+		width: 33%;
+	}
+	td.pub_td2 {
+		width: 67%;
+	}
+</style>
 
 <table class="pub_table">
  
