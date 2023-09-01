@@ -1,9 +1,8 @@
 ---
-permalink: /
-title: "research"
-excerpt: "research"
+layout: archive
+title: research
+permalink: /research/
 author_profile: false
-redirect_from: 
-  - /research/
-  - /research.html
 ---
+
+test
