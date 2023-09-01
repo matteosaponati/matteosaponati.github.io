@@ -92,8 +92,6 @@ href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blan
 		<div class='paper_metadata'>
   	<u>Matteo Saponati</u>, Martin Vinck <br />
   	<i> CoSyne Conference 2023 (Montreal, CA) <br />
-  	</div>
-</td></tr>
 
 <tr>
   <td class="pub_td1"><b> A predictive plasticity rule explains the anticipation of spike patterns at the single neuron
@@ -101,8 +99,6 @@ level and the emergence of spike-timing-dependent plasticity mechanisms </b><br 
 		<div class='paper_metadata'>
   	<u>Matteo Saponati</u>, Martin Vinck <br />
   	<i> Society of Neuroscience Meeting 2022 (San Diego, USA) <br />
-  	</div>
-</td></tr>
 
 <tr>
   <td class="pub_td1"><b> V1 classical receptive field response is shaped by the spatio-temporal properties of the
@@ -111,7 +107,5 @@ input </b><br />
   	<u>Matteo Saponati</u>, Irene Onorato, Cem Uram, Athanasia Tzanou, Ana Clara Broggini, Martin Vinck <br />
   	<i> Society of Neuroscience Meeting 2022 (San Diego, USA) <br />
 	<a href="http://doi.org/10.12751/nncn.bc2022.294">DOI</a>
-  	</div>
-</td></tr>
 
 </table>
