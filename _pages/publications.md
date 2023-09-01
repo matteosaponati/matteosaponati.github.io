@@ -5,7 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-My google scholar is [here](https://scholar.google.com/citations?user=kF4valcAAAAJ&)
+Here you can find my main scientific publications and research outcomes. For a detailed list of publications, please have a look at:
+
+- my <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">Google Scholar</a>
+- my <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">ORCID</a>
+- my <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">ResearchGate</a> 
 
 <style type="text/css">
   .paper_metadata a {
@@ -27,19 +31,83 @@ My google scholar is [here](https://scholar.google.com/citations?user=kF4valcAAA
 	}
 </style>
 
+### journal articles
+
 <table class="pub_table">
  
 <font size="-1">(* equal contribution)</font>
+
+<tr>
+  <td class="pub_td1"><b> nhibitory feedback enables predictive learning of multiple sequences in neural networks </b><br />
+		<div class='paper_metadata'>
+  	<u>Saponati, M.</u>, Vinck, M. <br />
+  	<i>BiorXiv</i>  2023.08.26.554928 (2023) <br />
+  	</div>
+  <a href="https://www.biorxiv.org/content/10.1101/2023.08.26.554928v1" target="_blank">paper</a> | <a 
+href="https://github.com/matteosaponati/predictive_neuron" target="_blank">code</a>
+</td></tr>
 	
 <tr>
-  <td class="pub_td1"><div class="teaser_img_div"><a href="https://www.nature.com/articles/s41467-023-40651-w"><img class="teaser_img" src="images/publications/2023sequence.PNG" /></a></div></td>
-  <td class="pub_td2"><b> Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule </b><br />
+  <td class="pub_td1"><b> Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule </b><br />
 		<div class='paper_metadata'>
-  	<u>Matteo Saponati</u>, Martin Vinck <br />
+  	<u>Saponati, M.</u>, Vinck, M. <br />
   	<i>Nature Communications</i>  14, 4985 (2023) <br />
   	</div>
-  <a href="https://www.nature.com/articles/s41467-023-40651-w">paper</a> | <a 
-href="https://github.com/matteosaponati/predictive_neuron7">code</a>
+  <a href="https://www.nature.com/articles/s41467-023-40651-w" target="_blank">paper</a> | <a 
+href="https://github.com/matteosaponati/predictive_neuron" target="_blank">code</a>
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><b> Spontaneous variability in gamma dynamics described by a damped harmonic oscillator driven by noise </b><br />
+		<div class='paper_metadata'>
+  	Spyropoulos, G., <u> Saponati, M. </u>u>, Dowdall, J. R., Schölvinck, M. L., Bosman, C. A., Lima, B., Peter, A.,
+Onorato, I., Klon-Lipok, J., Roese, R., et al. <br />
+  	<i>Nature Communications</i>  13(1), 1–18. (2022) <br />
+  	</div>
+  <a href="https://www.nature.com/articles/s41467-022-29674-x#Sec10" target="_blank">paper</a> | <a 
+href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blank">code</a>
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><b> Thalamocortical spectral transmission relies on balanced input strengths </b><br />
+		<div class='paper_metadata'>
+  	<u>Saponati, M.</u>u>, Garcia-Ojalvo, J., Cataldo, E., & Mazzoni, A. <br />
+  	<i>Brain Topography</i> 35(1), 4–18 (2022) <br />
+  	</div>
+  <a href="https://link.springer.com/article/10.1007/s10548-021-00851-3" target="_blank">paper</a> 
+</td></tr>
+
+</table>
+
+### conference presentations and proceedings
+
+<table class="pub_table">
+ 	
+<tr>
+  <td class="pub_td1"><b> A predictive plasticity rule entails the anticipation of multiple spike sequences </b><br />
+		<div class='paper_metadata'>
+  	<u>Matteo Saponati</u>, Martin Vinck <br />
+  	<i> CoSyne Conference 2023 (Montreal, CA) <br />
+  	</div>
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><b> A predictive plasticity rule explains the anticipation of spike patterns at the single neuron
+level and the emergence of spike-timing-dependent plasticity mechanisms </b><br />
+		<div class='paper_metadata'>
+  	<u>Matteo Saponati</u>, Martin Vinck <br />
+  	<i> Society of Neuroscience Meeting 2022 (San Diego, USA) <br />
+  	</div>
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><b> V1 classical receptive field response is shaped by the spatio-temporal properties of the
+input </b><br />
+		<div class='paper_metadata'>
+  	<u>Matteo Saponati</u>, Irene Onorato, Cem Uram, Athanasia Tzanou, Ana Clara Broggini, Martin Vinck <br />
+  	<i> Society of Neuroscience Meeting 2022 (San Diego, USA) <br />
+	<a href="http://doi.org/10.12751/nncn.bc2022.294">DOI</a>
+  	</div>
 </td></tr>
 
 </table>
