@@ -16,5 +16,5 @@ main:
   - title: "else"
     url: /else/
         
-   - title: "vita and cv"
-    url: /cv/
+   #- title: "vita and cv"
+   # url: /cv/
