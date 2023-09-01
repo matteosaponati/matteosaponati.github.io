@@ -104,6 +104,4 @@ input </b><br />
 		<div class='paper_metadata'>
   	<u>Matteo Saponati</u>, Irene Onorato, Cem Uram, Athanasia Tzanou, Ana Clara Broggini, Martin Vinck <br />
   	<i> Society of Neuroscience Meeting 2022 (San Diego, USA) <br />
-	<a href="http://doi.org/10.12751/nncn.bc2022.294">DOI</a>
-
-</table>
+	<a href="http://doi.org/10.12751/nncn.bc2022.294" target="_blank">DOI</a>
