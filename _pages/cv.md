@@ -17,4 +17,4 @@ I obtained my Bachelor and Master degree in Physics at the [University of Pisa](
 
 ---------------------
 
-you can find my detailed <b>cv<\b> [here](https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf)
+you can find my detailed <b>cv [here](https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf)
