@@ -12,9 +12,6 @@ main:
 
   - title: "blog"
     url: /year-archive/    
-    
-  - title: "else"
-    url: /else/
         
   - title: "vita and cv"
     url: /cv/
