@@ -31,6 +31,8 @@ Here you can find my main scientific publications and research outcomes. For a d
 	}
 </style>
 
+ ---<br><br>
+ 
 ### journal articles
 
 <table class="pub_table">
@@ -38,7 +40,7 @@ Here you can find my main scientific publications and research outcomes. For a d
 <font size="-1">(* equal contribution)</font>
 
 <tr>
-  <td class="pub_td1"><b> nhibitory feedback enables predictive learning of multiple sequences in neural networks </b><br />
+  <td class="pub_td1"><b> Inhibitory feedback enables predictive learning of multiple sequences in neural networks </b><br />
 		<div class='paper_metadata'>
   	<u>Saponati, M.</u>, Vinck, M. <br />
   	<i>BiorXiv</i>  2023.08.26.554928 (2023) <br />
@@ -78,6 +80,8 @@ href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blan
 </td></tr>
 
 </table>
+
+ ---<br><br>
 
 ### conference presentations and proceedings
 
