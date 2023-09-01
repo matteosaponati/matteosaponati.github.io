@@ -31,8 +31,7 @@ Here you can find my main scientific publications and research outcomes. For a d
 	}
 </style>
 
- ---<br><br>
- 
+ ---
 ### journal articles
 
 <table class="pub_table">
@@ -81,8 +80,7 @@ href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blan
 
 </table>
 
- ---<br><br>
-
+ ---
 ### conference presentations and proceedings
 
 <table class="pub_table">
