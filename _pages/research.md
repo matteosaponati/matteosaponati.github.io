@@ -9,7 +9,7 @@ My research focuses on understanding the principles of learning in single neuron
 
 In essence, understanding how many small and pretty complex machines - the neurons - communicate and organize is still a fundamental, and beautiful challenge. Taking inspiration from their learning and organization principles, we would be able to build novel smart machines that can solve complex problems, and help us progress to a better society. This sounds pretty exciting to me.
 
-<iframe src="https://giphy.com/embed/5h9EHCvA0OR2" width="400" height="250" frameBorder="0" allowFullScreen></iframe
+<iframe src="https://giphy.com/embed/5h9EHCvA0OR2" width="400" height="250" frameBorder="0" allowFullScreen></iframe>
 
 ---
 ### projects
