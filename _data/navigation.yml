@@ -16,5 +16,5 @@ main:
   - title: "else"
     url: /else/
         
-   - title: "cv"
-    url: /files/cv_saponati.pdf
+   #- title: "cv"
+   # url: /files/cv_saponati.pdf
