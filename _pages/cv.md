@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 <p>
-  <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/cv_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span> find ny personal cv [here](https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf).
+  <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/cv_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span> find ny personal <b>cv</b> <a href="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf" target="_blank">here</a>.
 </p>
 
 ---------------------
