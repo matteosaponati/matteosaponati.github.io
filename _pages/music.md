@@ -5,4 +5,6 @@ permalink: /music/
 author_profile: false
 ---
 
-test
+soon
+
+<img src="images/music/msuic_0.jpg" alt="drawing" width="200"/>
