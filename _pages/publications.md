@@ -61,7 +61,7 @@ href="https://github.com/matteosaponati/predictive_neuron" target="_blank">code<
 <tr>
   <td class="pub_td1"><b> Spontaneous variability in gamma dynamics described by a damped harmonic oscillator driven by noise </b><br />
 		<div class='paper_metadata'>
-  	Spyropoulos, G., <u> Saponati, M. </u>u>, Dowdall, J. R., Schölvinck, M. L., Bosman, C. A., Lima, B., Peter, A.,
+  	Spyropoulos, G., <u> Saponati, M. </u>, Dowdall, J. R., Schölvinck, M. L., Bosman, C. A., Lima, B., Peter, A.,
 Onorato, I., Klon-Lipok, J., Roese, R., et al. <br />
   	<i>Nature Communications</i>  13(1), 1–18. (2022) <br />
   	</div>
@@ -103,5 +103,5 @@ level and the emergence of spike-timing-dependent plasticity mechanisms </b><br 
 input </b><br />
 		<div class='paper_metadata'>
   	<u>Matteo Saponati</u>, Irene Onorato, Cem Uram, Athanasia Tzanou, Ana Clara Broggini, Martin Vinck <br />
-  	<i> Society of Neuroscience Meeting 2022 (San Diego, USA) <br />
+  	<i> Bernstein Conference 2022 (Berlin, DE) <br />
 	<a href="http://doi.org/10.12751/nncn.bc2022.294" target="_blank">DOI</a>
