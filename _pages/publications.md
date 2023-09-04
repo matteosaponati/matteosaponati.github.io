@@ -6,7 +6,6 @@ author_profile: true
 ---
 
 here you can find my main scientific publications and research outcomes. 
-\
 <p>
   <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span>  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">google scholar</a>
 </p>
