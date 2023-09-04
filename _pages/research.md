@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 title: research
 permalink: /research/
 author_profile: false
