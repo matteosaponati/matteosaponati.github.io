@@ -7,7 +7,7 @@ author_profile: false
 
 understanding how many small and pretty complex machines - the neurons - communicate and self-assemble is still a fundamental, and beautiful challenge. Taking inspiration from their learning and organization principles, we would be able to build novel smart machines that can solve complex problems, and help us progress to a better society. This sounds pretty exciting to me.
 
-<iframe src="https://giphy.com/embed/5h9EHCvA0OR2" width="400" height="200" frameBorder="0" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/5h9EHCvA0OR2" width="400" height="260" frameBorder="0" allowFullScreen></iframe>
 
 ### projects
 - theory and algorithms for synaptic plasticity and learning rules in single neurons
@@ -27,4 +27,4 @@ In essence, my research focuses on understanding the principles of learning in s
 - Master thesis (Physics, University of Pisa, Italy)
 
   Neural oscillations and information transmission in a thalamocortical network model\
-  <a href="https://etd.adm.unipi.it/t/etd-09262018-152801/">link</a> | <a href="https://etd.adm.unipi.it/theses/available/etd-09262018-152801/unrestricted/Saponati_Matteo_tesi.pdf" target="_blank">download</a>
+  [ <a href="https://etd.adm.unipi.it/t/etd-09262018-152801/" target="_blank">link</a> | <a href="https://etd.adm.unipi.it/theses/available/etd-09262018-152801/unrestricted/Saponati_Matteo_tesi.pdf" target="_blank">download</a> ]
