@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 title: vita and cv
 permalink: /cv/
 author_profile: false
