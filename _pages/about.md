@@ -15,7 +15,7 @@ redirect_from:
    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
 </p>
 \
-<img src="/images/general/intro.png" style="width: 20em; height: 10em;">
+<img src="/images/general/intro.png">
 hey there
 
 
