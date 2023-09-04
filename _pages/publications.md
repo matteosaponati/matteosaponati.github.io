@@ -7,24 +7,15 @@ author_profile: true
 
 here you can find my main scientific publications and research outcomes. 
 \
-\
 <p>
   <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span>  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">google scholar</a>
 </p>
-\
 <p>
   <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/orcid_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span>  <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">orcid</a>
 </p>
-\
 <p>
   <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/rgate_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span>  <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">researchgate</a>
 </p>
-\
-<p>
-  <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/cv_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span> find my personal <b>cv</b> <a href="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf" target="_blank">here</a>
-</p>
-\
-\
 
 <style type="text/css">
   .paper_metadata a {
