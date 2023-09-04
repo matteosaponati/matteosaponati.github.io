@@ -8,7 +8,7 @@ redirect_from:
   - /about/
   - /about.html
 header:
-  image: /images/general/intro.jpg
+  image: /images/general/intro.png
   title: ''  
   type: "center"
 ---
