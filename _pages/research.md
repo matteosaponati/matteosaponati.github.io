@@ -20,11 +20,11 @@ In essence, my research focuses on understanding the principles of learning in s
 
 ### scientific outcome
 - a non-comprehensive list of my <a href="https://matteosaponati.github.io/publications/" target="_blank">scientific publications</a>
-- ph.d. thesis (Neurophysics, Radboud University, The Netherlands)
+- PhD thesis (Neurophysics, Radboud University, The Netherlands)
 
-  "A study of synaptic plasticity and predictive processes in biological and artificial neural networks "
+  "A study of synaptic plasticity and predictive processes in biological and artificial neural networks "\
   [let me finish first :) ]
-- m.sc. thesis (Physics, University of Pisa, Italy)
+- Master thesis (Physics, University of Pisa, Italy)
 
-  Neural oscillations and information transmission in a thalamocortical network model
+  Neural oscillations and information transmission in a thalamocortical network model\
   <a href="https://etd.adm.unipi.it/t/etd-09262018-152801/">link</a> | <a href="https://etd.adm.unipi.it/theses/available/etd-09262018-152801/unrestricted/Saponati_Matteo_tesi.pdf" target="_blank">download</a>
