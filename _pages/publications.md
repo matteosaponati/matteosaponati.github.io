@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 title: publications
 permalink: /publications/
 author_profile: true
