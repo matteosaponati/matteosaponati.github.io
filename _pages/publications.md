@@ -5,11 +5,26 @@ permalink: /publications/
 author_profile: true
 ---
 
-Here you can find my main scientific publications and research outcomes. For a detailed list of publications, please have a look at:
-
-- my <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">Google Scholar</a>
-- my <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">ORCID</a>
-- my <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">ResearchGate</a> 
+here you can find my main scientific publications and research outcomes. 
+\
+\
+<p>
+  <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span>  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">google scholar</a>
+</p>
+\
+<p>
+  <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/orcid_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span>  <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">orcid</a>
+</p>
+\
+<p>
+  <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/rgate_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span>  <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">researchgate</a>
+</p>
+\
+<p>
+  <span style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img src="/images/general/cv_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span> find my personal <b>cv</b> <a href="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf" target="_blank">here</a>
+</p>
+\
+\
 
 <style type="text/css">
   .paper_metadata a {
@@ -35,8 +50,6 @@ Here you can find my main scientific publications and research outcomes. For a d
 ### journal articles
 
 <table class="pub_table">
- 
-<font size="-1">(* equal contribution)</font>
 
 <tr>
   <td class="pub_td1"><b> Inhibitory feedback enables predictive learning of multiple sequences in neural networks </b><br />
