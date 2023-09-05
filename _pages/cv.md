@@ -5,7 +5,8 @@ permalink: /cv/
 author_profile: false
 ---
 
- find my personal <b>cv</b> <a href="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf" target="_blank">here</a>
+<p>
+ <a href=https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/cv_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a> my personal cv </p>
  
 ---------------------
 
@@ -21,4 +22,7 @@ I obtained my Bachelor and Master degree in Physics at the [University of Pisa](
 
 My hometown is Viareggio, in Italy. I spent all my childhood, teenager and university years in this relative small city on the Tuscanian coast. I have a very strong emotional connection with the sea, the sun, the smell of "salmastro" (italian word for water saline), and carnival. I am a musician, and I had been playing in many different bands and projects from Tuscany during that whole period. Nowadays, I make my own music, and I love to hang out with musician and take parts of whatever possible, random jam session - it makes me feel alive.
 
-<img src="/images/general/viareggio.jpg">
+<figure>
+<img src="/images/general/viareggio.jpg" style="width:100%">
+<figcaption> beach in Viareggio by night, 2021 </figcaption>
+</figure>
