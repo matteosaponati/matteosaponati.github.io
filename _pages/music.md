@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 title: music
 permalink: /music/
 author_profile: false
