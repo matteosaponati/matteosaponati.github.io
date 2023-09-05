@@ -21,9 +21,7 @@ redirect_from:
 </p>
 -----------
 
-hey there
-
-this is my personal website, where you can find more about my research work, my scientific publications, and other things.
+hey there - this is my personal website, here you can find information on my research work, my scientific publications, and other things.
 
 
 
