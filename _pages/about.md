@@ -16,7 +16,7 @@ here is matteo saponati
    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
 </p>
 
-<img src="/images/about/me.gif">
+<img src="/images/about/me.gif" style="width:50%">
 
 hey there
 
