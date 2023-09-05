@@ -40,16 +40,16 @@ here you can find my main scientific publications and research outcomes.
 <tr>
   <td class="pub_td1"><b>A study of synaptic plasticity and predictive processes in biological and artificial neural networks </b><br />
 		<div class='paper_metadata'>
-  	<u>Saponati, M.</u>, PhD thesis in Neurophysics <br />
+  	PhD thesis in Neurophysics <br />
   	Donders Centre for Neuroscience, Radboud University, The Netherlands <br />
   	</div>
-  soon you will find it here :)  | 
+  soon you will find it here :) 
 </td></tr>
 
 <tr>
   <td class="pub_td1"><b>Neural oscillations and information transmission in a thalamocortical network model</b><br />
 		<div class='paper_metadata'>
-  	<u>Saponati, M.</u>, M.Sc. thesis in Physics <br />
+  	M.Sc. thesis in Physics <br />
   	Department of Physics, University of Pisa, Italy <br />
   	</div>
   <a href="https://etd.adm.unipi.it/t/etd-09262018-152801/" target="_blank">link</a>  | <a href="https://etd.adm.unipi.it/theses/available/etd-09262018-152801/unrestricted/Saponati_Matteo_tesi.pdf" target="_blank">download</a>
