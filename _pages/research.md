@@ -17,15 +17,3 @@ understanding how many small and pretty complex machines - the neurons - communi
 
 ### more in detail
 In essence, my research focuses on understanding the principles of learning in single neurons, how they support the ability of our brains to solve novel and complex tasks, and how these principles can be applied to create more intelligent machines. I pursue these questions using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, theoretical neuroscience and machine learning. With my research endeavor, I plan to develop novel models and learning algorithms for bio-inspired computing, and apply my research for Neuromorphic engineering solutions to real-world problems. 
-
-### scientific outcome
-a non-comprehensive list of my <a href="https://matteosaponati.github.io/publications/" target="_blank">scientific publications</a>\
-\
-PhD thesis (Neurophysics, Radboud University, The Netherlands)\
-*"A study of synaptic plasticity and predictive processes in biological and artificial neural networks"*\
-[let me finish first :) ]
-\
-\
-Master thesis (Physics, University of Pisa, Italy)\
-*"Neural oscillations and information transmission in a thalamocortical network model"*\
-[ <a href="https://etd.adm.unipi.it/t/etd-09262018-152801/" target="_blank">link</a> | <a href="https://etd.adm.unipi.it/theses/available/etd-09262018-152801/unrestricted/Saponati_Matteo_tesi.pdf" target="_blank">download</a> ]
