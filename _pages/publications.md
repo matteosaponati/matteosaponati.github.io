@@ -33,14 +33,14 @@ here you can find my main scientific publications and research outcomes.
 </style>
 
  ---
-### dissertations
+### DISSERTATIONS
 
 <table class="pub_table">
 
 <tr>
   <td class="pub_td1"><b>A study of synaptic plasticity and predictive processes in biological and artificial neural networks </b><br />
 		<div class='paper_metadata'>
-  	PhD thesis in Neurophysics <br />
+  	Ph.D. thesis in Neurophysics <br />
   	Donders Centre for Neuroscience, Radboud University, The Netherlands <br />
   	</div>
   soon you will find it here :) 
@@ -57,7 +57,7 @@ here you can find my main scientific publications and research outcomes.
 
 </table>
 
-### journal articles
+### JOURNAL ARTICLES
 
 <table class="pub_table">
 
@@ -104,7 +104,7 @@ href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blan
 </table>
 
  ---
-### conference presentations and proceedings
+### CONFERENCE PRESENTATIONS AND PROCEEDINGS
 
 <table class="pub_table">
  	
