@@ -6,7 +6,8 @@ author_profile: false
 ---
 
 <p>
- <a href=https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/cv_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a> my personal cv </p>
+ <a href="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/cv_saponati.pdf" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/cv_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a> my personal cv
+</p>
  
 ---------------------
 
