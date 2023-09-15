@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <div class="align-center">
-  <img src="/images/about/me.png" style="width:100%">
+  <img src="/images/about/me.png" style="width:40%">
   <img src="/images/about/me_garfagnana.png" style="width:40%">
 </div>
 -----------
