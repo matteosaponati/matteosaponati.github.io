@@ -48,6 +48,10 @@
   font-size: $type-size-4;
 }
 
+.custom-font .page__lead {
+  font-family: url('assets/fonts/texgyreadventor-regular-webfont.woff') format('woff');
+}
+
 .page__content {
 
   h2 {
@@ -105,6 +109,10 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+}
+
+.custom-font .page__content {
+  font-family: url('assets/fonts/texgyreadventor-regular-webfont.woff') format('woff');
 }
 
 .page__hero {
