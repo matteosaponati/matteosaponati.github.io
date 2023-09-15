@@ -13,7 +13,7 @@ author_profile: false
 
 ### long-story short
 
-From October 2023, I will be a postdoctoral fellow at the <a href="https://www.ini.uzh.ch/en.html" target="_blank"> Institute of Neuroinformatics </a> from the ETH and the University of Zurich (Switzerland), working in the[Neural Learning and Intelligent Systems and the Neuromorphic Cognitive Systems groups.
+From October 2023, I will be a postdoctoral fellow at the <a href="https://www.ini.uzh.ch/en.html" target="_blank"> Institute of Neuroinformatics </a> from the ETH and the University of Zurich (Switzerland), working in the Neural Learning and Intelligent Systems and the Neuromorphic Cognitive Systems groups.
 
 Currently, I am a PhD student in Neurophysics at the <a href="https://www.ru.nl/science/dcn/" target="_blank">Donders Center for Neuroscience</a> from the Radboud University, Nijmegen (The Netherlands). I am in the last stages of my PhD, and I am planning to defend at the end of November 2023. During my PhD, I have been working at the <a href="https://www.esi-frankfurt.de/" target="_blank">Ernst Strüngmann Institute for Neuroscience</a> in cooperation with the Max-Planck Society, in Frankfurt Am Main (DE), in the lab of Prof. Dr. <a href="https://www.martinvinck.com/" target="_blank">Martin Vinck</a>. I am studying predictive processes and learning in single neurons and neural networks. My PhD research has been supported by an International Max-Planck Research School (<a href="https://brain.mpg.de/imprs" target="_blank">IMPRS</a>) Fellowship.
 
