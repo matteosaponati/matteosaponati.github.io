@@ -95,7 +95,7 @@ href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blan
 <tr>
   <td class="pub_td1"><b> Thalamocortical spectral transmission relies on balanced input strengths </b><br />
 		<div class='paper_metadata'>
-  	<u>Saponati, M.</u>u>, Garcia-Ojalvo, J., Cataldo, E., & Mazzoni, A. <br />
+  	<u>Saponati, M.</u>, Garcia-Ojalvo, J., Cataldo, E., & Mazzoni, A. <br />
   	<i>Brain Topography</i> 35(1), 4–18 (2022) <br />
   	</div>
   <a href="https://link.springer.com/article/10.1007/s10548-021-00851-3" target="_blank">paper</a> 
