@@ -5,8 +5,6 @@ permalink: /posts/2023/10/benchmarks_hardware_performance/
 tags: bernstein_conference
 ---
 
-## benchmarks, hardware, and performance: how much biological inspiration is needed?
-
 ![](https://static.wixstatic.com/media/fdab37_affebf0f74384776b34299200f07c7d4~mv2.jpg/v1/fill/w_417,h_306,al_c,q_90/fdab37_affebf0f74384776b34299200f07c7d4~mv2.jpg)
 
 A few weeks ago I partecipated last minute to the <a href="https://bernstein-network.de/bernstein-conference/program/satellite-workshops/brain-inspiration/" target="_blank">*Brain inspiration in neuromorphic computing* </a> workshop at the Bernstein Conference, which was organized by Emre Neftci and Tobias Gemmeke. 
@@ -43,6 +41,6 @@ Choosing the right problems to solve and optimizing the system are not the only 
 
 Finally, providing identical initial conditions to multiple players in a game may not necessarily be the fairest option. Similar concepts should work for the Machine Learning folks. When developing novel intelligent systems, it's crucial to consider multiple metrics beyond just performance. In my view, we should shift from metrics solely based on performance to something like this:
 
-![](https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/_posts/2023-10-17-bernstein/graphics.png)
+![](https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/blog/2023-10-17-bernstein/graphics.png)
 
 This shift in our thinking about learning machines and what we prioritize during their training may lead us down new paths where neuromorphic solutions prove to be the optimal choice. How to reach this point, however, remains a challenging puzzle.
