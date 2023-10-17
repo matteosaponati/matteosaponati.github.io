@@ -41,6 +41,6 @@ Choosing the right problems to solve and optimizing the system are not the only 
 
 Finally, providing identical initial conditions to multiple players in a game may not necessarily be the fairest option. Similar concepts should work for the Machine Learning folks. When developing novel intelligent systems, it's crucial to consider multiple metrics beyond just performance. In my view, we should shift from metrics solely based on performance to something like this:
 
-![](https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/blog/2023-10-17-bernstein/graphics.png)
+![](https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-10-17-bernstein/graphics.png)
 
 This shift in our thinking about learning machines and what we prioritize during their training may lead us down new paths where neuromorphic solutions prove to be the optimal choice. How to reach this point, however, remains a challenging puzzle.
