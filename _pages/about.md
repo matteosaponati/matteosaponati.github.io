@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: intro
 permalink: /
 title: "about"
 excerpt: "about"
