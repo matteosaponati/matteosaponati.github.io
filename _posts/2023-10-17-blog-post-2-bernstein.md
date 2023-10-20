@@ -2,6 +2,7 @@
 title: 'benchmarks, hardware, and performance: how much biological inspiration is needed?'
 date: 2023-10-17
 permalink: /posts/2023/10/benchmarks_hardware_performance/
+published: false
 tags: bernstein_conference
 ---
 
