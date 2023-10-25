@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-<font size="6"> matteo saponati </font> 
+<font size="6"> <p style="text-align: center;"> matteo saponati </p></font> 
 
 <font size="4"> <p style="text-align: center;">hey there - this is my personal website, here you can find information on my research work, my scientific publications, and other things</p></font> 
 
