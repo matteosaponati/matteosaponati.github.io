@@ -12,9 +12,9 @@ redirect_from:
 <div style="margin-right: 100px;">
 <div style="margin-left: 100px;">
 
-<font size="5"> <p style="text-align: center;"> matteo saponati </p></font> 
+<font size="6"> <p style="text-align: center;"> matteo saponati </p></font> 
 
-<font size="5"> <p style="text-align: center;">hey there - this is my personal website, here you can find information on my research work, my scientific publications, and other things</p></font> 
+<font size="4"> <p style="text-align: center;">hey there - this is my personal website, here you can find information on my research work, my scientific publications, my music, and other things. </p></font> 
 
 <p style="text-align: center;">
  <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
