@@ -33,7 +33,9 @@ redirect_from:
 <a href="https://matteosaponati.github.io/cv/">CV</a>
 </p>
 
-<img src="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/images/about/me_garfagnana.png" class="center">
+<figure>
+<img src="/images/about/me_garfagnana.png" style="width:100%">
+</figure>
 
 <p style="text-align: center;">
  <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
