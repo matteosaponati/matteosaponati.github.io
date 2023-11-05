@@ -9,8 +9,8 @@ redirect_from:
   - /about.html
 ---
 
-<div style="margin-right: 100px;">
-<div style="margin-left: 100px;">
+<div style="margin-right: 20px;">
+<div style="margin-left: 20px;">
 
 <font size="6"> <p style="text-align: center;"> matteo saponati </p></font> 
 
