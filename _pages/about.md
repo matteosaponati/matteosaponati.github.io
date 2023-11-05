@@ -9,10 +9,20 @@ redirect_from:
   - /about.html
 ---
 
+
+<style>
+body {
+  background-image: url('https://browsecat.art/sites/default/files/trippy-purple-wallpapers-123171-709289-3502682.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+</style>
+
 <div style="margin-right: 20px;">
 <div style="margin-left: 20px;">
 
-<font size="6"> <p style="text-align: center;"> matteo saponati </p></font> 
+<font size="6"> <p style="text-align: center;"> matteosaponati </p></font> 
 
 <font size="4"> <p style="text-align: center;">hey there - this is my personal website, here you can find information on my research work, my scientific publications, my music, and other things. </p></font> 
 
