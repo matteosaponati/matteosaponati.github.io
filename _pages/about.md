@@ -34,7 +34,7 @@ redirect_from:
 </p>
 
 <figure>
-<img src="/images/about/me_garfagnana.png" style="width:100%">
+<img src="/images/about/me_garfagnana.png" style="width:30%">
 </figure>
 
 <p style="text-align: center;">
