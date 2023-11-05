@@ -17,19 +17,19 @@ redirect_from:
 
 <font size="4"> <p style="text-align: center;">hey there - this is my personal website, here you can find information on my research work, my scientific publications, my music, and other things. </p></font> 
 
-<p style="margin-bottom:4cm; text-align: center; margin-top:4cm;">
-<a href="https://github.com/matteosaponati/research">research</a>
+<p style="margin-bottom:1cm; text-align: center; margin-top:4cm;">
+<a href="https://matteosaponati.github.io/research">research</a>
 </p>
 
-<p style="margin-bottom:4cm; text-align: center;">
+<p style="margin-bottom:1cm; text-align: center; margin-top:1cm;">
 <a href="https://matteosaponati.github.io/year-archive/">blog</a>
 </p>
 
-<p style="margin-bottom:4cm; text-align: center;">
-<a href="https://github.com/matteosaponati/music">music</a>
+<p style="margin-bottom:1cm; text-align: center; margin-top:1cm;">
+<a href="https://matteosaponati.github.io/music">music</a>
 </p>
 
-<p style="margin-bottom:4cm; text-align: center;">
+<p style="margin-bottom:1cm; text-align: center; margin-top:1cm;">
 <a href="https://matteosaponati.github.io/cv/">cv</a>
 </p>
 
