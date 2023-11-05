@@ -10,15 +10,6 @@ redirect_from:
 ---
 
 
-<style>
-body {
-  background-image: url('https://browsecat.art/sites/default/files/trippy-purple-wallpapers-123171-709289-3502682.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: cover;
-}
-</style>
-
 <div style="margin-right: 20px;">
 <div style="margin-left: 20px;">
 
