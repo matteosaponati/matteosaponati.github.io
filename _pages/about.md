@@ -1,5 +1,5 @@
 ---
-layout: intro
+layout: first
 permalink: /
 title: "about"
 excerpt: "about"
@@ -10,63 +10,4 @@ redirect_from:
 ---
 
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Centered Rectangle with Links, Title, and Text</title>
-  <style>
-    /* CSS styles for centering and rectangle */
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .rectangle {
-      width: 80%; /* Make the rectangle span most of the page */
-      max-width: 600px; /* Set a maximum width */
-      border: 2px solid #000;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .rectangle h2 {
-      margin-top: 0;
-    }
-
-    .link-list {
-      list-style: none;
-      padding: 0;
-      margin-top: 20px;
-    }
-
-    .link-list li {
-      margin-bottom: 10px;
-    }
-
-    .link-list a {
-      text-decoration: none;
-      color: #333;
-    }
-
-    .rectangle p {
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
-  <div class="rectangle">
-    <h2>Rectangle Title</h2>
-    <p>Some text above the links</p>
-    <ul class="link-list">
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-      <!-- Add more links as needed -->
-    </ul>
-    <p>Some text below the links</p>
-  </div>
-</body>
-</html>
+test
