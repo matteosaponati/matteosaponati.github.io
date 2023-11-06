@@ -15,8 +15,8 @@ understanding how many small and pretty complex machines - the neurons - communi
 
 ---
 
-  <font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>projects</b> </p></font> 
-<font color="#9900FF">
+<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>projects</b> </p></font> 
+
 <b>predictive learning rule - how predictions drive synaptic plasticity in single neurons</b>
 
 (on the way)
@@ -25,7 +25,7 @@ understanding how many small and pretty complex machines - the neurons - communi
 
 (on the way)
 
- ---
+---
 
 <style type="text/css">
   .paper_metadata a {
@@ -47,7 +47,7 @@ understanding how many small and pretty complex machines - the neurons - communi
 	}
 </style>
 
-  <font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>publications</b> </p></font> 
+<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>publications</b> </p></font> 
 
 <b>dissertations</b>
 
