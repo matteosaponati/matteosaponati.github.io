@@ -4,8 +4,7 @@ title: cv
 permalink: /cv/
 author_profile: false
 ---
-
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,18 +22,21 @@ author_profile: false
             position: relative;
         }
         .timeline li {
-            width: 50%;
-            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
             position: relative;
         }
         .timeline li::before {
             content: "";
             position: absolute;
             top: 0;
-            bottom: 0;
             left: 50%;
             width: 2px;
+            height: 100%;
             background: #8a2be2; /* Purple Color */
+            z-index: -1;
         }
         .timeline li:first-child::before {
             top: 50px;
@@ -42,49 +44,38 @@ author_profile: false
         .timeline li:last-child::before {
             bottom: 50px;
         }
-        .timeline li:first-child {
-            padding-top: 50px;
-        }
-        .timeline li:last-child {
-            padding-bottom: 50px;
-        }
         .timeline li div {
-            position: relative;
-            background: #8a2be2; /* Purple Color */
-            color: #fff;
+            width: 45%;
             padding: 15px;
+            background: #8a2be2; /* Purple Color */
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #000; /* Black Text Color */
         }
         .timeline li div::before {
             content: "";
             position: absolute;
-            top: 0;
+            top: 50%;
             left: -6px;
             width: 12px;
             height: 12px;
-            background: #fff;
+            background: #8a2be2; /* Purple Color */
             border-radius: 50%;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
         .timeline li div h3 {
             margin: 0;
             font-size: 1.2em;
+            color: #8a2be2; /* Purple Color */
         }
         .timeline li div p {
             margin: 5px 0 0;
         }
         .timeline li:nth-child(odd) div::before {
-            top: calc(100% - 6px);
+            left: -6px;
         }
         .timeline li:nth-child(even) div::before {
-            top: -6px;
-        }
-        .timeline li:nth-child(odd) div {
-            left: 0;
-        }
-        .timeline li:nth-child(even) div {
-            right: 0;
+            right: -6px;
         }
     </style>
 </head>
