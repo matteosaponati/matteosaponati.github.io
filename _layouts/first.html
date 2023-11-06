@@ -19,7 +19,6 @@ layout: compress
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 
 <head>
-  
 
     {% include head.html %}
     {% include head/custom.html %}
@@ -35,6 +34,17 @@ layout: compress
       background: url('images/about/me_garfagnana.png') repeat; /* Set your background image URL and the repeat property */
     }
 
+    .background-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Ensure the rectangle appears on top */
+            background: url('images/about/me_garfagnana.png') repeat; /* Set the same background image for this container */
+        }
+
+    
     .rectangle {
       width: 80%; /* Make the rectangle span most of the page */
       max-width: 1200px; /* Set a maximum width */
@@ -43,6 +53,9 @@ layout: compress
       text-align: center;
       margin: 20px 0; /* Adjust margin for top and bottom space */
       line-height: 1.6; /* Adjust line height for better text spacing */
+      background-color: white; /* Set a white background for the rectangle */
+      position: relative; /* Ensure z-index works as expected */
+      z-index: 1; /* Ensure the rectangle appears on top of the background */
     }
 
     .rectangle h2 {
