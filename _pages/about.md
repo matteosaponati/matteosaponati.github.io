@@ -30,6 +30,13 @@ redirect_from:
 <a href="https://matteosaponati.github.io/cv/">CV</a>
 </p>
 
+ <ul class="link-list">
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <!-- Add more links as needed -->
+</ul>
+
 <p style="text-align: center;">
  <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
   <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
