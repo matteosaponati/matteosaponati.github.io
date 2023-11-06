@@ -17,11 +17,13 @@ understanding how many small and pretty complex machines - the neurons - communi
 
 ---
 
-### PROJECTS
+  <font size="4"> <p style="text-align: center;"> projects </p></font> 
 
-##### predictive learning rule - how predictions drive synaptic plasticity in single neurons
+predictive learning rule - how predictions drive synaptic plasticity in single neurons
 
-##### scalable learning algorithms for Spiking Neural Networks (on the way)
+scalable learning algorithms for Spiking Neural Networks (on the way)
+
+ ---
 
 <style type="text/css">
   .paper_metadata a {
@@ -43,11 +45,9 @@ understanding how many small and pretty complex machines - the neurons - communi
 	}
 </style>
 
- ---
- 
-### PUBLICATIONS
+  <font size="4"> <p style="text-align: center;"> publications </p></font> 
 
-#### dissertations
+dissertations
 
 <table class="pub_table">
 
@@ -71,7 +71,7 @@ understanding how many small and pretty complex machines - the neurons - communi
 
 </table>
 
-#### research articles
+research articles
 
 <table class="pub_table">
 
@@ -118,7 +118,7 @@ href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blan
 </table>
 
  ---
-#### conference presentations and proceedings
+conference presentations and proceedings
 
 <table class="pub_table">
  	
