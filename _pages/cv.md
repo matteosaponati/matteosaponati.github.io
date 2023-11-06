@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: vita and cv
+title: cv
 permalink: /cv/
 author_profile: false
 ---

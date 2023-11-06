@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: vita and cv
-permalink: /cv/
+permalink: /cv_old/
 author_profile: false
 ---
 
