@@ -31,6 +31,11 @@ redirect_from:
    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>  
 </p>
 
+<div class="image-container">
+            <img src="/images/about/me_garfagnana.png" alt="First Image">
+            <img src="/images/about/me_marseille.png" alt="Second Image" style="transform: scale(0);">
+        </div>
+
   </div>
 
   <div class="page__footer">

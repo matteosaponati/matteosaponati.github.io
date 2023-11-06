@@ -106,6 +106,38 @@ layout: compress
     .rectangle p {
       margin-top: 20px;
     }
+
+    .image-container {
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+        }
+
+    .image-container img {
+            width: 200px; /* Set initial image width */
+            height: 200px; /* Set initial image height */
+            transition: transform 0.3s; /* Smooth transition effect */
+        }
+
+    .image-container img:first-child {
+            z-index: 1;
+            position: absolute;
+        }
+
+    .image-container img:last-child {
+            display: none;
+        }
+
+    .image-container:hover img:first-child {
+            display: none;
+        }
+
+    .image-container:hover img:last-child {
+            display: block;
+            transform: scale(1.1); /* Scale the image on hover */
+        }
+
+    
   </style>
   </head>
 
