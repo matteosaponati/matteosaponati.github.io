@@ -5,9 +5,8 @@ permalink: /research/
 author_profile: false
 ---
 
-here you can find my main scientific publications and research outcomes
 <p style="text-align: center;">
- <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src=/images/general/scholar_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
+ <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
   <a href="https://orcid.org/0000-0003-3347-6307" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/orcid_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
    <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/rgate_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>  
 </p>
@@ -18,7 +17,7 @@ understanding how many small and pretty complex machines - the neurons - communi
 
 ---
 
-### projects
+### PROJECTS
 
 ##### predictive learning rule - how predictions drive synaptic plasticity in single neurons
 
@@ -45,7 +44,8 @@ understanding how many small and pretty complex machines - the neurons - communi
 </style>
 
  ---
-### publications
+ 
+### PUBLICATIONS
 
 #### dissertations
 
