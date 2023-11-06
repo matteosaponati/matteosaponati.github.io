@@ -60,7 +60,7 @@ layout: compress
 
     .link-list a {
       text-decoration: none;
-      color: #333;
+      color: #3a0a57;
       position: relative;
       transition: color 0.3s; /* Smooth transition effect */
     }
@@ -74,6 +74,7 @@ layout: compress
       left: 0;
       background-color: #3a0a57; /* Dark purple color for underline */
       transition: width 0.3s; /* Animation on width change */
+      opacity: 0; /* Initially transparent */
     }
 
     .link-list a:hover {
@@ -82,6 +83,7 @@ layout: compress
 
     .link-list a:hover::after {
       width: 100%; /* Expand underline on hover */
+      opacity: 1; /* Make the underline more opaque on hover */
     }
 
     .rectangle p {
