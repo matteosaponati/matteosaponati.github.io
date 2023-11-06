@@ -73,7 +73,9 @@ layout: compress
       bottom: -2px;
       left: 0;
       background-color: #3a0a57; /* Dark purple color for underline */
-      transition: width 0.3s; /* Animation on width change */
+      transition: transform 0.3s, opacity 0.3s; /* Animation on transform and opacity change */
+      transform-origin: center;
+      transform: scaleX(0); /* Initially no width */
       opacity: 0; /* Initially transparent */
     }
 
@@ -82,7 +84,7 @@ layout: compress
     }
 
     .link-list a:hover::after {
-      width: 100%; /* Expand underline on hover */
+      transform: scaleX(1); /* Expand underline on hover */
       opacity: 1; /* Make the underline more opaque on hover */
     }
 
