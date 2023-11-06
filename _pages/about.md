@@ -17,8 +17,6 @@ redirect_from:
 
 <font size="4"> <p style="text-align: center;">hey there - this is my personal website, here you can find information on my research work, my scientific publications, my music, and other things. </p></font> 
 
-<!DOCTYPE html>
-<html>
 <head>
   <title>Centered Rectangle with Links</title>
   <style>
@@ -64,7 +62,6 @@ redirect_from:
     </ul>
   </div>
 </body>
-</html>
 
 <p style="margin-bottom:0.3cm; text-align: center; margin-top:1cm;">
 <a href="https://matteosaponati.github.io/research">RESEARCH</a>
