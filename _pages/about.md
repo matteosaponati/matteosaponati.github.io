@@ -17,6 +17,55 @@ redirect_from:
 
 <font size="4"> <p style="text-align: center;">hey there - this is my personal website, here you can find information on my research work, my scientific publications, my music, and other things. </p></font> 
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centered Rectangle with Links</title>
+  <style>
+    /* CSS styles for centering and rectangle */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .rectangle {
+      width: 300px; /* Adjust width as needed */
+      height: 200px; /* Adjust height as needed */
+      border: 2px solid #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .link-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .link-list li {
+      margin-bottom: 10px;
+    }
+
+    .link-list a {
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="rectangle">
+    <ul class="link-list">
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <!-- Add more links as needed -->
+    </ul>
+  </div>
+</body>
+</html>
+
 <p style="margin-bottom:0.3cm; text-align: center; margin-top:1cm;">
 <a href="https://matteosaponati.github.io/research">RESEARCH</a>
 </p>
