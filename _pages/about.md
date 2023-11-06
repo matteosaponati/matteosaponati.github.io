@@ -16,11 +16,7 @@ redirect_from:
 <p style="margin-bottom:1cm;"></p>
   <font size="5">
  <ul class="link-list">
-      <li><a href="https://matteosaponati.github.io/research">research</a></li>
-      <li><a href="https://matteosaponati.github.io/year-archive/">blog</a></li>
-      <li><a href="https://matteosaponati.github.io/music">music</a></li>
-      <li><a href="/files/cv.pdf">cv</a></li>
-      <!-- Add more links as needed -->
+      <li><a href="https://matteosaponati.github.io/research">research</a> - <a href="https://matteosaponati.github.io/year-archive/">blog</a> - <a href="https://matteosaponati.github.io/music">music</a> - <a href="/files/cv.pdf">cv</a></li>
 </ul>
 </font>
 
