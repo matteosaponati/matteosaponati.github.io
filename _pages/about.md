@@ -11,7 +11,11 @@ redirect_from:
   <div class="rectangle">
   <font size="6"> <p style="text-align: center;"> matteosaponati </p></font> 
 
-  <font size="4"> <p style="text-align: center">hey there - this is my personal website, here you can find information on my research work, my scientific publications, my music, and other things. I am a researcher, mainly working with models in Neuroscience and Machine Learning. I am also a musician, I make my own music, and I love to hang out with other musicians and take part in whatever possible random jam session - it makes me feel alive. Originally from Italy, I have a very strong emotional connection with the sea, the smell of "salmastro" (Italian word for water saline), and carnival.
+  <font size="4"> <p style="text-align: center">hey there - this is my personal website, here you can find information on my research work, my scientific publications, my music, and other things. 
+  
+  I am a researcher, mainly working with models in Neuroscience and Machine Learning. I am also a musician, I make my own music, and I love to hang out with other musicians and take part in whatever possible random jam session - it makes me feel alive. 
+  
+  Originally from Italy, I have a very strong emotional connection with the sea, the smell of "salmastro" (Italian word for saline water), and carnival.
 
 <p style="margin-bottom:1cm;"></p>
   <font size="5">
