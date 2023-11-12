@@ -4,16 +4,6 @@ layout: compress
 
 {% include base_path %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
@@ -136,9 +126,24 @@ layout: compress
             display: block;
             transform: scale(1.1); /* Scale the image on hover */
         }
-
     
   </style>
+
+      <!-- Add media queries for responsiveness -->
+      <style>
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for smaller screens */
+            .rectangle {
+                width: 90%; /* Make the rectangle span 90% of the page on smaller screens */
+                padding: 20px; /* Decrease padding for smaller screens */
+            }
+
+            .link-list a::after {
+                bottom: -6px; /* Adjust position of the underline for smaller screens */
+            }
+        }
+    </style>
+    
   </head>
 
 <body>
@@ -146,6 +151,9 @@ layout: compress
   {% include browser-upgrade.html %}
 
   {{ content }}
+
+  <div class="page__footer">
+  </div>
 
   {% include scripts.html %}
 
