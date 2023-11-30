@@ -59,7 +59,7 @@ understanding how many small and pretty complex machines - the neurons - communi
   	Ph.D. thesis in Neurophysics <br />
   	Donders Centre for Neuroscience, Radboud University, The Netherlands <br />
   	</div>
-	<a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">link</a> | <a href="https://etd.adm.unipi.it/theses/available/etd-09262018-152801/unrestricted/Saponati_Matteo_tesi.pdf" target="_blank">download</a> | <a href="https://www.youtube.com/watch?v=TuKpZHRI9r0" target="_blank">phd defense (video)</a>
+	<a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">link</a> | <a href="https://repository.ubn.ru.nl/bitstream/handle/2066/297621/297621.pdf" target="_blank">download</a> | <a href="https://www.youtube.com/watch?v=TuKpZHRI9r0" target="_blank">phd defense (video)</a>
 	
 </td></tr>
 
@@ -69,7 +69,7 @@ understanding how many small and pretty complex machines - the neurons - communi
   	M.Sc. thesis in Physics <br />
   	Department of Physics, University of Pisa, Italy <br />
   	</div>
-  <a href="https://etd.adm.unipi.it/t/etd-09262018-152801/" target="_blank">link</a>  | <a href="https://repository.ubn.ru.nl/bitstream/handle/2066/297621/297621.pdf" target="_blank">download</a>
+  <a href="https://etd.adm.unipi.it/t/etd-09262018-152801/" target="_blank">link</a>  | <a href="https://etd.adm.unipi.it/theses/available/etd-09262018-152801/unrestricted/Saponati_Matteo_tesi.pdf" target="_blank">download</a>
 </td></tr>
 
 </table>
