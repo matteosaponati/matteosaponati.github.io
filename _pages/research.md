@@ -59,7 +59,8 @@ understanding how many small complex machines - the neurons - communicate and se
   	Ph.D. thesis in Neurophysics <br />
   	Donders Centre for Neuroscience, Radboud University, The Netherlands <br />
   	</div>
-	<a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">link</a> | <a href="https://repository.ubn.ru.nl/bitstream/handle/2066/297621/297621.pdf" target="_blank">download</a> | <a href="https://www.youtube.com/watch?v=TuKpZHRI9r0" target="_blank">phd defense (video)</a>
+	<a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">link</a> | <a href="https://www.researchgate.net/publication/376596737_A_study_of_synaptic_plasticity_and_predictive_processes_in_biological_and_artificial_networks" target="_blank">download</a> 
+	<!-- | <a href="https://www.youtube.com/watch?v=TuKpZHRI9r0" target="_blank">phd defense (video)</a> -->
 	
 </td></tr>
 
