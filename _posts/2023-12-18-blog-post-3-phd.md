@@ -16,6 +16,8 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
   <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 1" class="carousel-image" id="image1">
   <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 2" class="carousel-image" id="image2">
   <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 3" class="carousel-image" id="image3">
+  <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/summer23-viareggio.jpg" alt="Image 4" class="carousel-image" id="image4">
+  <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 5" class="carousel-image" id="image5">
 
   <button class="carousel-button" onclick="changeImage(-1)">◀️</button>
   <button class="carousel-button" onclick="changeImage(1)">▶️</button>
