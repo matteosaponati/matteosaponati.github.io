@@ -35,36 +35,29 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
 </div>
 
 <script>
-  window.onload = function () {
-    let currentImageIndex = 0;
-    const images = document.querySelectorAll('.carousel-image');
-    const captions = document.querySelectorAll('.caption');
+  let currentImageIndex = 0;
+  const images = document.querySelectorAll('.carousel-image');
 
-    function showImage(index) {
-      images.forEach((image, i) => {
-        image.style.display = i === index ? 'block' : 'none';
-      });
+  function showImage(index) {
+    images.forEach((image, i) => {
+      image.style.display = i === index ? 'block' : 'none';
+    });
+  }
 
-      captions.forEach((caption, i) => {
-        caption.style.display = i === index ? 'block' : 'none';
-      });
+  function changeImage(step) {
+    currentImageIndex += step;
+
+    if (currentImageIndex < 0) {
+      currentImageIndex = images.length - 1;
+    } else if (currentImageIndex >= images.length) {
+      currentImageIndex = 0;
     }
 
-    function changeImage(step) {
-      currentImageIndex += step;
-
-      if (currentImageIndex < 0) {
-        currentImageIndex = images.length - 1;
-      } else if (currentImageIndex >= images.length) {
-        currentImageIndex = 0;
-      }
-
-      showImage(currentImageIndex);
-    }
-
-    // Display the initial image
     showImage(currentImageIndex);
-  };
+  }
+
+  // Display the initial image
+  showImage(currentImageIndex);
 </script>
 
 All those weekends during quarantine spent in the Affentorplatz apartment, on that couch, surrounded by the great skyscrapers, the EBC far in the back, the smell of fast-food pizza. All that laughs, love, and contradictions. The feeling of being free again, and the sense of guilt and responsibility. The U-bahn, the parties in Berlin. Brazil, all that love in Brasil and outside Brasil, new inputs and a completely different environment, the stories of people living on the other side of the world. The love I am so lucky I found. The PhD thesis was submitted on a Flix train in July. The sunrise from the garden while the music is still playing. The intense brain-storming conversation with colleagues and researchers from somewhere else. The techno music, the party kultur, the beers at whatever trinkhalle. The travels (I never really did that much during my whole life). The international conferences, the struggle of research, the deadlines, and the toxic publication system. 
