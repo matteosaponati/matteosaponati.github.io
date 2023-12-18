@@ -26,7 +26,7 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
   <div class="caption" id="caption3">a fantastic music festival in Viareggio this year</div>
   </div>
   <div class="carousel-container">
-  <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 5" class="carousel-image" id="image5">
+  <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 4" class="carousel-image" id="image4">
   <div class="caption" id="caption3">me submitting my thesis on a Flix train to Berlin without air conditioning, July 2023</div>
   </div>
 
