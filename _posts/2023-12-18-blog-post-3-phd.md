@@ -13,9 +13,9 @@ Rewind to October 2018 — I had got my Master degree in Physics, and I was slow
 As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is cold and the weather is grey, things work way better but they are way colder, the weather is grey, and it is not that easy to integrate, and did I mention already that the weather is always grey? However, eventually, you get to know nice people, you make some friends, and you shortly realize that there is a vibrant and colorful world hidden behind the high skyscrapers and the boring cafe chains. In this respect, I was really, really lucky to meet such fantastic people there, people that now I call friends. I learned so much from them: how to de-construct many of my filters and critical tools, how to look inside myself and how to listen to the outside, how to give space to my emotions and how to feel them, how to not optimize everything, and how to give space to that creative and curious kid who lives inside me and makes me feel so happy and in harmony with the world. I got to know people from all over the world, with so many different histories and backgrounds, all with their struggles on their shoulders. Most of my colleagues in my lab are fantastic people, with whom you can have a lot of fun, engage in all-night-long party conversations, and who you can trust. I found craziness, I found passion and empathy, and I found real love. I found again the emotional side of me, I found out that I will never really find myself that I will just be contradictory, and that this is ok. I cried a lot, I suffered a lot, I made a few quite big mistakes, and many smaller ones, and I grew up. There are no words to really describe this, but I leave here some pictures that I really love and represent all this period to me.
 
 <div id="image-carousel" class="carousel">
-  <img src="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 1" class="carousel-image" id="image1">
-  <img src="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 2" class="carousel-image" id="image2">
-  <img src="https://github.com/matteosaponati/matteosaponati.github.io/blob/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 3" class="carousel-image" id="image3">
+  <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 1" class="carousel-image" id="image1">
+  <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 2" class="carousel-image" id="image2">
+  <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 3" class="carousel-image" id="image3">
 
   <button class="carousel-button" onclick="changeImage(-1)">◀️</button>
   <button class="carousel-button" onclick="changeImage(1)">▶️</button>
@@ -54,5 +54,5 @@ During these years, I also realized and experienced how all those resources and 
 I don't know if it's this cozy Sunday evening blues in Zürich if it's the wine and the music from the speakers, or what else, but I am smiling. There is no bullshit, there are no ridiculous political games, no superficial competitions, and no paranoias. I am just happy about everything that happened, and I feel lucky, harmonious, and good. Like everything is in the right place.
 
 <p align=right>
-<img width=150 src="files/blog/2023-12-18-phd/me_gesticolare.gif" />
+<img width=150 src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" />
 </p>
