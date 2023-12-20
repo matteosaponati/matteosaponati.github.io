@@ -63,7 +63,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
 
 <div id="imageCarousel" class="carousel">
 
-  <div class="carousel-container">
+  <div class="carousel-container" style="display: block;">
     <div class="carousel-slide">
       <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 1">
       <div class="carousel-caption">
@@ -83,7 +83,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
       </div>
     </div>
     <div class="carousel-slide">
-      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/pool-fraulang.jpeg" alt="Image 4">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/pool-fraulang.jpg" alt="Image 4">
       <div class="carousel-caption">
         <p>everything is closed (covid) so we madeup our swimming pool - the beginning of many things </p>
       </div>
@@ -119,7 +119,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
       </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis" alt="Image 9">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.png" alt="Image 9">
       <div class="carousel-caption">
         <p>submitting my phd thesis on a Flixtrain to Berlin in July 2023</p>
       </div>
@@ -127,7 +127,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
     <div class="carousel-slide">
       <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/regina1.jpg" alt="Image 2">
       <div class="carousel-caption">
-        <p>jamming with a very strong woman after a party - she is way stronger than other think </p>
+        <p>jamming with the sun and a very strong woman after a beautiful party</p>
       </div>
     </div>
        <div class="carousel-slide">
@@ -149,7 +149,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
       </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/matraia-dbay.jpg" alt="Image 5">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/matraia-bday.jpg" alt="Image 5">
       <div class="carousel-caption">
         <p>two beautiful bdays on the hills of Lucca <3</p>
       </div>
