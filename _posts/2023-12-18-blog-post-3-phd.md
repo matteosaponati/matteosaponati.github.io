@@ -24,9 +24,11 @@ I don't know if it's this cozy Sunday evening blues in Zürich if it's the wine 
     position: relative;
     max-width: 800px; /* Adjust the max-width based on your design */
     margin: auto;
+    height: 800px; /* Set the height as needed */
   }
 
   .carousel-slide {
+    display: none;
     position: absolute;
     width: 100%;
   }
@@ -66,13 +68,11 @@ I don't know if it's this cozy Sunday evening blues in Zürich if it's the wine 
 
 <div id="imageCarousel" class="carousel">
   <div class="carousel-container">
-    <div class="carousel-slide">
+    <div class="carousel-slide" style="display: block;">
       <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 1">
       <div class="carousel-caption">
         <p>with amazing people in Marseille</p>
       </div>
-    </div>
-    <div class="carousel-slide">
     </div>
     <div class="carousel-slide">
       <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 2">
@@ -81,7 +81,7 @@ I don't know if it's this cozy Sunday evening blues in Zürich if it's the wine 
       </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/abbraccio-bday.jpg" alt="Image 2">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/abbraccio-bday.jpg" alt="Image 3">
       <div class="carousel-caption">
         <p>a beautiful hug while the night turns into morning</p>
       </div>
@@ -116,4 +116,4 @@ I don't know if it's this cozy Sunday evening blues in Zürich if it's the wine 
   });
 </script>
 
-<div class="space-after-carousel"></div>
+<div> </div>
