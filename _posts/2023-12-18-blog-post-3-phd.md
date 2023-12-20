@@ -64,67 +64,67 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
 <div id="imageCarousel" class="carousel">
 
   <div class="carousel-container">
-    <div class="carousel-slide" style="display: block;">
+    <div class="carousel-slide">
       <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 1">
       <div class="carousel-caption">
         <p>with amazing people in Marseille</p>
       </div>
     </div>
-    <div class="carousel-slide" style="display: block;">
+    <div class="carousel-slide">
       <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-2.jpeg" alt="Image 2">
       <div class="carousel-caption">
         <p>Les Calanques - where to escape after too much research</p>
       </div>
     </div>
-    <div class="carousel-slide" style="display: block;">
-      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/bday-marseille.jpeg" alt="Image 3">
+    <div class="carousel-slide">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/bday_marseille.jpeg" alt="Image 3">
       <div class="carousel-caption">
         <p>my bday on the rocks of Le Vallon des Auffes</p>
       </div>
     </div>
-    <div class="carousel-slide" style="display: block;">
-      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/bday-marseille.jpeg" alt="Image 4">
+    <div class="carousel-slide">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/pool-fraulang.jpeg" alt="Image 4">
       <div class="carousel-caption">
         <p>everything is closed (covid) so we madeup our swimming pool - the beginning of many things </p>
       </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/carnival-pazzia.jpg" alt="Image 6">
-      <div class="carousel-caption">
-        <p>carnaval em sao paulo - meu deus</p>
-      </div>
-    </div>
-     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/carnival-queijinha.jpg" alt="Image 6">
-      <div class="carousel-caption">
-        <p>carnaval com um pedaço tão lindo de queijo</p>
-      </div>
-    </div>
-    <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/summer23-viareggio.jpg" alt="Image 5">
-      <div class="carousel-caption">
-        <p>queridos, music, italy - nothing brings me back to life more than this</p>
-      </div>
-    </div>
-    <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 2">
-      <div class="carousel-caption">
-        <p>submitting my phd thesis on a Flixtrain to Berlin in July 2023</p>
-      </div>
-    </div>
-    <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/frankfurt-n.jpg" alt="Image 3">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/frankfurt-n.jpg" alt="Image 5">
       <div class="carousel-caption">
         <p>the parties in frankfurt <3</p>
       </div>
     </div>
       <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/frankfurt-m.jpg" alt="Image 3">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/frankfurt-m.jpg" alt="Image 6">
       <div class="carousel-caption">
         <p>the parties in frankfurt 2 <3</p>
       </div>
     </div>
-       <div class="carousel-slide">
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/carnival-pazzia.jpg" alt="Image 7">
+      <div class="carousel-caption">
+        <p>carnaval em sao paulo - meu deus</p>
+      </div>
+    </div>
+     <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/carnaval-queijinha.png" alt="Image 6">
+      <div class="carousel-caption">
+        <p>carnaval com um pedaço tão lindo de queijo</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/summer23-viareggio.jpg" alt="Image 8">
+      <div class="carousel-caption">
+        <p>queridos, music, italy - nothing brings me back to life more than this</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis" alt="Image 9">
+      <div class="carousel-caption">
+        <p>submitting my phd thesis on a Flixtrain to Berlin in July 2023</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
       <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/regina1.jpg" alt="Image 2">
       <div class="carousel-caption">
         <p>jamming with a very strong woman after a party - she is way stronger than other think </p>
@@ -133,7 +133,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
        <div class="carousel-slide">
       <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/jam-singer.png" alt="Image 2">
       <div class="carousel-caption">
-        <p>jamming with regina and Wolf Regina in Bavaria</p>
+        <p>jamming with Regina and Wolf Singer in Bavaria</p>
       </div>
     </div>
     <div class="carousel-slide">
@@ -143,9 +143,15 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
       </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 5">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/jam-river.jpg" alt="Image 5">
       <div class="carousel-caption">
-        <p>my paranymphs <3</p>
+        <p>jamming on the Main <3</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/matraia-dbay.jpg" alt="Image 5">
+      <div class="carousel-caption">
+        <p>two beautiful bdays on the hills of Lucca <3</p>
       </div>
     </div>
     <button class="carousel-prev" onclick="changeSlide(-1)">&#8249;</button>
@@ -180,7 +186,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
 
 ---
 
-All those weekends during quarantine spent in the Affentorplatz apartment, on that couch, surrounded by the great skyscrapers, the EBC far in the back, the smell of fast-food pizza. All that laughs, love, and contradictions. The feeling of being free again, and the sense of guilt and responsibility. The U-bahn, the parties in Berlin. Brazil, all that love in and out, new inputs and a completely different environment, the stories of people living on the other side of the world. The love I am so lucky I have found. The PhD thesis submitted on a Flix train in July. The sunrise from the garden while the music is still playing. The intense brain-storming conversation with colleagues and researchers from somewhere else. The techno music, the party kultur, the beers at whatever trinkhalle. The travels (I never really did that much during my whole life). The international conferences, the struggle of research, the deadlines, and the toxic publication system. 
+All those weekends during quarantine spent in the Affentorplatz apartment, on that couch, surrounded by the great skyscrapers, the EBC far in the back, the smell of fast-food pizza. All that laughs, love, and contradictions. The feeling of being free again, and the sense of guilt and responsibility. The U-bahn, the parties in Berlin. Brazil, all that love in and out, new inputs and a completely different environment, the stories of people living on the other side of the world. The love I am so lucky I have found. The PhD thesis submitted on a Flix train in July. The sunrise from the garden while the music is still playing. The intense brain-storming conversation with colleagues and researchers from somewhere else. The techno music, the party kultur, the beers at whatever trinkhalle. The travels (I never really travelled that much during my whole life). The international conferences, the struggle of research, the deadlines, and the toxic publication system. 
 
 During these years, I also experienced how all those resources and investments in research, all that money, are correlated along many dimensions with a European-only, unflexible, sticky, arrogant, sexist conservative society of very powerful men. Do not get me wrong, the interaction of many millions of people usually creates hierarchies and power dynamics, and there is unfortunately nothing so special there that you don't find in our societies at many other levels. Further, don't get me wrong twice, I am a European man who was lucky enough to have these opportunities and to be able to work in one of the world's most competitive and renowned research environments. Nonetheless, I suffered quite some stuff there in Frankfurt, and together with me, many other students and postdocs working in the same research institutes. I many times felt alone, I felt I did not know where I was going. I felt like there was no humanity in this system, and everyone is there to play a chess game where no one really wins, we just all suffer. I felt the expectations, the complete lack of communication, the political games, the harassment, the nasty lies. All these ridiculous actions and the bullshit dynamics are all local fluctuations that will be averaged out over time. In the end, some people will be surrounded by scorched land they put on fire, and the rest will just be forgotten. When nobody from above ends up really listening to your struggles, you realize that the people next to you at your "level" can be a family, not an enemy. Together, we created a strong family connection against all the adversities we encountered. I am so happy I had this in my life. 
 
