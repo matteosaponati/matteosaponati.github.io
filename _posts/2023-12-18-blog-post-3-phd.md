@@ -85,7 +85,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
     <div class="carousel-slide">
       <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/pool-fraulang.jpg" alt="Image 4">
       <div class="carousel-caption">
-        <p>everything is closed (covid) so we madeup our swimming pool - the beginning of many things </p>
+        <p>everything is closed (covid) so we madeup our swimming pool - the beginning of the biggest love </p>
       </div>
     </div>
     <div class="carousel-slide">
