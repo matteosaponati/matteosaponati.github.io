@@ -20,7 +20,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
     position: relative;
     max-width: 800px; /* Adjust the max-width based on your design */
     margin: auto;
-    height: 1000px; /* Set the height as needed */
+    height: 600px; /* Set the height as needed */
   }
 
   .carousel-slide {
@@ -38,7 +38,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 40px; /* Increase the font size for bigger buttons */
+    font-size: 20px; /* Increase the font size for bigger buttons */
     color: #fff;
     background-color: #6b3c70; /* Dark purple color */
     border: none;
