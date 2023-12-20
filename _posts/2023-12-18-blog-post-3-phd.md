@@ -5,24 +5,74 @@ permalink: /posts/2023/12/phd_and_everything_in_between/
 published: true
 tags: phd
 ---
+
+It happened, I got a Ph.D. I am very grateful for everything that happened through these 3 - 4 years of my life. I had the privilege of exploring my research interests, expanding my focus, and having crazy intense experiences, surrounded by beautiful and inspiring human beings. The way I try to summarize this in the acknowledgment of my Ph.D. thesis is: "I would like to express my gratitude for this journey. This Ph.D. adventure has shaped me in ways I could never have imagined, in my research but also in my personal growth". Here I am not gonna talk about the research and technical part of this journey, rather I want to write about how the myself of 3 years moved to Germany and became a pretty different person. My personal story of a PhD journey, let's say. Ah, by the way, I suggest you listen to <a href="https://open.spotify.com/track/4ifDKWZZhnyltXLndbomYT?si=ea17d09d3d3c491e" target="_blank">this song</a>  in the meantime, it's just beautiful.
+
+Rewind to October 2018 — I had got my Master degree in Physics, and I was slowly coming out of a very difficult period of my life that will still affect me during the following years. You know, one of the periods that has very long tails in your future. I was applying for PhD positions around, starting working in Marseille as a research assistant in a lab, and to be frank: I did not really have a clue of what I was doing. In Marseille I then had a real, rich, beautiful time, working on research projects and cultivating music, feeling the breeze of the Mediterranean sea that means home to me. The people were fantastic there, there was life, there was chaos, and I was feeling good. Then I was privileged enough to be accepted at the interview stage for the International Max Planck Research School (IMPRS) for Neural Circuits, which could potentially provide me with a whole PhD fellowship. The Max Planck Institute for Brain Research in Frankfurt booked roundtrip flights and hotels for all the candidates (the Italian-from-a-small-city person in me was like "... what?"), so I went there. That was my first time ever in the Land der Deutschen. I remembered that rainy dark evening reaching a hotel in Kalbach - one of the most north and peripherical neighborhoods in Frankfurt - thinking "Where the fuck am I?". I got to know the fancyness and power of the Max Planck Society, and the amount of resources Germany spends in research. I eventually got the PhD fellowship, and after quite some troubled decision processes, I decided to leave the shiny windy Marseille to start the full German experience. 
+
+As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is cold and the weather is grey, things work way better but they are usually shallow, the weather is grey, it is not that easy to integrate, and did I mention already that the weather is always grey? However, eventually, you get to know nice people, you make new friends, and you shortly realize that there is a vibrant and colorful world hidden behind the high skyscrapers and the boring cafe chains. In this respect, I was really, really lucky to meet such fantastic people there, people that now I call friends. I learned so much from them: how to de-construct many of my filters and habits, how to look inside myself and how to listen to the outside, how to give space to my emotions and how to feel them, and how to not optimize everything. How to leave the creative and curious kid who lives inside me and makes me feel so happy and in harmony with the world. I got to know people from all over the world, with so many different histories and backgrounds, all with their struggles on their shoulders. Most of my colleagues in my lab are fantastic people, with whom I had a lot of fun, engaging in all-night-long party conversations. People I can trust. I found craziness, I found passion and empathy, and I found real love. I found out that I will never really find myself and that I will just be contradictory, and that this is ok. I cried a lot, I suffered a lot, I made a few quite big mistakes, and many smaller ones, and I grew up. There are no words to really describe this, but I leave here some pictures that I really love and represent all this period to me.
+
+<style>
+  /* Add this style block for custom styling */
+  .carousel-container {
+    position: relative;
+    max-width: 800px; /* Adjust the max-width based on your design */
+    margin: auto;
+  }
+
+  .carousel-slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px; /* Increase the font size for bigger buttons */
+    color: #fff;
+    background-color: #6b3c70; /* Dark purple color */
+    border: none;
+    padding: 10px; /* Increase padding for bigger buttons */
+    cursor: pointer;
+    border-radius: 5px; /* Add some border-radius for rounded corners */
+  }
+
+  .carousel-prev {
+    left: 10px;
+  }
+
+  .carousel-next {
+    right: 10px;
+  }
+</style>
+
 <div id="imageCarousel" class="carousel">
   <div class="carousel-container">
     <div class="carousel-slide">
-      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 2">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 1">
       <div class="carousel-caption">
-        <p>beautiful people and I in Marseille</p>
+        <p>with amazing people in Marseille</p>
       </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 1">
-      <div class="carousel-caption">
-        <p>sardinia stuff </p>
-      </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 3">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 2">
       <div class="carousel-caption">
         <p>submitting my phd thesis on a Flixtrain to Berlin in July 2023</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/abbraccio-bday.jpg" alt="Image 2">
+      <div class="carousel-caption">
+        <p>a beautiful hug while the night turns into morning</p>
       </div>
     </div>
     <button class="carousel-prev" onclick="changeSlide(-1)">&#8249;</button>
@@ -54,12 +104,6 @@ tags: phd
     showSlide(currentSlide);
   });
 </script>
-
-It happened, I got a Ph.D. I am very grateful for everything that happened through these 3 - 4 years of my life. I had the privilege of exploring my research interests, expanding my focus, and having crazy intense experiences, surrounded by beautiful and inspiring human beings. The way I try to summarize this in the acknowledgment of my Ph.D. thesis is: "I would like to express my gratitude for this journey. This Ph.D. adventure has shaped me in ways I could never have imagined, in my research but also in my personal growth". Here I am not gonna talk about the research and technical part of this journey, rather I want to write about how the myself of 3 years moved to Germany and became a pretty different person. My personal story of a PhD journey, let's say. Ah, by the way, I suggest you listen to <a href="https://open.spotify.com/track/4ifDKWZZhnyltXLndbomYT?si=ea17d09d3d3c491e" target="_blank">this song</a>  in the meantime, it's just beautiful.
-
-Rewind to October 2018 — I had got my Master degree in Physics, and I was slowly coming out of a very difficult period of my life that will still affect me during the following years. You know, one of the periods that has very long tails in your future. I was applying for PhD positions around, starting working in Marseille as a research assistant in a lab, and to be frank: I did not really have a clue of what I was doing. In Marseille I then had a real, rich, beautiful time, working on research projects and cultivating music, feeling the breeze of the Mediterranean sea that means home to me. The people were fantastic there, there was life, there was chaos, and I was feeling good. Then I was privileged enough to be accepted at the interview stage for the International Max Planck Research School (IMPRS) for Neural Circuits, which could potentially provide me with a whole PhD fellowship. The Max Planck Institute for Brain Research in Frankfurt booked roundtrip flights and hotels for all the candidates (the Italian-from-a-small-city person in me was like "... what?"), so I went there. That was my first time ever in the Land der Deutschen. I remembered that rainy dark evening reaching a hotel in Kalbach - one of the most north and peripherical neighborhoods in Frankfurt - thinking "Where the fuck am I?". I got to know the fancyness and power of the Max Planck Society, and the amount of resources Germany spends in research. I eventually got the PhD fellowship, and after quite some troubled decision processes, I decided to leave the shiny windy Marseille to start the full German experience. 
-
-As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is cold and the weather is grey, things work way better but they are usually shallow, the weather is grey, it is not that easy to integrate, and did I mention already that the weather is always grey? However, eventually, you get to know nice people, you make new friends, and you shortly realize that there is a vibrant and colorful world hidden behind the high skyscrapers and the boring cafe chains. In this respect, I was really, really lucky to meet such fantastic people there, people that now I call friends. I learned so much from them: how to de-construct many of my filters and habits, how to look inside myself and how to listen to the outside, how to give space to my emotions and how to feel them, and how to not optimize everything. How to leave the creative and curious kid who lives inside me and makes me feel so happy and in harmony with the world. I got to know people from all over the world, with so many different histories and backgrounds, all with their struggles on their shoulders. Most of my colleagues in my lab are fantastic people, with whom I had a lot of fun, engaging in all-night-long party conversations. People I can trust. I found craziness, I found passion and empathy, and I found real love. I found out that I will never really find myself and that I will just be contradictory, and that this is ok. I cried a lot, I suffered a lot, I made a few quite big mistakes, and many smaller ones, and I grew up. There are no words to really describe this, but I leave here some pictures that I really love and represent all this period to me.
 
 All those weekends during quarantine spent in the Affentorplatz apartment, on that couch, surrounded by the great skyscrapers, the EBC far in the back, the smell of fast-food pizza. All that laughs, love, and contradictions. The feeling of being free again, and the sense of guilt and responsibility. The U-bahn, the parties in Berlin. Brazil, all that love in and out, new inputs and a completely different environment, the stories of people living on the other side of the world. The love I am so lucky I have found. The PhD thesis submitted on a Flix train in July. The sunrise from the garden while the music is still playing. The intense brain-storming conversation with colleagues and researchers from somewhere else. The techno music, the party kultur, the beers at whatever trinkhalle. The travels (I never really did that much during my whole life). The international conferences, the struggle of research, the deadlines, and the toxic publication system. 
 
