@@ -51,6 +51,11 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
     right: 10px;
   }
 
+    /* Add margin to create space after the carousel */
+  .space-after-carousel {
+    margin-bottom: 30px; /* Adjust the margin as needed */
+  }
+
 </style>
 
 <div id="imageCarousel" class="carousel">
@@ -105,7 +110,7 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
   });
 </script>
 
-</br>
+<div class="space-after-carousel"></div>
 
 All those weekends during quarantine spent in the Affentorplatz apartment, on that couch, surrounded by the great skyscrapers, the EBC far in the back, the smell of fast-food pizza. All that laughs, love, and contradictions. The feeling of being free again, and the sense of guilt and responsibility. The U-bahn, the parties in Berlin. Brazil, all that love in and out, new inputs and a completely different environment, the stories of people living on the other side of the world. The love I am so lucky I have found. The PhD thesis submitted on a Flix train in July. The sunrise from the garden while the music is still playing. The intense brain-storming conversation with colleagues and researchers from somewhere else. The techno music, the party kultur, the beers at whatever trinkhalle. The travels (I never really did that much during my whole life). The international conferences, the struggle of research, the deadlines, and the toxic publication system. 
 
