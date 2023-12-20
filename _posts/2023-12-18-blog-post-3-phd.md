@@ -20,7 +20,7 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
     position: relative;
     max-width: 800px; /* Adjust the max-width based on your design */
     margin: auto;
-    height: 600px; /* Set the height as needed */
+    height: 400px; /* Set the height as needed */
   }
 
   .carousel-slide {
@@ -63,8 +63,8 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
 
 <div id="imageCarousel" class="carousel">
 
-  <div class="carousel-container" style="display: block;">
-    <div class="carousel-slide">
+  <div class="carousel-container">
+    <div class="carousel-slide" style="display: block;">
       <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 1">
       <div class="carousel-caption">
         <p>with amazing people in Marseille</p>
