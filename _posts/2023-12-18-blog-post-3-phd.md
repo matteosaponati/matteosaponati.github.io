@@ -6,8 +6,6 @@ published: true
 tags: phd
 ---
 
-{% raw %}
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -19,48 +17,10 @@ tags: phd
       width: 400px; /* Adjust container width as needed */
       margin: 0 auto;
     }
-
   #image-carousel {
       display: flex;
       transition: transform 0.5s ease-in-out;
     }
-
-    .carousel-item {
-      position: relative;
-      width: 100%;
-      display: flex;
-      align-items: center;
-    }
-
-    .carousel-image {
-      width: 70%; /* Adjust image width as needed */
-      height: auto;
-    }
-
-    .caption {
-      flex: 1;
-      background-color: rgba(0, 0, 0, 0.7);
-      color: #fff;
-      padding: 8px;
-      text-align: left;
-    }
-
-    #prev-btn,
-    #next-btn {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 24px;
-      cursor: pointer;
-      background-color: #ccc;
-      border: none;
-      padding: 10px;
-      color: #fff;
-      outline: none;
-    }
-
-    #prev-btn { left: 10px; }
-    #next-btn { right: 10px; }
   </style>
 </head>
 <body>
@@ -76,7 +36,6 @@ It happened, I got a Ph.D. I am very grateful for everything that happened throu
 Rewind to October 2018 — I had got my Master degree in Physics, and I was slowly coming out of a very difficult period of my life that will still affect me during the following years. You know, one of the periods that has very long tails in your future. I was applying for PhD positions around, starting working in Marseille as a research assistant in a lab, and to be frank: I did not really have a clue of what I was doing. In Marseille I then had a real, rich, beautiful time, working on research projects and cultivating music, feeling the breeze of the Mediterranean sea that means home to me. The people were fantastic there, there was life, there was chaos, and I was feeling good. Then I was privileged enough to be accepted at the interview stage for the International Max Planck Research School (IMPRS) for Neural Circuits, which could potentially provide me with a whole PhD fellowship. The Max Planck Institute for Brain Research in Frankfurt booked roundtrip flights and hotels for all the candidates (the Italian-from-a-small-city person in me was like "... what?"), so I went there. That was my first time ever in the Land der Deutschen. I remembered that rainy dark evening reaching a hotel in Kalbach - one of the most north and peripherical neighborhoods in Frankfurt - thinking "Where the fuck am I?". I got to know the fancyness and power of the Max Planck Society, and the amount of resources Germany spends in research. I eventually got the PhD fellowship, and after quite some troubled decision processes, I decided to leave the shiny windy Marseille to start the full German experience. 
 
 As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is cold and the weather is grey, things work way better but they are usually shallow, the weather is grey, it is not that easy to integrate, and did I mention already that the weather is always grey? However, eventually, you get to know nice people, you make new friends, and you shortly realize that there is a vibrant and colorful world hidden behind the high skyscrapers and the boring cafe chains. In this respect, I was really, really lucky to meet such fantastic people there, people that now I call friends. I learned so much from them: how to de-construct many of my filters and habits, how to look inside myself and how to listen to the outside, how to give space to my emotions and how to feel them, and how to not optimize everything. How to leave the creative and curious kid who lives inside me and makes me feel so happy and in harmony with the world. I got to know people from all over the world, with so many different histories and backgrounds, all with their struggles on their shoulders. Most of my colleagues in my lab are fantastic people, with whom I had a lot of fun, engaging in all-night-long party conversations. People I can trust. I found craziness, I found passion and empathy, and I found real love. I found out that I will never really find myself and that I will just be contradictory, and that this is ok. I cried a lot, I suffered a lot, I made a few quite big mistakes, and many smaller ones, and I grew up. There are no words to really describe this, but I leave here some pictures that I really love and represent all this period to me.
-
 
 </div>
 <div id="carousel-container">
@@ -133,4 +92,3 @@ I don't know if it's this cozy Sunday evening blues in Zürich if it's the wine 
 
 </body>
 </html>
-{% endraw %}
