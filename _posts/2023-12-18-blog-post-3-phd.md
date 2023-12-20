@@ -21,8 +21,31 @@ tags: phd
       display: flex;
       transition: transform 0.5s ease-in-out;
     }
+
+   .carousel-item {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .carousel-image {
+      width: 70%; /* Adjust image width as needed */
+      height: auto;
+    }
+
+    .caption {
+      flex: 1;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 8px;
+      text-align: left;
+    }
+  
   </style>
 </head>
+
+
 <body>
 
 <div class="text-before-carousel">
