@@ -62,11 +62,48 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
 </style>
 
 <div id="imageCarousel" class="carousel">
+
   <div class="carousel-container">
     <div class="carousel-slide" style="display: block;">
       <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 1">
       <div class="carousel-caption">
         <p>with amazing people in Marseille</p>
+      </div>
+    </div>
+    <div class="carousel-slide" style="display: block;">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-2.jpeg" alt="Image 2">
+      <div class="carousel-caption">
+        <p>Les Calanques - where to escape after too much research</p>
+      </div>
+    </div>
+    <div class="carousel-slide" style="display: block;">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/bday-marseille.jpeg" alt="Image 3">
+      <div class="carousel-caption">
+        <p>my bday on the rocks of Le Vallon des Auffes</p>
+      </div>
+    </div>
+    <div class="carousel-slide" style="display: block;">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/bday-marseille.jpeg" alt="Image 4">
+      <div class="carousel-caption">
+        <p>everything is closed (covid) so we madeup our swimming pool - the beginning of many things </p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/carnival-pazzia.jpg" alt="Image 6">
+      <div class="carousel-caption">
+        <p>carnaval em sao paulo - meu deus</p>
+      </div>
+    </div>
+     <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/carnival-queijinha.jpg" alt="Image 6">
+      <div class="carousel-caption">
+        <p>carnaval com um pedaço tão lindo de queijo</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/summer23-viareggio.jpg" alt="Image 5">
+      <div class="carousel-caption">
+        <p>queridos, music, italy - nothing brings me back to life more than this</p>
       </div>
     </div>
     <div class="carousel-slide">
@@ -76,9 +113,39 @@ With a Mediterranean soul, you get slapped hard by Frankfurt. Winter is cold and
       </div>
     </div>
     <div class="carousel-slide">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/abbraccio-bday.jpg" alt="Image 3">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/frankfurt-n.jpg" alt="Image 3">
       <div class="carousel-caption">
-        <p>a beautiful hug while the night turns into morning</p>
+        <p>the parties in frankfurt <3</p>
+      </div>
+    </div>
+      <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/frankfurt-m.jpg" alt="Image 3">
+      <div class="carousel-caption">
+        <p>the parties in frankfurt 2 <3</p>
+      </div>
+    </div>
+       <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/regina1.jpg" alt="Image 2">
+      <div class="carousel-caption">
+        <p>jamming with a very strong woman after a party - she is way stronger than other think </p>
+      </div>
+    </div>
+       <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/jam-singer.png" alt="Image 2">
+      <div class="carousel-caption">
+        <p>jamming with regina and Wolf Regina in Bavaria</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/california.jpg" alt="Image 6">
+      <div class="carousel-caption">
+        <p>california</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 5">
+      <div class="carousel-caption">
+        <p>my paranymphs <3</p>
       </div>
     </div>
     <button class="carousel-prev" onclick="changeSlide(-1)">&#8249;</button>
