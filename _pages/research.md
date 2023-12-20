@@ -77,6 +77,6 @@ understanding how many small complex machines - the neurons - communicate and se
 
 <b>research articles</b>
 
-please check my Google Scholar, ORCID or ResearchGate profiles above or my <a href="https://matteosaponati.github.io/files/cv.pdf" target="_blank">cv</a>  for a complete list of my research articles and conference proceedings/presentation. 
+please check my  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">Google Scholar</a>, <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">ORCID</a> or <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">ResearchGate</a> profiles above or my <a href="https://matteosaponati.github.io/files/cv.pdf" target="_blank">cv</a>  for a complete list of my research articles and conference proceedings/presentation. 
 
 ---
