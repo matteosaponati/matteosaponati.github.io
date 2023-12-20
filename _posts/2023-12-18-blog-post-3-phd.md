@@ -21,44 +21,6 @@ tags: phd
       display: flex;
       transition: transform 0.5s ease-in-out;
     }
-
-  .carousel-item {
-      position: relative;
-      width: 100%;
-      display: flex;
-      align-items: center;
-    }
-
-    .carousel-image {
-      width: 70%; /* Adjust image width as needed */
-      height: auto;
-    }
-
-    .caption {
-      flex: 1;
-      background-color: rgba(0, 0, 0, 0.7);
-      color: #fff;
-      padding: 8px;
-      text-align: left;
-    }
-
-    #prev-btn,
-    #next-btn {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 24px;
-      cursor: pointer;
-      background-color: #ccc;
-      border: none;
-      padding: 10px;
-      color: #fff;
-      outline: none;
-    }
-
-    #prev-btn { left: 10px; }
-    #next-btn { right: 10px; }
-    
   </style>
 </head>
 <body>
