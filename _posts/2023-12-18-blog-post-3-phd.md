@@ -5,54 +5,55 @@ permalink: /posts/2023/12/phd_and_everything_in_between/
 published: true
 tags: phd
 ---
+<div id="imageCarousel" class="carousel">
+  <div class="carousel-container">
+    <div class="carousel-slide">
+      <<img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 2">
+      <div class="carousel-caption">
+        <p>beautiful people and I in Marseille</p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 1">
+      <div class="carousel-caption">
+        <p>sardinia stuff </p>
+      </div>
+    </div>
+    <div class="carousel-slide">
+      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 3">
+      <div class="carousel-caption">
+        <p>submitting my phd thesis on a Flixtrain to Berlin in July 2023</p>
+      </div>
+    </div>
+    <button class="carousel-prev" onclick="changeSlide(-1)">&#8249;</button>
+    <button class="carousel-next" onclick="changeSlide(1)">&#8250;</button>
+  </div>
+</div>
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-  #carousel-container {
-      position: relative;
-      overflow: hidden;
-      width: 400px; /* Adjust container width as needed */
-      margin: 0 auto;
+<script>
+  let currentSlide = 1;
+
+  function showSlide(n) {
+    const slides = document.getElementsByClassName("carousel-slide");
+    if (n > slides.length) { currentSlide = 1; }
+    if (n < 1) { currentSlide = slides.length; }
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
     }
-  #image-carousel {
-      display: flex;
-      transition: transform 0.5s ease-in-out;
-    }
 
-   .carousel-item {
-      position: relative;
-      width: 100%;
-      display: flex;
-      align-items: center;
-    }
+    slides[currentSlide - 1].style.display = "block";
+  }
 
-    .carousel-image {
-      width: 70%; /* Adjust image width as needed */
-      height: auto;
-    }
+  function changeSlide(n) {
+    showSlide(currentSlide += n);
+  }
 
-    .caption {
-      flex: 1;
-      background-color: rgba(0, 0, 0, 0.7);
-      color: #fff;
-      padding: 8px;
-      text-align: left;
-    }
-  
-  </style>
-</head>
-
-
-<body>
-
-<div class="text-before-carousel">
-
-<p align=left>
-<img width=150 src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" />
-</p>
+  // Show the first slide when the page loads
+  document.addEventListener("DOMContentLoaded", function() {
+    showSlide(currentSlide);
+  });
+</script>
 
 It happened, I got a Ph.D. I am very grateful for everything that happened through these 3 - 4 years of my life. I had the privilege of exploring my research interests, expanding my focus, and having crazy intense experiences, surrounded by beautiful and inspiring human beings. The way I try to summarize this in the acknowledgment of my Ph.D. thesis is: "I would like to express my gratitude for this journey. This Ph.D. adventure has shaped me in ways I could never have imagined, in my research but also in my personal growth". Here I am not gonna talk about the research and technical part of this journey, rather I want to write about how the myself of 3 years moved to Germany and became a pretty different person. My personal story of a PhD journey, let's say. Ah, by the way, I suggest you listen to <a href="https://open.spotify.com/track/4ifDKWZZhnyltXLndbomYT?si=ea17d09d3d3c491e" target="_blank">this song</a>  in the meantime, it's just beautiful.
 
@@ -65,51 +66,3 @@ All those weekends during quarantine spent in the Affentorplatz apartment, on th
 During these years, I also experienced how all those resources and investments in research, all that money, are correlated along many dimensions with a European-only, unflexible, sticky, arrogant, sexist conservative society of very powerful men. Do not get me wrong, the interaction of many millions of people usually creates hierarchies and power dynamics, and there is unfortunately nothing so special there that you don't find in our societies at many other levels. Further, don't get me wrong twice, I am a European man who was lucky enough to have these opportunities and to be able to work in one of the world's most competitive and renowned research environments. Nonetheless, I suffered quite some stuff there in Frankfurt, and together with me, many other students and postdocs working in the same research institutes. I many times felt alone, I felt I did not know where I was going. I felt like there was no humanity in this system, and everyone is there to play a chess game where no one really wins, we just all suffer. I felt the expectations, the complete lack of communication, the political games, the harassment, the nasty lies. All these ridiculous actions and the bullshit dynamics are all local fluctuations that will be averaged out over time. In the end, some people will be surrounded by scorched land they put on fire, and the rest will just be forgotten. When nobody from above ends up really listening to your struggles, you realize that the people next to you at your "level" can be a family, not an enemy. Together, we created a strong family connection against all the adversities we encountered. I am so happy I had this in my life. 
 
 I don't know if it's this cozy Sunday evening blues in Zürich if it's the wine and the music from the speakers, or what else, but I am smiling. There is no bullshit, there are no ridiculous political games, no superficial competitions, and no paranoias. I am just happy about everything that happened, and I feel lucky, harmonious, and good. Like everything is in the right place.
-
-</div>
-<div id="carousel-container">
-  <button id="prev-btn" onclick="prevImage()">❮</button>
-  <div id="image-carousel">
-    <div class="carousel-item">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/marsiglia-1.jpeg" alt="Image 2">
-      <div class="carousel-caption">
-        <p>beautiful people and I in Marseille</p>
-      </div>
-    <div class="carousel-item">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" alt="Image 1">
-      <div class="carousel-caption">
-        <p>sardinia stuff </p>
-      </div>
-    <div class="carousel-item">
-      <img src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/phd-thesis.jpg" alt="Image 3">
-      <div class="carousel-caption">
-        <p>submitting my phd thesis on a Flixtrain to Berlin in July 2023</p>
-      </div>
-    <!-- Add more images and captions as needed -->
-  </div>
-  <button id="next-btn" onclick="nextImage()">❯</button>
-</div>
-
-<script>
-  let currentIndex = 0;
-  const totalImages = document.querySelectorAll('.carousel-item').length;
-
-  function updateCarousel() {
-    const carousel = document.getElementById('image-carousel');
-    const newPosition = -currentIndex * 100 + '%';
-    carousel.style.transform = 'translateX(' + newPosition + ')';
-  }
-
-  function nextImage() {
-    currentIndex = (currentIndex + 1) % totalImages;
-    updateCarousel();
-  }
-
-  function prevImage() {
-    currentIndex = (currentIndex - 1 + totalImages) % totalImages;
-    updateCarousel();
-  }
-</script>
-
-</body>
-</html>
