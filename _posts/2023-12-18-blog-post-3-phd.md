@@ -7,7 +7,7 @@ tags: phd
 ---
 
 <p align=left>
-<img width=150 src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" />
+<img width=auto src="https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/sardinia-1.jpeg" />
 </p>
 
 It happened, I got a Ph.D. I am very grateful for everything that happened through these 3 - 4 years of my life. I had the privilege of exploring my research interests, expanding my focus, and having crazy intense experiences, surrounded by beautiful and inspiring human beings. The way I try to summarize this in the acknowledgment of my Ph.D. thesis is: "I would like to express my gratitude for this journey. This Ph.D. adventure has shaped me in ways I could never have imagined, in my research but also in my personal growth". Here I am not gonna talk about the research and technical part of this journey, rather I want to write about how the myself of 3 years moved to Germany and became a pretty different person. My personal story of a PhD journey, let's say. Ah, by the way, I suggest you listen to <a href="https://twitter.com/MelikaPayvand" target="_blank">this song</a>  in the meantime, it's just beautiful.
