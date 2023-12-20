@@ -21,7 +21,6 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
   }
 
   .carousel-slide {
-    display: none;
     position: absolute;
     width: 100%;
   }
@@ -31,26 +30,10 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
     height: auto;
   }
 
-  .carousel-prev, .carousel-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px; /* Increase the font size for bigger buttons */
-    color: #fff;
-    background-color: #6b3c70; /* Dark purple color */
-    border: none;
-    padding: 10px; /* Increase padding for bigger buttons */
-    cursor: pointer;
-    border-radius: 5px; /* Add some border-radius for rounded corners */
+  .space-after-carousel {
+    margin-bottom: 20px; /* Adjust the margin as needed */
   }
 
-  .carousel-prev {
-    left: 10px;
-  }
-
-  .carousel-next {
-    right: 10px;
-  }
 </style>
 
 <div id="imageCarousel" class="carousel">
@@ -104,6 +87,8 @@ As a Mediterranean young person, you get slapped hard by Frankfurt. Winter is co
     showSlide(currentSlide);
   });
 </script>
+
+
 
 All those weekends during quarantine spent in the Affentorplatz apartment, on that couch, surrounded by the great skyscrapers, the EBC far in the back, the smell of fast-food pizza. All that laughs, love, and contradictions. The feeling of being free again, and the sense of guilt and responsibility. The U-bahn, the parties in Berlin. Brazil, all that love in and out, new inputs and a completely different environment, the stories of people living on the other side of the world. The love I am so lucky I have found. The PhD thesis submitted on a Flix train in July. The sunrise from the garden while the music is still playing. The intense brain-storming conversation with colleagues and researchers from somewhere else. The techno music, the party kultur, the beers at whatever trinkhalle. The travels (I never really did that much during my whole life). The international conferences, the struggle of research, the deadlines, and the toxic publication system. 
 
