@@ -19,6 +19,8 @@ redirect_from:
 
 <p style="margin-bottom:1cm;"></p>
 
+<img src="/images/about/me_garfagnana.png" alt="First Image">
+
   <font size="4"> <p style="text-align: center">hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
 
   <p style="margin-bottom:0.5cm;"></p>
@@ -38,8 +40,3 @@ redirect_from:
   <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>  
 </p>
-
-<div class="image-container">
-            <img src="/images/about/me_garfagnana.png" alt="First Image">
-            <img src="/images/about/me_marseille.png" alt="Second Image" style="transform: scale(0);">
-        </div>
