@@ -19,8 +19,6 @@ redirect_from:
 
 <p style="margin-bottom:1cm;"></p>
 
-<img src="/images/about/me_garfagnana.png" alt="First Image">
-
   <font size="4"> <p style="text-align: center">hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
 
   <p style="margin-bottom:0.5cm;"></p>
