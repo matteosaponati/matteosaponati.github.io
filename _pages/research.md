@@ -15,18 +15,6 @@ understanding how many small complex machines - the neurons - communicate and se
 
 ---
 
-<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>projects</b> </p></font> 
-
-<b>predictive learning rule - how predictions drive synaptic plasticity in single neurons</b>
-
-(on the way)
-
-<b>scalable learning algorithms for Spiking Neural Networks</b>
-
-(on the way)
-
----
-
 <style type="text/css">
   .paper_metadata a {
   	text-decoration: none!important;
