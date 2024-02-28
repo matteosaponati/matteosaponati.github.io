@@ -35,9 +35,7 @@ understanding how many small complex machines - the neurons - communicate and se
 	}
 </style>
 
-<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>publications</b> </p></font> 
-
-<b>dissertations</b>
+<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>dissertations</b> </p></font> 
 
 <table class="pub_table">
 
@@ -63,7 +61,7 @@ understanding how many small complex machines - the neurons - communicate and se
 
 </table>
 
-<b>research articles</b>
+<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>research articles</b> </p></font> 
 
 please check my  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">Google Scholar</a>, <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">ORCID</a> or <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">ResearchGate</a> profiles above or my <a href="https://matteosaponati.github.io/files/cv.pdf" target="_blank">cv</a>  for a complete list of my research articles and conference proceedings/presentation. 
 
