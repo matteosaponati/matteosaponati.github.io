@@ -61,8 +61,31 @@ understanding how many small complex machines - the neurons - communicate and se
 
 </table>
 
-<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>research articles</b> </p></font> 
+<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>selected research articles</b> </p></font> 
 
-please check my  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">Google Scholar</a>, <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">ORCID</a> or <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">ResearchGate</a> profiles above or my <a href="https://matteosaponati.github.io/files/cv.pdf" target="_blank">cv</a>  for a complete list of my research articles and conference proceedings/presentation. 
+<table class="pub_table">
+
+<tr>
+  <td class="pub_td1"><b>Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule</b><br />
+		<div class='paper_metadata'>
+  	Nature Communications 2023 <br />
+  	Saponati, M., & Vinck, M. (2023). Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule. Nature Communications, 14(1), 4985. <br />
+  	</div>
+	<a href="https://www.nature.com/articles/s41467-023-40651-w" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/predictive_neuron" target="_blank">code</a> 
+	
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><b>Spontaneous variability in gamma dynamics described by a damped harmonic oscillator driven by noise</b><br />
+		<div class='paper_metadata'>
+  	Nature Communications 2022 <br />
+  	Spyropoulos, G., Saponati, M., Dowdall, ... & Vinck, M. (2022). Spontaneous variability in gamma dynamics described by a damped harmonic oscillator driven by noise. Nature communications, 13(1), 2019. <br />
+  	</div>
+	<a href="https://www.nature.com/articles/s41467-022-29674-x" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blank">code</a> 
+</td></tr>
+
+</table>
+
+please check my  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank">Google Scholar</a>, <a href="https://orcid.org/0000-0003-3347-6307" target="_blank">ORCID</a>, <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank">ResearchGate</a>, or my <a href="https://matteosaponati.github.io/files/cv.pdf" target="_blank">cv</a> for a complete list of my research articles and conference proceedings/presentation. 
 
 ---
