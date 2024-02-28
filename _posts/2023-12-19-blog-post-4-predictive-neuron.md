@@ -1,7 +1,7 @@
 ---
 title: 'a predictive learning rule in single neurons'
-date: 2024-03-01
-permalink: /posts/2024/03/predictive_neuron/
+date: 2023-12-19
+permalink: /posts/2023/12/predictive_neuron/
 published: true
 tags: predictive-neuron-1
 ---
