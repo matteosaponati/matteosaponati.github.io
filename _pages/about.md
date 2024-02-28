@@ -17,8 +17,9 @@ redirect_from:
 </ul>
 </font>
 
+<img src="../images/about/me_garfagnana.png" alt=""
+                 style="max-width:300px; height:auto; float: center; margin-left:15px; margin-top:25px"/>
 <p style="margin-bottom:1cm;"></p>
-
 
   <font size="4"> <p style="text-align: center">hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
 
