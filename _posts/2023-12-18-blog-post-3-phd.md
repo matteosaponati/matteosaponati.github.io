@@ -2,7 +2,7 @@
 title: 'I got a PhD (and everything that happened in between)'
 date: 2023-12-16
 permalink: /posts/2023/12/phd_and_everything_in_between/
-published: false
+published: true
 tags: phd
 ---
 
