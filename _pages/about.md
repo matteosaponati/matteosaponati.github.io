@@ -16,15 +16,16 @@ redirect_from:
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+    margin: 5px;
   }
   .left-column {
     flex: 1;
     max-width: 400px;
-    padding: 2px;
+    padding: 5px;
   }
   .right-column {
     flex: 2;
-    padding: 2px;
+    padding: 5px;
   }
   .right-column img {
     width: 70%;
@@ -97,11 +98,9 @@ redirect_from:
     <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 100%; height: auto; object-fit: cover;">
   </div>
 </div>
-<footer style="text-align: center; margin-top: 100px;">
+<footer style="text-align: center; margin-top: 50px; padding: 5px;">
   © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a>
 </footer>
-
-
 
 
 <!--
