@@ -20,14 +20,14 @@ redirect_from:
   .left-column {
     flex: 1;
     max-width: 400px;
-    padding: 20px;
+    padding: 2px;
   }
   .right-column {
     flex: 2;
-    padding: 20px;
+    padding: 2px;
   }
   .right-column img {
-    width: 100%;
+    width: 70%;
     height: auto;
     object-fit: cover;
   }
@@ -80,20 +80,26 @@ redirect_from:
       <br><br>
       Originally from Italy, I have a very strong emotional connection with the sea, the smell of "salmastro", and carnival.
     </p>
-    
-  <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
-  <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
-   <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>  
 
   </div>
   <!-- Right column for the featured image -->
   <div class="right-column">
-    <img src="/images/about/me_garfagnana.png" alt="Featured">
+
+  <div style="flex: 2; padding: 20px; position: relative;">
+    <div style="position: absolute; top: 0; right: 0; padding: 20px;">
+  <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
+  <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
+  <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>  
+
+  </div>
+  <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 70%; height: auto; object-fit: cover;">
+  
   </div>
 </div>
 
 <footer style="text-align: center;">
-  © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a>
+   <h1 style="font-size: 30px; margin: 0;"> 
+   © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a></h1>
 </footer>
 
 <!--
