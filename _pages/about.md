@@ -73,7 +73,7 @@ redirect_from:
       </ul>
       </ul>
     </nav>
-    <p style="font-size: 12px; margin-top: 20px;">
+    <p style="font-size: 18px; margin-top: 20px;">
       hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
       <br><br>
       I am a researcher, mainly working with models in Neuroscience and Machine Learning. I am also a musician, I make my own music, and I love to hang out with other musicians and take part in random jam sessions - it makes me feel alive. 
@@ -85,22 +85,24 @@ redirect_from:
   <!-- Right column for the featured image -->
   <div class="right-column">
 
-  <div style="flex: 2; padding: 20px; position: relative;">
-    <div style="position: absolute; top: 0; right: 0; padding: 20px;">
-  <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
+<div style="flex-grow: 2; padding: 20px; position: relative;">
+    <!-- Social media icons -->
+    <div style="text-align: right; padding-bottom: 10px;">
+        <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
   <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
   <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>  
-
-  </div>
-  <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 70%; height: auto; object-fit: cover;">
-  
+      <!-- More icons as needed -->
+    </div>
+    <!-- Featured image -->
+    <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 100%; height: auto; object-fit: cover;">
   </div>
 </div>
-
-<footer style="text-align: center;">
-   <h1 style="font-size: 30px; margin: 0;"> 
-   © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a></h1>
+<footer style="text-align: center; margin-top: 100px;">
+  © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a>
 </footer>
+
+
+
 
 <!--
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between;">
