@@ -28,7 +28,7 @@ redirect_from:
     padding: 5px;
   }
   .right-column img {
-    width: 70%;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -99,10 +99,10 @@ redirect_from:
   </div>
 </div>
 
-<footer style="text-align: center;">
+<!-- <footer style="text-align: center;">
    <h1 style="font-size: 10px; margin: 0;"> 
    © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a></h1>
-</footer>
+</footer> -->
 
 
 <!--
