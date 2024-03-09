@@ -20,7 +20,7 @@ redirect_from:
   }
   .left-column {
     flex: 1;
-    max-width: 400px;
+    max-width: 800px;
     padding: 5px;
   }
   .right-column {
@@ -64,6 +64,7 @@ redirect_from:
   <!-- Left column for navigation and about text -->
   <div class="left-column">
     <h1 style="font-size: 30px; margin: 0;">matteosaponati</h1>
+    <p style="margin-bottom:1cm;"></p>
     <nav style="font-size: 20px; margin-top: 20px;">
       <ul style="list-style: none; padding: 0;">
       <ul class="link-list">
@@ -74,6 +75,7 @@ redirect_from:
       </ul>
       </ul>
     </nav>
+    <p style="margin-bottom:1cm;"></p>
     <p style="font-size: 18px; margin-top: 20px;">
       hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
       <br><br>
