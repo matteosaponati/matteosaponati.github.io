@@ -86,7 +86,7 @@ redirect_from:
   <!-- Right column for the featured image -->
   <div class="right-column">
 
-<div style="flex-grow: 2; padding: 20px; position: relative;">
+<div style="flex: 2; padding: 20px; position: relative;">
     <!-- Social media icons -->
     <div style="text-align: right; padding-bottom: 10px;">
         <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
@@ -98,8 +98,10 @@ redirect_from:
     <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 100%; height: auto; object-fit: cover;">
   </div>
 </div>
-<footer style="text-align: center; margin-top: 50px; padding: 5px;">
-  © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a>
+
+<footer style="text-align: center;">
+   <h1 style="font-size: 10px; margin: 0;"> 
+   © 2024 matteosaponati - based on <a href="https://github.com/academicpages/academicpages.github.io">academic pages</a></h1>
 </footer>
 
 
