@@ -13,19 +13,21 @@ redirect_from:
   /* Default styles for desktop */
   .wrapper {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-between;
     margin: 5px;
   }
   .left-column {
-    flex: 1;
-    max-width: 800px;
-    padding: 5px;
+    flex: 0 0 400px;
+    padding: 40px;
   }
   .right-column {
-    flex: 2;
-    padding: 5px;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-end; /* Align children to the right */
   }
   .right-column img {
     width: 100%;
@@ -65,7 +67,7 @@ redirect_from:
   <div class="left-column">
     <h1 style="font-size: 30px; margin: 0;">matteosaponati</h1>
     <p style="margin-bottom:1cm;"></p>
-    <nav style="font-size: 20px; margin-top: 20px;">
+    <nav style="font-size: 25px; margin-top: 20px;">
       <ul style="list-style: none; padding: 0;">
       <ul class="link-list">
         <li><a href="https://matteosaponati.github.io/research">research</a></li>
@@ -75,8 +77,11 @@ redirect_from:
       </ul>
       </ul>
     </nav>
-    <p style="margin-bottom:1cm;"></p>
-    <p style="font-size: 18px; margin-top: 20px;">
+    <p style="margin-bottom:2cm;"></p>
+    <p style="font-size: 20px; margin-top: 20px;">
+    about
+    </p>
+    <p style="font-size: 14px; margin-top: 20px;">
       hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
       <br><br>
       I am a researcher, mainly working with models in Neuroscience and Machine Learning. I am also a musician, I make my own music, and I love to hang out with other musicians and take part in random jam sessions - it makes me feel alive. 
@@ -87,17 +92,14 @@ redirect_from:
   </div>
   <!-- Right column for the featured image -->
   <div class="right-column">
-
-<div style="flex: 2; padding: 20px; position: relative;">
-    <!-- Social media icons -->
-    <div style="text-align: right; padding-bottom: 10px;">
-        <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
-  <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>
-  <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 1em; height: 1em;"></span></a>  
-      <!-- More icons as needed -->
-    </div>
-    <!-- Featured image -->
-    <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 100%; height: auto; object-fit: cover;">
+<div style="flex: 1; padding: 20px; position: relative;">
+    <div style="text-align: right; padding-bottom: 30px;">
+        <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+  <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+  <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
+  </div>
+  </div>
+    <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 200%; height: auto; object-fit: cover;">
   </div>
 </div>
 
