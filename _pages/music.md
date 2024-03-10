@@ -1,7 +1,7 @@
 ---
 layout: first
-title: research
-permalink: /research/
+title: music
+permalink: /music/
 author_profile: false
 ---
 
