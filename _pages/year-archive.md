@@ -1,8 +1,10 @@
 ---
 layout: first
-title: music
-permalink: /music/
+permalink: /year-archive/
+title: "blog"
 author_profile: false
+redirect_from:
+  - /wordpress/blog-posts/
 ---
 
 <style>
@@ -79,8 +81,14 @@ author_profile: false
   <div class="right-column">
 
 
-soon
 
-<img src="/images/music/msuic_0.jpg" alt="drawing" width="50"/>
-
----
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}
