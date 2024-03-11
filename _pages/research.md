@@ -111,7 +111,7 @@ author_profile: false
 	}
 </style>
 
-<b>selected research articles</b>
+<font size="5" color="#3a0a57">  <b>selected research articles</b> </font> 
 
 <table class="pub_table">
 
@@ -134,7 +134,7 @@ author_profile: false
 
 </table>
 
-<p style="margin-bottom:2cm;"></p>
+<p style="margin-bottom:1.5cm;"></p>
 
 <font size="5" color="#3a0a57"> <b>dissertations</b> </font> 
 

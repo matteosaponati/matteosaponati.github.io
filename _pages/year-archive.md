@@ -80,9 +80,6 @@ redirect_from:
   <!-- Right column for the featured image -->
   <div class="right-column">
 
-
-<p style="text-align: center;">
-
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -92,5 +89,3 @@ redirect_from:
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
-
-</p>
