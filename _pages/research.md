@@ -73,21 +73,20 @@ author_profile: false
       </ul>
     </nav>
     <p style="margin-bottom:2cm;"></p>
-
+    <p style="font-size: 14px; margin-top: 20px;">
+    understanding how many small complex machines - the neurons - communicate and self-assemble is still a fundamental and beautiful challenge. Taking inspiration from their learning and organization principles, we would be able to build novel smart machines that can solve complex problems and help us progress to a better society. This sounds pretty exciting to me. I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, theoretical neuroscience, and machine learning. 
+    </p>
  </div>
   <!-- Right column for the featured image -->
   <div class="right-column">
 
 
 <p style="text-align: center;">
- <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
-  <a href="https://orcid.org/0000-0003-3347-6307" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/orcid_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>
-   <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/rgate_icon.png" alt="Icon" style="width: 2em; height: 2em;"></span></a>  
+ <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+  <a href="https://orcid.org/0000-0003-3347-6307" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/orcid_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+   <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/rgate_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
 </p>
 
-understanding how many small complex machines - the neurons - communicate and self-assemble is still a fundamental and beautiful challenge. Taking inspiration from their learning and organization principles, we would be able to build novel smart machines that can solve complex problems and help us progress to a better society. This sounds pretty exciting to me. I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, theoretical neuroscience, and machine learning. 
-
----
 
 <style type="text/css">
   .paper_metadata a {
@@ -109,7 +108,32 @@ understanding how many small complex machines - the neurons - communicate and se
 	}
 </style>
 
-<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>dissertations</b> </p></font> 
+<font size="5" color="#3a0a57"> <b>selected research articles</b></font> 
+
+<table class="pub_table">
+
+<tr>
+  <td class="pub_td1"><b>Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule</b><br />
+		<div class='paper_metadata'>
+  	Saponati, M., & Vinck, M. (2023) Nature Communications, 14(1), 4985. <br />
+  	</div>
+	<a href="https://www.nature.com/articles/s41467-023-40651-w" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/predictive_neuron" target="_blank">code</a> 
+	
+</td></tr>
+
+<tr>
+  <td class="pub_td1"><b>Spontaneous variability in gamma dynamics described by a damped harmonic oscillator driven by noise</b><br />
+		<div class='paper_metadata'>
+  	Spyropoulos, G., Saponati, M., Dowdall, ... & Vinck, M. (2022) Nature Communications, 13(1), 2019. <br />
+  	</div>
+	<a href="https://www.nature.com/articles/s41467-022-29674-x" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blank">code</a> 
+</td></tr>
+
+</table>
+
+<p style="margin-bottom:2cm;"></p>
+
+<font size="5" color="#3a0a57"> <b>dissertations</b> </font> 
 
 <table class="pub_table">
 
@@ -134,28 +158,3 @@ understanding how many small complex machines - the neurons - communicate and se
 </td></tr>
 
 </table>
-
-<font size="5" color="#3a0a57"> <p style="text-align: center;"> <b>selected research articles</b> </p></font> 
-
-<table class="pub_table">
-
-<tr>
-  <td class="pub_td1"><b>Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule</b><br />
-		<div class='paper_metadata'>
-  	Saponati, M., & Vinck, M. (2023) Nature Communications, 14(1), 4985. <br />
-  	</div>
-	<a href="https://www.nature.com/articles/s41467-023-40651-w" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/predictive_neuron" target="_blank">code</a> 
-	
-</td></tr>
-
-<tr>
-  <td class="pub_td1"><b>Spontaneous variability in gamma dynamics described by a damped harmonic oscillator driven by noise</b><br />
-		<div class='paper_metadata'>
-  	Spyropoulos, G., Saponati, M., Dowdall, ... & Vinck, M. (2022) Nature Communications, 13(1), 2019. <br />
-  	</div>
-	<a href="https://www.nature.com/articles/s41467-022-29674-x" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blank">code</a> 
-</td></tr>
-
-</table>
-
----
