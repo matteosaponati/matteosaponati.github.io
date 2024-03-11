@@ -79,7 +79,8 @@ author_profile: false
  </div>
   <!-- Right column for the featured image -->
   <div class="right-column">
-
+<div style="flex: 1; padding: 20px; position: relative;">
+    <div style="text-align: right; padding-bottom: 30px;">
 
 <p style="text-align: center;">
  <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
@@ -87,6 +88,8 @@ author_profile: false
    <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/rgate_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
 </p>
 
+  </div>
+  </div>
 
 <style type="text/css">
   .paper_metadata a {
