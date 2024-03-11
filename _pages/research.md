@@ -111,7 +111,7 @@ author_profile: false
 	}
 </style>
 
-<font size="5" color="#3a0a57"> <b>selected research articles</b></font> 
+<b>selected research articles</b>
 
 <table class="pub_table">
 
