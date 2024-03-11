@@ -61,8 +61,8 @@ redirect_from:
 <div class="wrapper">
   <!-- Left column for navigation and about text -->
   <div class="left-column">
-    <h1 style="font-size: 30px; margin: 0;">
-	<li><a href="https://matteosaponati.github.io/">matteosaponati</a></li></h1>
+    <nav style="font-size: 30px; margin: 0;">
+	<li><a href="https://matteosaponati.github.io/">matteosaponati</a></li></nav>
     <p style="margin-bottom:1cm;"></p>
     <nav style="font-size: 25px; margin-top: 20px;">
       <ul style="list-style: none; padding: 0;">
