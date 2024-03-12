@@ -4,8 +4,8 @@
 # -----------------
 en: &DEFAULT_EN
   page                       : "Page"
-  pagination_previous        : "Previous"
-  pagination_next            : "Next"
+  pagination_previous        : "previous"
+  pagination_next            : "next"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   toc_label                  : "On This Page"
@@ -16,7 +16,7 @@ en: &DEFAULT_EN
   meta_label                 :
   tags_label                 : "Tags:"
   categories_label           : "Categories:"
-  date_label                 : "Published:"
+  date_label                 : "published:"
   comments_label             : "Leave a Comment"
   comments_title             : "Comments"
   more_label                 : "Learn More"

@@ -79,7 +79,6 @@ redirect_from:
  </div>
   <!-- Right column for the featured image -->
   <div class="right-column">
-
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
