@@ -21,11 +21,11 @@ redirect_from:
     padding: 40px;
   }
   .right-column {
-    flex: 0;
+    flex: 1;
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack children vertically */
-    align-items: flex-end; /* Align children to the right */
+    /*align-items: flex-end; /* Align children to the right */
   }
   .right-column img {
     width: 100%;
