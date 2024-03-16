@@ -21,7 +21,7 @@ redirect_from:
     padding: 40px;
   }
   .right-column {
-    flex: 1;
+    flex: 0;
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack children vertically */
