@@ -77,6 +77,9 @@ author_profile: false
     understanding how many small complex machines - the neurons - communicate and self-assemble is still a fundamental and beautiful challenge. Taking inspiration from their learning and organization principles, we would be able to build novel smart machines that can solve complex problems and help us progress to a better society. This sounds pretty exciting to me. I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, theoretical neuroscience, and machine learning. 
     </p>
  </div>
+
+
+ 
   <!-- Right column for the featured image -->
   <div class="right-column">
 <div style="flex: 1; padding: 20px; position: relative;">
@@ -111,10 +114,8 @@ author_profile: false
 	}
 </style>
 
-<font size="5" color="#3a0a57">  <b>selected research articles</b> </font> 
-
+<font size="5" color="#3a0a57"> <p style="text-align: left;"> <b>selected research articles</b> </p> </font> 
 <table class="pub_table">
-
 <tr>
   <td class="pub_td1"><b>Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule</b><br />
 		<div class='paper_metadata'>
