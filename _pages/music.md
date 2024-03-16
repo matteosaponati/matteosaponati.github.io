@@ -23,7 +23,7 @@ author_profile: false
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack children vertically */
-    align-items: flex-end; /* Align children to the right */
+    /*align-items: flex-end; /* Align children to the right */
   }
   .right-column img {
     width: 100%;

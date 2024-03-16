@@ -23,7 +23,7 @@ author_profile: false
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack children vertically */
-    align-items: flex-end; /* Align children to the right */
+    /*align-items: flex-end; /* Align children to the right */
   }
   .right-column img {
     width: 100%;
@@ -114,7 +114,7 @@ author_profile: false
 	}
 </style>
 
-<font size="5" color="#3a0a57"> <p style="text-align: left;"> <b>selected research articles</b> </p> </font> 
+<font size="5" color="#3a0a57"><b>selected research articles</b> </font> 
 <table class="pub_table">
 <tr>
   <td class="pub_td1"><b>Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule</b><br />
