@@ -59,8 +59,7 @@ author_profile: false
 <div class="wrapper">
   <!-- Left column for navigation and about text -->
   <div class="left-column">
-    <nav style="font-size: 30px; margin: 0;">
-	<li><a href="https://matteosaponati.github.io/">matteosaponati</a></li></nav>
+    <h1 style="font-size: 30px; margin: 0;">matteosaponati</h1>
     <p style="margin-bottom:1cm;"></p>
     <nav style="font-size: 25px; margin-top: 20px;">
       <ul style="list-style: none; padding: 0;">
@@ -72,14 +71,13 @@ author_profile: false
       </ul>
       </ul>
     </nav>
-    <p style="margin-bottom:2cm;"></p>
-    <p style="font-size: 14px; margin-top: 20px;">
-    understanding how many small complex machines - the neurons - communicate and self-assemble is still a fundamental and beautiful challenge. Taking inspiration from their learning and organization principles, we would be able to build novel smart machines that can solve complex problems and help us progress to a better society. This sounds pretty exciting to me. I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, theoretical neuroscience, and machine learning. 
-    </p>
- </div>
-
-
- 
+    <p style="margin-bottom:1cm;"></p>
+    <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+    <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/scholar_icon_circle.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+    <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
+  
+  </div>
   <!-- Right column for the featured image -->
   <div class="right-column">
 <div style="flex: 1; padding: 20px; position: relative;">
