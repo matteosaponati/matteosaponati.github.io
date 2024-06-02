@@ -59,7 +59,8 @@ author_profile: false
 <div class="wrapper">
   <!-- Left column for navigation and about text -->
   <div class="left-column">
-    <h1 style="font-size: 30px; margin: 0;">matteosaponati</h1>
+    <nav style="font-size: 30px; margin: 0;">
+    <li><a href="https://matteosaponati.github.io/">matteosaponati</a></li></nav>
     <p style="margin-bottom:1cm;"></p>
     <nav style="font-size: 25px; margin-top: 20px;">
       <ul style="list-style: none; padding: 0;">
@@ -83,14 +84,14 @@ author_profile: false
 <div style="flex: 1; padding: 20px; position: relative;">
     <div style="text-align: right; padding-bottom: 30px;">
 
-<p style="text-align: center;">
- <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/scholar_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
-  <a href="https://orcid.org/0000-0003-3347-6307" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/orcid_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
-   <a href="https://www.researchgate.net/profile/Matteo-Saponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/rgate_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
-</p>
+  </div>
+  </div>
 
-  </div>
-  </div>
+   <p style="font-size: 18px; margin-top: 20px;">
+   I like to get inspiration from the design principles of biological systems and build smart machines that can solve complex problems and help us progress to a better society. It sounds pretty exciting to me. 
+   <br><br>
+   I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, machine learning, and theoretical neuroscience.y
+   </p>
 
 <style type="text/css">
   .paper_metadata a {

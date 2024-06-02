@@ -91,8 +91,6 @@ redirect_from:
     <p style="font-size: 18px; margin-top: 20px;">
       Hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
       <br><br>
-      I like to get inspiration from the design principles of biological systems and build smart machines that can solve complex problems and help us progress to a better society. 
-      <br><br>
       Originally from Italy, I have a very strong emotional connection with the sea, the smell of "salmastro", and carnival.
       <br><br>
     </p>
