@@ -76,16 +76,6 @@ redirect_from:
       </ul>
     </nav>
     <p style="margin-bottom:2cm;"></p>
-    <p style="font-size: 20px; margin-top: 20px;">
-    about
-    </p>
-    <p style="font-size: 14px; margin-top: 20px;">
-      hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
-      <br><br>
-      I am a researcher, mainly working with models in Neuroscience and Machine Learning. I am also a musician, I make my own music, and I love to hang out with other musicians and take part in random jam sessions - it makes me feel alive. 
-      <br><br>
-      Originally from Italy, I have a very strong emotional connection with the sea, the smell of "salmastro", and carnival.
-    </p>
 
   </div>
   <!-- Right column for the featured image -->
@@ -97,6 +87,14 @@ redirect_from:
   <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
   </div>
   </div>
+    <p style="font-size: 18px; margin-top: 20px;">
+      Hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
+      <br><br>
+      I like to get inspiration from the design principles of biological systems and build smart machines that can solve complex problems and help us progress to a better society. 
+      <br><br>
+      Originally from Italy, I have a very strong emotional connection with the sea, the smell of "salmastro", and carnival.
+      <br><br>
+    </p>
     <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 200%; height: auto; object-fit: cover;">
   </div>
 </div>
