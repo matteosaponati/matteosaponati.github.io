@@ -78,6 +78,7 @@ redirect_from:
     <p style="margin-bottom:1cm;"></p>
     <a href="https://github.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/github_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
     <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/scholar_icon_circle.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
+    <a href="https://www.linkedin.com/in/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/linkedin_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
     <a href="https://twitter.com/matteosaponati" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/x_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>
     <a href="https://www.instagram.com/matteosaponati/" target="_blank"><span style="display: inline-block; vertical-align: middle; margin-left: 8px;"><img src="/images/general/instagram_icon.png" alt="Icon" style="width: 1.5em; height: 1.5em;"></span></a>  
   
