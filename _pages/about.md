@@ -86,7 +86,7 @@ redirect_from:
   <!-- Right column for the featured image -->
   <div class="right-column">
 <div style="flex: 1; padding: 20px; position: relative;">
-    <div style="text-align: right; padding-bottom: 30px;">
+    <div style="text-align: right; padding-bottom: 10px;">
   </div>
   </div>
     <p style="font-size: 18px; margin-top: 20px;">

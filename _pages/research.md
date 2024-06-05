@@ -83,7 +83,7 @@ author_profile: false
   <!-- Right column for the featured image -->
   <div class="right-column">
 <div style="flex: 1; padding: 20px; position: relative;">
-    <div style="text-align: right; padding-bottom: 30px;">
+    <div style="text-align: right; padding-bottom: 10px;">
 
   </div>
   </div>
@@ -92,8 +92,11 @@ author_profile: false
    I like to get inspiration from the design principles of biological systems and build smart machines that can solve complex problems and help us progress to a better society. It sounds pretty exciting to me. 
    <br><br>
    I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, machine learning, and theoretical neuroscience.
+
+   <br><br><br>
+   --------------------
+   <br>
+   A list of projects I have been working on:
    </p>
-
-
 
 {% for post in site.publications reversed %} {% include archive-single-publications.html %} {% endfor %}
