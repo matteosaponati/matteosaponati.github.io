@@ -89,14 +89,8 @@ author_profile: false
   </div>
 
    <p style="font-size: 18px; margin-top: 20px;">
-   I like to get inspiration from the design principles of biological systems and build smart machines that can solve complex problems and help us progress to a better society. It sounds pretty exciting to me. 
+   I like to get inspiration from the design principles of biological systems and build artificial algorithms and machines. 
    <br><br>
-   I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, machine learning, and theoretical neuroscience.
-
-   <br><br><br>
-   --------------------
-   <br>
-   A list of projects I have been working on:
+   I try to do this using analytical and numerical tools, within a multidisciplinary approach getting inspiration from physics, machine learning, and theoretical neuroscience. 
    </p>
-
 {% for post in site.publications reversed %} {% include archive-single-publications.html %} {% endfor %}

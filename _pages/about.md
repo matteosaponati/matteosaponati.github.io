@@ -90,7 +90,7 @@ redirect_from:
   </div>
   </div>
     <p style="font-size: 18px; margin-top: 20px;">
-      Hey there - this is my personal website, here you can find my research work, my scientific publications, my music, and other things. 
+      Hey there - here you can find my research work, my music, and other things. 
       <br><br>
       Originally from Italy, I have a very strong emotional connection with the sea, the smell of "salmastro", and carnival.
       <br><br>

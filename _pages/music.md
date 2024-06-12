@@ -84,8 +84,17 @@ author_profile: false
   <div class="right-column">
 
 
-soon
-
-<img src="/images/music/msuic_0.jpg" alt="drawing" width="20"/>
-
----
+<!-- Right column for the featured image -->
+  <div class="right-column">
+<div style="flex: 1; padding: 20px; position: relative;">
+    <div style="text-align: right; padding-bottom: 10px;">
+  </div>
+  </div>
+    <p style="font-size: 18px; margin-top: 20px;">
+      soon
+      <br><br>
+      <img src="/images/music/msuic_0.jpg" alt="drawing" width="20"/>
+      <br><br>
+    </p>
+  </div>
+</div>
