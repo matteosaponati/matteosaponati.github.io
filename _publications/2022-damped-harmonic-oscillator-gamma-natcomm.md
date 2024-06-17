@@ -4,7 +4,6 @@ collection: publications
 permalink: /publication/2022-predictive-learning-rule-natcomm
 date: 2022-04-19
 venue: 'Nature Communications'
-citation: 'G Spyropoulos, M Saponati, ... & M Vinck *. <i>Nature Communications</i>, 2022.'
 citation2: 'G Spyropoulos, M Saponati, ... & M Vinck *. <i>Nature Communications</i>, 2022.'
 ---
 
