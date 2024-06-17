@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2023-predictive-learning-rule-natcomm
 date: 2023-08-21
 venue: 'Nature Communications'
+citation: 'M Saponati, M Vinck*. <i>Nature Communications</i>, 2023.'
 citation2: 'M Saponati, M Vinck*. <i>Nature Communications</i>, 2023.'
 ---
 
