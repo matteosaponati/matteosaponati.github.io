@@ -19,7 +19,7 @@ author_profile: false
     padding: 40px;
   }
   .right-column {
-    flex: 1;
+    flex: 1 0 700px;
     padding: 20px;
     display: flex;
     flex-direction: column; /* Stack children vertically */
