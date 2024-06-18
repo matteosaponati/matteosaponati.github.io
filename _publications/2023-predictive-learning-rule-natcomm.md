@@ -4,10 +4,11 @@ collection: publications
 permalink: /publication/2023-predictive-learning-rule-natcomm
 date: 2023-08-21
 venue: 'Nature Communications'
-citation2: 'M Saponati, M Vinck*. <i>Nature Communications</i>, 2023.'
+citation: 'M Saponati, M Vinck. <i>Nature Communications</i>, 2023.'
 ---
 
-<br>
+What if the synaptic plasticity one observe in single neurons would be explained by predictive processes?
+<br><br>
 <a href="https://www.nature.com/articles/s41467-023-40651-w" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/predictive_neuron" target="_blank">code</a>
 ![](../images/publications/2023-predictive-learning-rule.png)
 

@@ -4,13 +4,11 @@ collection: publications
 permalink: /publication/2022-predictive-learning-rule-natcomm
 date: 2022-04-19
 venue: 'Nature Communications'
-citation2: 'G Spyropoulos, M Saponati, ... & M Vinck *. <i>Nature Communications</i>, 2022.'
+citation: 'G Spyropoulos, M Saponati, JR Dowdall, ML Schölvinck, CA Bosman, B Lima, A Peter, I Onorato, J Klon-Lipok, R Roese, S Neuenschwander, W Singer, P Fries, M Vinck  <i>Nature Communications</i>, 2022.'
 ---
 
 It turns out that the best model for describing variability in neuronal oscillations is simple, linear, damped harmonic oscillator.
-G Spyropoulos, M Saponati, et al, Nature Communications 13, 2019 (2022)
-
-<br>
+<br><br>
 <a href="https://www.nature.com/articles/s41467-022-29674-x" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blank">code</a>
 ![](../images/publications/2022-damped-harmonic-oscillator.png)
 
