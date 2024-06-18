@@ -7,6 +7,8 @@ venue: 'Nature Communications'
 citation2: 'G Spyropoulos, M Saponati, ... & M Vinck *. <i>Nature Communications</i>, 2022.'
 ---
 
+It turns out that the best model for describing variability in neuronal oscillations is simple, linear, damped harmonic oscillator.
+G Spyropoulos, M Saponati, et al, Nature Communications 13, 2019 (2022)
 
 <br>
 <a href="https://www.nature.com/articles/s41467-022-29674-x" target="_blank">paper</a> | <a href="https://github.com/matteosaponati/spontaneous-gamma-circuit" target="_blank">code</a>
