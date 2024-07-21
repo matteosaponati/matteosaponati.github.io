@@ -97,9 +97,9 @@ author_profile: false
 <div style="text-align: center;">
     here you can find my 
     <br><br>
-    <a href="https://matteosaponati.github.io/projects" target="_blank" style="text-decoration: none;"><b>RESEARCH PROJECTS</b></a> 
+    <a href="https://matteosaponati.github.io/research" style="text-decoration: none;"><b>RESEARCH PROJECTS</b></a> 
     <br>
-    <a href="https://matteosaponati.github.io/publications" target="_blank" style="text-decoration: none;"><b>(dives into) SCIENTIFIC PUBLICATIONS</b></a>
+    <a href="https://matteosaponati.github.io/publications" style="text-decoration: none;"><b>(dives into) SCIENTIFIC PUBLICATIONS</b></a>
 </div>
 
 

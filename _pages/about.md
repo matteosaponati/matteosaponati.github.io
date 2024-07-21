@@ -90,9 +90,9 @@ redirect_from:
   </div>
   </div>
     <p style="font-size: 18px; margin-top: 20px;">
-      hey there - here you can find my research work, my music, and other things. 
+      hey there -
       <br><br>
-      I am a researcher in Machine Learning and Neuroscience, and I love to play music and dance. At heart, I am a creative and positive human being who tries to go through this crazy life with the help of human connections, open communications, and love.  
+      I am a researcher in Machine Learning and Neuroscience, and I love to play music and dance. At heart, I am a creative human being who tries to go through this crazy life with the help of human connections, open communications, and love.  
     </p>
     <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 200%; height: auto; object-fit: cover;">
   </div>
