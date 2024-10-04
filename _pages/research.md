@@ -52,7 +52,6 @@ author_profile: false
     }
     footer {
       margin-top: 50px;
-    }
   }
 </style>
 
@@ -89,16 +88,21 @@ author_profile: false
   </div>
 
    <p style="font-size: 18px; margin-top: 20px;">
-   I am fascinated by life and intelligence. I like to get inspiration from the design principles of biological life and build novel algorithms and intelligent machines - trying to do this with a multidisciplinary approach between Physics and Neuroscience.
-   <br><br>
-   Currently, I am a postdoctoral research fellow at the <a href="https://ethz.ch/en.html" target="_blank">ETH</a> in Zürich. I am working with <a href="https://grewelab.org" target="_blank">Prof. Benjamin Grewe</a> and <a href="https://www.ini.uzh.ch/en/research/groups/ncs.html" target="_blank">Prof. Giacomo Indiveri</a> at the <a href="https://www.ini.uzh.ch/en.html" target="_blank">Institute of Neuroinformatics</a> (ETH/UZH). With my granted research project I aim to design novel learning algorithms for mixed-signal Neuromorphic devices -  you can find out more about it <a href="" target="_blank">here</a>. More generally, I am involved in research projects spanning theory of Machine Learning, AI interpretability, and learning mechanisms in biological systems. 
-   <br><br>
+  I am passionate about understanding the principles biological life, designing novel intelligent devices, and contributing to the evolution of Artificial Intelligence. I conduct my research using analytical and numerical tools, with a multidisciplinary approach getting inspiration from Physics, Neuroscience, and Machine Learning.
+  <br><br>    
+  Currently, I am a postdoctoral research fellow at the <a href="https://ethz.ch/en.html" target="_blank">ETH</a> in Zürich. I am working with <a href="https://grewelab.org" target="_blank">Prof. Benjamin Grewe</a> and <a href="https://www.ini.uzh.ch/en/research/groups/ncs.html" target="_blank">Prof. Giacomo Indiveri</a> at the <a href="https://www.ini.uzh.ch/en.html" target="_blank">Institute of Neuroinformatics</a> (ETH/UZH). With my granted research project I aim to design novel learning algorithms for scalable Neuromorphic devices 
+  More generally, I am involved in research projects spanning theory of Machine Learning, AI interpretability, and learning mechanisms in biological systems. 
+  <br><hr><br>
 
 <div style="text-align: center;">
-    here you can find my 
+    here you can find my previous and current research projects:
     <br><br>
-    <a href="https://matteosaponati.github.io/research" style="text-decoration: none;"><b>RESEARCH PROJECTS</b></a> 
+    <a href="https://matteosaponati.github.io/research-feedback-control" style="text-decoration: none;">
+    <b>Optimization algorithms for neuromorphic devices</b>
     <br>
+    (Institute of Neuroinformatics - ETH)
+    </a> 
+    <br><br>
     <a href="https://matteosaponati.github.io/publications" style="text-decoration: none;"><b>(dives into) SCIENTIFIC PUBLICATIONS</b></a>
 </div>
 

@@ -88,7 +88,6 @@ author_profile: false
   </div>
   </div>
 
-
 {% for post in site.publications reversed %} {% include archive-single-publications.html %} {% endfor %}
 
 
