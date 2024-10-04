@@ -103,7 +103,11 @@ author_profile: false
     (Institute of Neuroinformatics - ETH)
     </a> 
     <br><br>
-    <a href="https://matteosaponati.github.io/publications" style="text-decoration: none;"><b>(dives into) SCIENTIFIC PUBLICATIONS</b></a>
+    <a href="https://matteosaponati.github.io/publications" style="text-decoration: none;">
+    <b>Predictive plasticity in Spiking Neural Networks</b>
+    <br>
+    (Max-Planck Institute for Brain Research - Ernst Strüngmann Institute for Neuroscience)
+    </a>
 </div>
 
 

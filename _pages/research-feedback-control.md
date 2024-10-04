@@ -111,8 +111,7 @@ author_profile: false
   
   <br>
   In biology we say "form is function," and in computing, we say "the hardware is the software." This reflects the idea that the physical properties and limitations of hardware significantly shape the algorithms that can run on it. The transmission, processing, and storage of information are all influenced by the specific hardware being used. In this project, I work with a specific hardware: mixed-signals neuromorphic devices. Trying to break this down, these devices combine analog units (the neurons) that communicate through binary digital events (the spikes). They are special-purpose, low-power silicon integrated circuits designed to mimic the behavior of biological neurons, with built-in computations and simple learning rules, e.g. STPD and the like.
-  <a href="https://www.cell.com/neuron/abstract/S0896-6273(23)00878-4" target="_blank">[]</a>
-  <br>
+  <br><br>
 
   The goal of my project is to move forward simple, hard-coded computations and advance the development of a scalable learning algorithm, inspired by biological processes, and compatible with neuromorphic hardware. To do that, I adapt the Machine Learning concepts of search and learning to the neuromorphic world and its hardware properties. I define the architecture and the self-organization principles of the system given a defined objective, and I let the optimizer search in the configuration space with the guidance of data. 
   <br><br>
@@ -125,8 +124,7 @@ author_profile: false
   </div>
 
   <br>
-  To capitalize on the features and characteristics of neuromorphic devices, I develop the optimizer based on control feedback and target learning. Specifically, a control systems receives the activity of a subset of neurons in the network and a target activity for these neurons. These controller computes the error of the network and steers its activity by sending feedback spikes. Each neurons adjusts its weights online proportionally to the control feedback.
-
+  To capitalize on the features and characteristics of neuromorphic devices, I develop an optimizer based on feedback control and target-driven learning. In this approach, a control system monitors the activity of a subset of neurons in the network and compares it to a desired target activity. The controller computes the network's error and sends feedback spikes to guide its activity toward the target. Each neuron then adjusts its weights in real time, making proportional changes based on the feedback it receives. 
    <br><br>
 
   <div style="text-align: center;">
@@ -137,6 +135,18 @@ author_profile: false
   </div>
 
   <br>
-  This process programs the device automatically by searching the right targets and ultimately the right trainable parameters, without explicitly computing gradients, and by making use of tuned recurrent connections. The search for the optimal parameters happens online as the inputs stream into the device.
+  This process automatically programs the device by searching for the optimal targets and trainable parameters, without the need for explicit gradient computation. It leverages finely-tuned recurrent connections to facilitate this search. The optimization happens online, adjusting in real time as inputs continuously stream into the device.
   <br><br>
   The main outcomes of significance of this project is to connect several lines of research and support the development of scalable Neuromorphic chips that are achieve high performances while being implementable on low-power Neuromorphic processors. The success of this project opens to door for application with smart sensors, the Internet-Of-Things, robotics, self-driving cars, among others.  
+  <br><br>
+
+  <hr>
+  refs:
+  <br><br>
+  <a href="https://www.cell.com/neuron/abstract/S0896-6273(23)00878-4" target="_blank">The hardware is the software</a>
+  <br>
+  <a href="https://doi.org/10.3389/fnins.2011.00073" target="_blank">Neuromorphic silicon neuron circuits</a>
+  <br>
+  <a href="https://link.springer.com/chapter/10.1007/978-3-319-23528-8_31" target="_blank">Difference Target Propagation</a>
+  <br>
+  <a href="https://proceedings.neurips.cc/paper/2021/hash/25048eb6a33209cb5a815bff0cf6887c-Abstract.html" target="_blank">Credit Assignment in Neural Networks through Deep Feedback Control</a>
