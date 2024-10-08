@@ -143,10 +143,14 @@ author_profile: false
   <hr>
   refs:
   <br><br>
-  <a href="https://www.cell.com/neuron/abstract/S0896-6273(23)00878-4" target="_blank">The hardware is the software</a>
-  <br>
+  <a href="https://www.cell.com/neuron/abstract/S0896-6273(23)00878-4" target="_blank">The hardware is the software</a>. 
+  Laydevant, J., Wright, L. G., Wang, T., & McMahon, P. L. (2024). Neuron, 112(2), 180-183.
+  <br><br>
   <a href="https://doi.org/10.3389/fnins.2011.00073" target="_blank">Neuromorphic silicon neuron circuits</a>
-  <br>
-  <a href="https://link.springer.com/chapter/10.1007/978-3-319-23528-8_31" target="_blank">Difference Target Propagation</a>
-  <br>
-  <a href="https://proceedings.neurips.cc/paper/2021/hash/25048eb6a33209cb5a815bff0cf6887c-Abstract.html" target="_blank">Credit Assignment in Neural Networks through Deep Feedback Control</a>
+  Indiveri, G., Linares-Barranco, B., Hamilton, T. J., Schaik, A. V., Etienne-Cummings, R., Delbruck, T., ... & Boahen, K. (2011). Frontiers in neuroscience, 5, 73.
+  <br><br>
+  <a href="https://proceedings.neurips.cc/paper_files/paper/2020/hash/e7a425c6ece20cbc9056f98699b53c6f-Abstract.html" target="_blank">A theoretical framework for target propagation</a>. 
+  Meulemans, A., Carzaniga, F., Suykens, J., Sacramento, J., & Grewe, B. F. (2020). Advances in Neural Information Processing Systems, 33, 20024-20036.
+  <br><br>
+  <a href="https://proceedings.neurips.cc/paper/2021/hash/25048eb6a33209cb5a815bff0cf6887c-Abstract.html" target="_blank">Credit Assignment in Neural Networks through Deep Feedback Control</a>. Meulemans, A., Tristany Farinha, M., García Ordóñez, J., Vilimelis Aceituno, P., Sacramento, J., & Grewe, B. F. (2021). Advances in Neural Information Processing Systems, 34, 4674-4687.
+  

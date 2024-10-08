@@ -90,11 +90,14 @@ redirect_from:
   </div>
   </div>
     <p style="font-size: 18px; margin-top: 20px;">
-      hey there 
+      hey there,
       <br><br>
       I am a research scientist in Machine Learning and Neuroscience. I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance. 
-      Most importantly, I am a human being who tries to go through this crazy life with the help of connections, open communications, and love.  
+      Most importantly, I am a human being who tries to go through this immersive life with the help of connections, open communications, and love.  
+      <br><br>
     </p>
-    <img src="/images/about/me_garfagnana.png" alt="Featured" style="width: 200%; height: auto; object-fit: cover;">
+    <div style="text-align: center;">
+    <img src="/images/about/me_ini.JPG" alt="Featured" style="width: 50%; height: auto; object-fit: cover;  border: 4px solid #4B0082;">
+    </div>
   </div>
 </div>
