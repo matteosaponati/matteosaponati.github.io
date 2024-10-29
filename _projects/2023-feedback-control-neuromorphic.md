@@ -11,8 +11,6 @@ citation: 'M Saponati, M Vinck. <i>Nature Communications</i>, 2023.'
 - the goal is to develop an optimizer algorithm for Neuromorphic devices - an algorithms that allows to get some sort of credit-assignment, that is, to optimize some hierarchical structures ONLINE and on Neuromorphic devices
 
 
-
-
 Artificial Neural Networks (ANNs) models and training procedures with error-backpropagation
 algorithms have advanced in the last decades, reaching outstanding performance on tasks such as
 image processing and text generation. The optimization of these networks primarily relies on offline
