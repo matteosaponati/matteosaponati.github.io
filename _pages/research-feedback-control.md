@@ -110,7 +110,11 @@ author_profile: false
     <hr>
   
   <br>
-  In biology we say "form is function," and in computing, we say "the hardware is the software." This reflects the idea that the physical properties and limitations of hardware significantly shape the algorithms that can run on it. The transmission, processing, and storage of information are all influenced by the specific hardware being used. In this project, I work with a specific hardware: mixed-signals neuromorphic devices. Trying to break this down, these devices combine analog units (the neurons) that communicate through binary digital events (the spikes). They are special-purpose, low-power silicon integrated circuits designed to mimic the behavior of biological neurons, with built-in computations and simple learning rules, e.g. STPD and the like.
+
+  I work on this project as a postdoctoral research scientist at ETH Zürich. I am working with Prof. Benjamin Grewe and Prof. Giacomo Indiveri at the Institute of Neuroinformatics (ETH/UZH). 
+  <br><br>
+
+  In biology we say "form is function," and in computing, we say "the hardware is the software." This reflects the idea that the physical properties and limitations of hardware significantly shape the algorithms that can run on it. The transmission, processing, and storage of information are all influenced by the specific hardware being used. In this project, I work with a specific hardware: mixed-signals neuromorphic devices. They are special-purpose, low-power silicon integrated circuits designed to mimic the behavior of biological neurons, with built-in computations and simple learning rules, e.g. STPD and the like.
   <br><br>
 
   The goal of my project is to move forward simple, hard-coded computations and advance the development of a scalable learning algorithm, inspired by biological processes, and compatible with neuromorphic hardware. To do that, I adapt the Machine Learning concepts of search and learning to the neuromorphic world and its hardware properties. I define the architecture and the self-organization principles of the system given a defined objective, and I let the optimizer search in the configuration space with the guidance of data. 

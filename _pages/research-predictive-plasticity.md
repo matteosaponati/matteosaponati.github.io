@@ -110,12 +110,22 @@ author_profile: false
                 The first paper from this project is finally published on Nature Communications <a href="https://www.nature.com/articles/s41467-023-40651-w" target="_blank">here</a> ! 
                 <br> (Saponati, M., & Vinck, M. (2023). Sequence anticipation and spike-timing-dependent plasticity emerge from a predictive learning rule. Nature Communications, 14(1), 4985).
             </li>
+            <li>
+                <strong>11.03.23</strong>
+                I presented some results from this project at the CoSyNe Conference 2023 (I also got a travel grant for this). You can find the abstract by cmd+F "saponati" in <a href="  https://static1.squarespace.com/static/6102ca347474c263c40150cd/t/640b6dddade84c6e64d09bdd/1678470629682/Cosyne2023_program_book.pdf" target="_blank">the conference proceedings</a>.
+                <br> Saponati, M., & Vinck, M. (2023). A predictive plasticity rule entails the anticipation of multiple spike sequences. Cosyne Conference 2023.
+            </li>
+            <li>
+                <strong>11.03.23</strong>
+                I presented some results from this project at the Society for Neuroscience (SfN) Meeting 2022. You can find the abstract of my presentation <a href="https://www.abstractsonline.com/pp8/?_gl=1*jutl04*_gcl_au*MjEzMjY0MjcwOS4xNzMwMTkzNjE1*_ga*MTYxNTY1NjkzNy4xNzMwMTkzNjE1*_ga_T09K3Q2WDN*MTczMDE5MzYxNS4xLjEuMTczMDE5MzYyMS41NC4wLjA.#!/10619/presentation/66033" target="_blank">here</a>.
+                <br> Saponati, M., & Vinck, M. (2022). A predictive plasticity rule explains the anticipation of spike patterns at the single neuron level and the emergence of spike-timing-dependent plasticity mechanisms.
+            </li>
         </ul>
     </div>
     <hr>
   
   <br>
-  
+  moving things here from another repo - work in progress.
+  <br><br><br><br>
   <hr>
   refs:
-  
