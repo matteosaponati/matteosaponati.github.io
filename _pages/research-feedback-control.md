@@ -99,7 +99,7 @@ author_profile: false
         <ul>
             <li>
                 <strong>05.11.24</strong>
-                I gave a talk at the <a href="https://snufa.net" target="_blank">SNUFA Workshop 2024</a> (online). You can find the video of my talk <a href="https://youtu.be/PrkDW28eVko?si=5RDFx0RwuQt-GS02" target="_blank">here</a>.
+                I gave a talk at the <a href="https://snufa.net" target="_blank">SNUFA Workshop 2024</a> (online). You can find the video of my talk <a href="https://youtu.be/PrkDW28eVko?si=mWH7dVDemBnzGjpA" target="_blank">here</a>.
             </li>
             <li>
                 <strong>01.10.24</strong>
