@@ -98,6 +98,10 @@ author_profile: false
   <div class="news-container">
         <ul>
             <li>
+                <strong>05.11.24</strong>
+                I gave a talk at the <a href="https://snufa.net" target="_blank">SNUFA Workshop 2024</a> (online). You can find the video of my talk <a href="https://youtu.be/PrkDW28eVko?si=5RDFx0RwuQt-GS02" target="_blank">here</a>.
+            </li>
+            <li>
                 <strong>01.10.24</strong>
                 I presented some early results at the <a href="https://bernstein-network.de/bernstein-conference/" target="_blank">Bernstein 2024</a> in Frankfurt Am Main (DE). You can find the abstract <a href="https://abstracts.g-node.org/abstracts/74509039-7adb-434e-94db-748438925263" target="_blank">here</a>.
             </li>
