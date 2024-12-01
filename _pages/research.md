@@ -88,7 +88,7 @@ author_profile: false
   </div>
 
    <p style="font-size: 18px; margin-top: 20px;">
-  I am passionate about understanding the principles biological life, designing novel intelligent devices, and contributing to the evolution of Artificial Intelligence. I conduct my research using analytical and numerical tools, with a multidisciplinary approach getting inspiration from Physics, Neuroscience, and Machine Learning.
+  I am passionate about understanding the principles of learning in biological systems, designing novel intelligent devices, and contributing to the evolution of Artificial Intelligence. I conduct my research using analytical and numerical tools, with a multidisciplinary approach getting inspiration from Physics, Neuroscience, and Machine Learning.
   <br><hr><br>
 
 <div>

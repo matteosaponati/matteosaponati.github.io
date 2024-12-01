@@ -96,7 +96,7 @@ redirect_from:
     </div>
     <br><br>
       I am a research scientist in Machine Learning and Neuroscience. I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance. 
-      Most importantly, I am a human being who tries to go through this immersive life with the help of connections, open communications, and love.  
+      Most importantly, I am a human being going through this life with the help of connections, open communication, and love.  
       
   </div>
 </div>

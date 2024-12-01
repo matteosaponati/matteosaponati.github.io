@@ -13,7 +13,7 @@ Since moving to Zurich, I've had the privilege of engaging in open discussions w
 In a nutshell, our motivation for the workshop was as follows: While AI research has been inspired by understanding how the brain works, recent breakthroughs in AI are driven by Machine Learning (ML) algorithms that achieve astonishing performances with only minimal inspiration from biological networks. This tug-of-war between Neuroscience and AI raises some key questions: Which biological features are promising for hardware implementation, and which are merely incidental? What could Neuromorphic Computing gain from integrating insights from the ML community?
 
 <p align="center">
-<img src="https://media.licdn.com/dms/image/v2/D4D22AQFjlOi97zbbSg/feedshare-shrink_1280/feedshare-shrink_1280/0/1727448258379?e=1732752000&v=beta&t=TlaBw5G80ePBLS8gt9LIQGoFt-m_UgkUxPiqwR_7H1E" width="500"/>
+<img src="https://media.licdn.com/dms/image/v2/D4D22AQFjlOi97zbbSg/feedshare-shrink_800/feedshare-shrink_800/0/1727448258398?e=1735776000&v=beta&t=-y82-CQIQiCAaCD_zzDihfkWq7WOaUbiF7dsNDZIp_o" width="500"/>
 <br>
 <em>the logo of our workshop - cute, right?</em>
 </p>
