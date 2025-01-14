@@ -103,12 +103,12 @@ redirect_from:
   <div class="content">
     <br><br>
     <div style="text-align: center;">
-    <img src="/images/about/me-park.png" alt="Featured" style="width: 50%; height: auto; object-fit: cover;  border: 4px solid #4B0082;">
+    <img src="/images/about/me_hamburg.jpeg" alt="Featured" style="width: 50%; height: auto; object-fit: cover;  border: 4px solid #4B0082;">
     </div>
-    <br><br>
+    <br>
     <div style="text-align: left;">
     I am a research scientist in Machine Learning and Neuroscience. I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance.  
-    Most importantly, I am a human being going through this life with the help of connections, open communication, and love.
+    Most importantly, I am a human being going through this life with the help of human connections and open communication.
     </div>
   </div>
 
