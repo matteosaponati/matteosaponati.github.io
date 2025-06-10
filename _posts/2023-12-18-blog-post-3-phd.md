@@ -3,7 +3,7 @@ title: 'I got a PhD (and everything that happened in between)'
 date: 2023-12-16
 permalink: /posts/2023/12/phd_and_everything_in_between/
 published: true
-tags: phd
+tags: my-life
 ---
 
 ![](https://raw.githubusercontent.com/matteosaponati/matteosaponati.github.io/master/files/blog/2023-12-18-phd/me_phd.gif)
