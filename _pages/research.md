@@ -101,12 +101,10 @@ author_profile: false
 
 <div style="text-align: left;">
 <p style="font-size: 18px; margin-top: 5px;">
-  I am passionate about understanding the principles of learning in biological systems, designing novel intelligent devices, and contributing to the evolution of Artificial Intelligence. I conduct my research using analytical and numerical tools, with a multidisciplinary approach getting inspiration from Physics, Neuroscience, and Machine Learning.
-  <br><hr><br>
 
 <div>
   Here you can find my current and previous research projects:
-  <br><br>
+  <br><hr><br>
 
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
       <img src="/files/research/feedback-control/logo-post.png" alt="Optimization Algorithms Image" style="width: 100px; height: auto; margin-right: 15px;">
@@ -114,7 +112,7 @@ author_profile: false
           <a href="https://matteosaponati.github.io/research-feedback-control" style="text-decoration: none;">
               <b>Optimization algorithms for neuromorphic devices</b>
               <br>
-              (Institute of Neuroinformatics - ETH/UZH)
+              (research project - ETH Postdoctoral fellowship)
           </a>
       </div>
   </div>
@@ -123,9 +121,9 @@ author_profile: false
       <img src="/files/research/self-attention-geometry/logo-post.png" alt="Predictive Plasticity Image" style="width: 100px; height: auto; margin-right: 15px;">
       <div>
           <a href="https://matteosaponati.github.io/research-self-attention-geometry" style="text-decoration: none;">
-              <b>Geometrical structures in the self-attention matrices of Transformer models</b>
+              <b>The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training</b>
               <br>
-              (Institute of Neuroinformatics - ETH/UZH)
+              (research article)
           </a>
       </div>
   </div>
@@ -134,9 +132,9 @@ author_profile: false
       <img src="/files/research/predictive-plasticity/logo-predictive-plasticity.png" alt="Predictive Plasticity Image" style="width: 100px; height: auto; margin-right: 15px;">
       <div>
           <a href="https://matteosaponati.github.io/research-predictive-plasticity" style="text-decoration: none;">
-              <b>Predictive plasticity in Spiking Neural Networks</b>
+              <b>A predictive plasticity model to describe learning in single neurons and neural networks</b>
               <br>
-              (Max-Planck Institute for Brain Research - Ernst Strüngmann Institute for Neuroscience)
+              (research articles)
           </a>
       </div>
   </div>
