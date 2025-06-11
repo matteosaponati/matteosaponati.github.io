@@ -131,7 +131,7 @@ author_profile: false
   <strong>SUMMARY</strong>
   </div>
   <br>
-  Self-attention hide a simple geometry: bidirectional encoders induce symmetric matrices, while autoregressive decoders grow a few supersized columns that make the matrices directional. We find this pattern across ModernBERT, GPT, LLaMA 3, and many other models. We also show that symmetric initialization for small and large encoder models reduces training time by up to 70 % without hurting accuracy.
+  Self-attention hides a simple geometry: bidirectional encoders induce symmetric matrices, while autoregressive decoders grow a few supersized columns that make the matrices directional. We find this pattern across ModernBERT, GPT, LLaMA 3, and many other models. We also show that symmetric initialization for small and large encoder models reduces training time by up to 70 % without hurting accuracy.
 
   <hr style="width: 40%; margin: 20px auto;">
 
