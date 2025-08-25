@@ -103,7 +103,7 @@ redirect_from:
   <div class="content">
     <br><br>
     <div style="text-align: center;">
-    <img src="/images/about/me_ini-2.png" alt="Featured" style="width: 50%; height: auto; object-fit: cover;  border: 4px solid #4B0082;">
+    <img src="/images/about/me_ini-2.png" alt="Featured" style="width: 40%; height: auto; object-fit: cover;  border: 4px solid #4B0082;">
     </div>
     <br>
     <div style="text-align: left;">
