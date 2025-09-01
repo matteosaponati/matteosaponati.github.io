@@ -177,7 +177,7 @@ redirect_from:
           </div>
           <div class="project-meta">
           <br>
-            A (playful?) experiment finetuning a language model to channel stream-of-consciousness, “high on LSD”, surreal, dreamy rationales that still nail the correct answer. Trying to push finetuning to the limit, and see if the model finds useful rationale patterns in trippy chain of thoughts.
+            A (playful?) experiment finetuning a language model to channel “high on LSD”, dreamy rationales, push finetuning to the limit, and see if the model finds useful rationale patterns in trippy chain of thoughts.
           </div>
         </div>
       </li>
