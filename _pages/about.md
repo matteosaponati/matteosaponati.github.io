@@ -10,116 +10,216 @@ redirect_from:
 ---
 
 <style>
-  /* Single-column container */
-  .single-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
+  :root{
+    /* Quick knobs */
+    --portrait-size: 200px;            /* desktop/tablet size */
+    --portrait-size-mobile: 200px;     /* mobile image size */
+    --project-thumb-size: 80px;        /* project icon size */
+    --text-size: 16px;                 /* standard body text size (was 18px) */
   }
 
-  /* Title styling */
-  .single-column h1 {
-    font-size: 30px;
-    margin: 0;
-  }
+  /* ===== centered container & header ===== */
+  .container { max-width: 1000px; margin: 0 auto; padding: 0 90px; }
+  .page-header { padding-top: 18px; }
+  .topbar { display: flex; justify-content: flex-end; }
+  .link-list { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
 
-  /* Horizontal navigation list */
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 20px 0 0 0;
+  /* ===== two-column about block ===== */
+  .about-grid{
+    display: grid;
+    grid-template-columns: var(--portrait-size) minmax(420px, 1fr);
+    column-gap: 56px;
+    align-items: stretch;
+    margin-top: 36px;
   }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  /* Icon row */
-  .icons {
-    margin-top: 20px;
-  }
-  .icons a {
-    margin: 0 8px;
-    display: inline-block;
-  }
-  .icons img {
-    width: 1.5em;
-    height: 1.5em;
-  }
-  
-  /* Profile image styling */
-  .profile-image {
-    width: 50%;
+  .image-col{ align-self: stretch; display: flex; justify-content: center; align-items: center; }
+  .portrait{
+    width: 100%;
     height: auto;
     object-fit: cover;
     border: 4px solid #4B0082;
-    margin: 20px 0;
+    display: block;
+    max-width: var(--portrait-size);
+  }
+  .text-col{ max-width: 640px; }
+  .about-text{ font-size: var(--text-size); line-height: 1.6; }
+  .icons{ margin-top: 16px; }
+  .icons a{ margin-right: 8px; display: inline-block; }
+  .icons img{ width: 1.5em; height: 1.5em; }
+
+  /* ===== News ===== */
+  .news-wrap{ margin: 36px 0 32px; }
+  .news-wrap h2{ margin: 0 0 10px 0; font-size: 22px; }
+  .news-wrap ul,
+  .news-wrap li{ font-size: var(--text-size); }
+  .news-wrap ul{ list-style: none; padding: 0; margin: 0; }
+  .news-wrap li{ margin: 10px 0; }
+  .news-wrap .date{ font-weight: bold; white-space: nowrap; margin-right: 8px; }
+
+  /* ===== Projects ===== */
+  .projects-wrap{ margin: 24px 0 70px; }
+  .projects-wrap h2{ margin: 0 0 8px 0; font-size: 22px; }
+
+  .projects-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    row-gap: 12px;
   }
 
-  /* Content text */
-  .content {
-    max-width: 700px;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.6;
+  .project-row{
+    display: grid;
+    grid-template-columns: var(--project-thumb-size) 1fr;
+    column-gap: 12px;
+    align-items: start;
+    padding: 8px 4px;
+    border-radius: 10px;
   }
 
-  /* Mobile responsive adjustments */
-  @media (max-width: 600px) {
-    .single-column h1 {
-      font-size: 24px;
+  /* clickable image, no underline/border */
+  .project-thumb-link{ text-decoration: none; display: inline-block; }
+  .project-thumb{
+    width: var(--project-thumb-size);
+    height: auto;
+    object-fit: cover;
+    border: none;
+    display: block; /* prevent descender gap */
+  }
+
+  /* title link without underline */
+  .project-title{ font-weight: 700; margin: 0 0 2px 0; }
+  .project-title a{ text-decoration: none; }
+  .project-title a:hover{ text-decoration: none; }
+
+  .project-meta,
+  .project-venue,
+  .project-links{ font-size: var(--text-size); }
+  .project-meta{ opacity: .95; margin: 0 0 2px 0; }
+  .project-venue{ font-style: italic; margin: 0 0 6px 0; }
+  .project-links a{}
+  .project-links a + a::before{ content: " | "; margin: 0 6px; }
+
+  /* Last-updated line */
+  .projects-updated{
+    margin-top: 18px;
+    font-size: var(--text-size);
+    opacity: .8;
+  }
+
+  /* ===== Mobile ===== */
+  @media (max-width: 760px){
+    .container{ padding: 0 16px; }
+    .about-grid{
+      grid-template-columns: 1fr;
+      row-gap: 18px;
+      margin-top: 16px;
     }
-    nav ul li a {
-      font-size: 20px;
-    }
-    .profile-image {
-      width: 80%;
+    .image-col{ justify-content: center; }
+    .portrait{
+      width: var(--portrait-size-mobile);
+      max-width: var(--portrait-size-mobile);
     }
   }
 </style>
 
-<div class="single-column">
-  
-   <nav style="font-size: 35px; margin: 0;">
-    <li><a href="https://matteosaponati.github.io/">matteosaponati</a></li></nav>
-    <nav style="font-size: 25px; margin-top: 1px;">
+<header class="page-header">
+  <div class="container topbar">
+    <!-- menu, same styling -->
+    <nav style="font-size: 22px; margin-top: 1px;">
       <ul class="link-list">
-        <li><a href="https://matteosaponati.github.io/research">research</a></li>
+        <li><a href="https://matteosaponati.github.io/">about</a></li>
         <li><a href="https://matteosaponati.github.io/year-archive/">blog</a></li>
         <li><a href="https://matteosaponati.github.io/music">music</a></li>
         <li><a href="/files/cv.pdf">cv</a></li>
       </ul>
     </nav>
-  
-  <div class="content">
+  </div>
+</header>
+
+<main class="container">
+  <!-- About -->
+  <section class="about-grid">
+    <aside class="image-col">
+      <img class="portrait" src="/images/about/me_ini-2.png" alt="Portrait of Matteo Saponati">
+    </aside>
+    <div class="text-col">
+      <div class="about-text">
+        I am a research scientist in Machine Learning and Neuromorphic Computing. I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance.
+        Most importantly, I am a human being going through this life with the help of human connections and open communication.
+      </div>
+
+      <div class="icons" aria-label="Social links">
+        <a href="https://github.com/matteosaponati" target="_blank"><img src="/images/general/github_icon.png" alt="GitHub"></a>
+        <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><img src="/images/general/scholar_icon_circle.png" alt="Google Scholar"></a>
+        <a href="https://www.linkedin.com/in/matteosaponati/" target="_blank"><img src="/images/general/linkedin_icon.png" alt="LinkedIn"></a>
+        <a href="https://twitter.com/matteosaponati" target="_blank"><img src="/images/general/x_icon.png" alt="X/Twitter"></a>
+        <a href="https://www.instagram.com/matteosaponati/" target="_blank"><img src="/images/general/instagram_icon.png" alt="Instagram"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <br><br>
+  <section class="projects-wrap">
+    <h2>projects.</h2>
+    <ul class="projects-list">
+
+      <li class="project-row">
+        <a class="project-thumb-link" href="https://matteosaponati.github.io/research-trippy-cot/">
+          <img class="project-thumb" src="/files/blog/2025-08-24-trippy-cot/ft-trippy.png" alt="Self-attention geometry logo">
+        </a>
+        <div>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-trippy-cot/">
+              finetuning an LLM on trippy mathematical reasoning (wih a couple of RTX 2080 cards)
+            </a>
+          </div>
+          <div class="project-meta">
+            A (playful?) experiment finetuning a language model to channel stream-of-consciousness, “high on LSD”, surreal, dreamy rationales that still nail the correct answer. Trying to push finetuning to the limit, and see if the model finds useful rationale patterns in trippy chain of thoughts.
+          </div>
+        </div>
+      </li>
+
+      <li class="project-row">
+        <a class="project-thumb-link" href="https://matteosaponati.github.io/research-self-attention-geometry">
+          <img class="project-thumb" src="/files/research/self-attention-geometry/logo-post.png" alt="Self-attention geometry logo">
+        </a>
+        <div>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-self-attention-geometry">
+              "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"
+            </a>
+          </div>
+          <div class="project-meta">
+            We show that bidirectional and autoregressive training induces symmetric and directional self-attention matrices, and that these structures can be leveraged for improving performances.
+          </div>
+        </div>
+      </li>
+
+      <li class="project-row">
+        <a class="project-thumb-link" href="https://matteosaponati.github.io/research-feedback-control">
+          <img class="project-thumb" src="/files/research/feedback-control/logo-post.png" alt="Optimization algorithms for neuromorphic devices logo">
+        </a>
+        <div>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-feedback-control">programming mixed-signal devices on-chip with feedback control</a>
+          </div>
+          <div class="project-meta">
+            I develop a novel feedback control algorithm for on-chip training of mixed-signal neuromorphic chips, opening doors for applications in smart sensors, IoT, and autonomous systems.
+          </div>
+        </div>
+      </li>
+
+    </ul>
     <br><br>
-    <div style="text-align: center;">
-    <img src="/images/about/me_ini-2.png" alt="Featured" style="width: 40%; height: auto; object-fit: cover;  border: 4px solid #4B0082;">
+    <div class="projects-updated">
+      last update:
+      {% if page.last_modified_at %}
+        {{ page.last_modified_at | date: "%d %b %Y" }}
+      {% else %}
+        {{ page.date | date: "%d %b %Y" }}
+      {% endif %}
     </div>
-    <br>
-    <div style="text-align: left;">
-    I am a research scientist in Machine Learning and Neuroscience. I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance.  
-    Most importantly, I am a human being going through this life with the help of human connections and open communication.
-    </div>
-  </div>
-
-
-  
-  <div class="icons">
-    <a href="https://github.com/matteosaponati" target="_blank"><img src="/images/general/github_icon.png" alt="GitHub"></a>
-    <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><img src="/images/general/scholar_icon_circle.png" alt="Google Scholar"></a>
-    <a href="https://www.linkedin.com/in/matteosaponati/" target="_blank"><img src="/images/general/linkedin_icon.png" alt="LinkedIn"></a>
-    <a href="https://twitter.com/matteosaponati" target="_blank"><img src="/images/general/x_icon.png" alt="X/Twitter"></a>
-    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><img src="/images/general/instagram_icon.png" alt="Instagram"></a>
-  </div>
-  
-</div>
+  </section>
+</main>

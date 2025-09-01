@@ -5,89 +5,48 @@ permalink: /music/
 author_profile: false
 ---
 
-
 <style>
-  /* Single-column container */
-  .single-column {
+  /* ===== knobs ===== */
+  :root{
+    /* Change this to resize the music image quickly */
+    --music-img-max: 420px; /* e.g., 360px, 500px */
+  }
+
+  /* ===== shared centered container + header menu (same as About) ===== */
+  .container { max-width: 1000px; margin: 0 auto; padding: 0 90px; }
+  .page-header { padding-top: 18px; }
+  .topbar { display: flex; justify-content: flex-end; }
+  .link-list { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
+
+  /* ===== page body ===== */
+  .music-body{
+    margin: 40px 0 60px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;     /* center the block */
     text-align: center;
-    margin: 20px;
   }
-
-  /* Title styling */
-  .single-column h1 {
-    font-size: 30px;
-    margin: 0;
+  .music-body p{
+    font-size: 18px;
+    margin: 2px 0 18px;
   }
-
-  /* Horizontal navigation list */
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 20px 0 0 0;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  /* Icon row */
-  .icons {
-    margin-top: 20px;
-  }
-  .icons a {
-    margin: 0 8px;
-    display: inline-block;
-  }
-  .icons img {
-    width: 1.5em;
-    height: 1.5em;
-  }
-  
-  /* Profile image styling */
-  .profile-image {
-    width: 50%;
+  .music-image{
+    width: 100%;
+    max-width: var(--music-img-max);
     height: auto;
     object-fit: cover;
-    border: 4px solid #4B0082;
-    margin: 20px 0;
+    border: 4px solid #4B0082; /* keep accent color */
   }
 
-  /* Content text */
-  .content {
-    max-width: 700px;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  /* Mobile responsive adjustments */
-  @media (max-width: 600px) {
-    .single-column h1 {
-      font-size: 24px;
-    }
-    nav ul li a {
-      font-size: 20px;
-    }
-    .profile-image {
-      width: 80%;
-    }
+  /* mobile */
+  @media (max-width: 760px){
+    .container { padding: 0 16px; }
   }
 </style>
 
-<div class="single-column">
-  
-   <nav style="font-size: 35px; margin: 0;">
-    <li><a href="https://matteosaponati.github.io/">matteosaponati</a></li></nav>
+<header class="page-header">
+  <div class="container topbar">
+    <!-- keep your exact menu styling, aligned right within gutters -->
     <nav style="font-size: 25px; margin-top: 1px;">
       <ul class="link-list">
         <li><a href="https://matteosaponati.github.io/research">research</a></li>
@@ -96,17 +55,11 @@ author_profile: false
         <li><a href="/files/cv.pdf">cv</a></li>
       </ul>
     </nav>
-  
-  <div class="content">
-    <br><br>
-<div style="flex: 1; padding: 20px; position: relative;">
-    <div style="text-align: right; padding-bottom: 10px;">
   </div>
-  </div>
-    <p style="font-size: 18px; margin-top: 2px;">
-      soon
-      <br><br>
-      <img src="/images/music/msuic_0.jpg" alt="drawing" width="40%"/>
-      <br><br>
-    </p>
-  </div>
+</header>
+
+<main class="container">
+  <section class="music-body">
+    <p>soon.</p>
+  </section>
+</main>

@@ -5,129 +5,144 @@ permalink: /research-self-attention-geometry/
 author_profile: false
 ---
 
-
 <style>
-  /* Single-column container */
-  .single-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
+  :root{
+    /* === text size knobs === */
+    --text-size-desktop: 16px;        /* change me for desktop */
+    --text-size-mobile: 15px;         /* change me for mobile */
+    --text-size: var(--text-size-desktop);
+
+    /* your existing knobs */
+    --portrait-size: 200px;
+    --portrait-size-mobile: 200px;
+    --project-thumb-size: 80px;
   }
 
-  /* Title styling */
-  .single-column h1 {
-    font-size: 30px;
-    margin: 0;
+  /* ===== centered container & header ===== */
+  .container { max-width: 1000px; margin: 0 auto; padding: 0 90px; }
+  .page-header { padding-top: 18px; }
+  .topbar { display: flex; justify-content: flex-end; }
+  .link-list { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
+
+  /* ===== two-column about block ===== */
+  .about-grid{
+    display: grid;
+    grid-template-columns: var(--portrait-size) minmax(420px, 1fr);
+    column-gap: 56px;
+    align-items: stretch;
+    margin-top: 36px;
+  }
+  .image-col{ align-self: stretch; display: flex; justify-content: center; align-items: center; }
+  .portrait{
+    width: 100%; height: auto; object-fit: cover;
+    border: 4px solid #4B0082; display: block; max-width: var(--portrait-size);
+  }
+  .text-col{ max-width: 640px; }
+
+  /* ===== make the article text follow --text-size (even if inline font-size is set) ===== */
+  .research{ font-size: var(--text-size); line-height: 1.65; }
+  .research p{ font-size: var(--text-size) !important; line-height: 1.65; }
+  .research li{ font-size: var(--text-size); }
+  .news-wrap ul, .news-wrap li{ font-size: var(--text-size); }
+
+  .about-text{ font-size: var(--text-size); line-height: 1.6; }
+
+  .icons{ margin-top: 16px; }
+  .icons a{ margin-right: 8px; display: inline-block; }
+  .icons img{ width: 1.5em; height: 1.5em; }
+
+  /* ===== News ===== */
+  .news-wrap{ margin: 36px 0 32px; }
+  .news-wrap h2{ margin: 0 0 10px 0; font-size: 22px; }
+  .news-wrap .date{ font-weight: bold; white-space: nowrap; margin-right: 8px; }
+
+  /* ===== Projects (if any on this page) ===== */
+  .projects-wrap{ margin: 24px 0 70px; }
+  .projects-wrap h2{ margin: 0 0 8px 0; font-size: 22px; }
+
+  .projects-list{
+    list-style: none; padding: 0; margin: 0;
+    display: grid; row-gap: 12px;
   }
 
-  /* Horizontal navigation list */
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 20px 0 0 0;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  /* Icon row */
-  .icons {
-    margin-top: 20px;
-  }
-  .icons a {
-    margin: 0 8px;
-    display: inline-block;
-  }
-  .icons img {
-    width: 1.5em;
-    height: 1.5em;
-  }
-  
-  /* Profile image styling */
-  .profile-image {
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    border: 4px solid #4B0082;
-    margin: 20px 0;
+  .project-row{
+    display: grid;
+    grid-template-columns: var(--project-thumb-size) 1fr;
+    column-gap: 12px;
+    align-items: start;
+    padding: 8px 4px; border-radius: 10px;
   }
 
-  /* Content text */
-  .content {
-    max-width: 700px;
-    margin: auto;
-    font-size: 18px;
-    line-height: 1.6;
-  }
+  .project-thumb{ width: var(--project-thumb-size); height: auto; object-fit: cover; border: none; }
+  .project-title{ font-weight: 700; margin: 0 0 2px 0; }
+  .project-meta, .project-venue, .project-links{ font-size: var(--text-size); }
+  .project-venue{ font-style: italic; margin: 0 0 6px 0; }
+  .project-links a{} .project-links a + a::before{ content: " | "; margin: 0 6px; }
 
-  /* Mobile responsive adjustments */
-  @media (max-width: 600px) {
-    .single-column h1 {
-      font-size: 24px;
+  /* ===== Results table: make it follow --text-size too (overrides later inline table CSS) ===== */
+  .responsive-table{ font-size: var(--text-size) !important; }
+  .responsive-table th, .responsive-table td{ font-size: var(--text-size) !important; }
+
+  /* ===== Mobile ===== */
+  @media (max-width: 760px){
+    :root{ --text-size: var(--text-size-mobile); }  /* switch size on phones */
+
+    .container{ padding: 0 16px; }
+    .about-grid{
+      grid-template-columns: 1fr;
+      row-gap: 18px;
+      margin-top: 16px;
     }
-    nav ul li a {
-      font-size: 20px;
-    }
-    .profile-image {
-      width: 80%;
+    .image-col{ justify-content: center; }
+    .portrait{
+      width: var(--portrait-size-mobile);
+      max-width: var(--portrait-size-mobile);
     }
   }
 </style>
 
 <div class="single-column">
   
-   <nav style="font-size: 35px; margin: 0;">
-    <li><a href="https://matteosaponati.github.io/">matteosaponati</a></li></nav>
-    <nav style="font-size: 25px; margin-top: 1px;">
+ <header class="page-header">
+  <div class="container topbar">
+    <!-- menu, same styling -->
+    <nav style="font-size: 22px; margin-top: 1px;">
       <ul class="link-list">
-        <li><a href="https://matteosaponati.github.io/research">research</a></li>
+        <li><a href="https://matteosaponati.github.io/">about</a></li>
         <li><a href="https://matteosaponati.github.io/year-archive/">blog</a></li>
         <li><a href="https://matteosaponati.github.io/music">music</a></li>
         <li><a href="/files/cv.pdf">cv</a></li>
       </ul>
     </nav>
-  
-  <div class="content">
-    <br><br>
-
- <p style="font-size: 18px; margin-top: 20px;">
-  <div style="text-align: center;">
-    <h2>The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training</h2> 
   </div>
-  <br>
+</header>
 
-  <hr>
-  <div class="news-container" style="text-align: left;">
-        <ul>
-            <li>
-                <strong>01.05.25</strong>
-                The paper got accepted to ICML 2025 :)
-                <br>
-                <br>
-                "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"
-                <br>
-                ICML Proceedings -
-                <!-- <a href="" target="_blank">ICML Proceedings</a> -  -->
-                <a href="https://arxiv.org/abs/2502.10927" target="_blank">ArXiv</a> - 
-                <a href="https://github.com/matteosaponati/attention-geometry" target="_blank">code</a>
-            </li>
-        </ul>
-    </div>
-    <hr>
-  <div style="text-align: left;">
-  <br>
+<br><br>
+
+<main class="container">
+  <article class="research">
+
+    <h1>The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training</h1>
+
+    <hr class="center-hr">
+
+    <!-- News -->
+    <section class="news-box">
+      <ul>
+        <li>
+          <strong>01.05.25</strong> — The paper got accepted to ICML 2025 :)
+          <br>
+          “The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training” —
+          <a href="https://arxiv.org/abs/2502.10927" target="_blank">ArXiv</a> ·
+          <a href="https://github.com/matteosaponati/attention-geometry" target="_blank">code</a>
+        </li>
+      </ul>
+    </section>
+
+    <hr class="center-hr">
 
   <div style="text-align: center;">
+  <br>
   <strong>SUMMARY</strong>
   </div>
   <br>
@@ -423,7 +438,5 @@ author_profile: false
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-
-  </div>
 
 
