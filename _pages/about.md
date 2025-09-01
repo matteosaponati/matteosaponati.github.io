@@ -88,7 +88,7 @@ redirect_from:
   }
 
   /* title link without underline */
-  .project-title{ font-weight: 700; margin: 0 0 2px 0; }
+  .project-title{ font-weight: 500; margin: 0 0 2px 0; }
   .project-title a{ text-decoration: none; }
   .project-title a:hover{ text-decoration: none; }
 
@@ -172,10 +172,11 @@ redirect_from:
         <div>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-trippy-cot/">
-              finetuning an LLM on trippy mathematical reasoning (wih a couple of RTX 2080 cards)
+              [2025] finetuning an LLM on trippy mathematical reasoning (wih a couple of RTX 2080 cards)
             </a>
           </div>
           <div class="project-meta">
+          <br>
             A (playful?) experiment finetuning a language model to channel stream-of-consciousness, “high on LSD”, surreal, dreamy rationales that still nail the correct answer. Trying to push finetuning to the limit, and see if the model finds useful rationale patterns in trippy chain of thoughts.
           </div>
         </div>
@@ -188,10 +189,11 @@ redirect_from:
         <div>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-self-attention-geometry">
-              "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"
+              [2025] "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"
             </a>
           </div>
           <div class="project-meta">
+          <br>
             We show that bidirectional and autoregressive training induces symmetric and directional self-attention matrices, and that these structures can be leveraged for improving performances.
           </div>
         </div>
@@ -203,9 +205,10 @@ redirect_from:
         </a>
         <div>
           <div class="project-title">
-            <a href="https://matteosaponati.github.io/research-feedback-control">programming mixed-signal devices on-chip with feedback control</a>
+            <a href="https://matteosaponati.github.io/research-feedback-control">[2024] programming mixed-signal devices on-chip with feedback control</a>
           </div>
           <div class="project-meta">
+          <br>
             I develop a novel feedback control algorithm for on-chip training of mixed-signal neuromorphic chips, opening doors for applications in smart sensors, IoT, and autonomous systems.
           </div>
         </div>
