@@ -47,9 +47,9 @@ author_profile: false
 <header class="page-header">
   <div class="container topbar">
     <!-- keep your exact menu styling, aligned right within gutters -->
-    <nav style="font-size: 25px; margin-top: 1px;">
+    <nav style="font-size: 22px; margin-top: 1px;">
       <ul class="link-list">
-        <li><a href="https://matteosaponati.github.io/research">research</a></li>
+        <li><a href="https://matteosaponati.github.io/">about</a></li>
         <li><a href="https://matteosaponati.github.io/year-archive/">blog</a></li>
         <li><a href="https://matteosaponati.github.io/music">music</a></li>
         <li><a href="/files/cv.pdf">cv</a></li>
