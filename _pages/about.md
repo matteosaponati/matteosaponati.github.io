@@ -145,10 +145,13 @@ redirect_from:
     </aside>
     <div class="text-col">
       <div class="about-text">
+        <h2>hi, I am Matteo.</h2>
         I am a research scientist in Machine Learning and Neuromorphic Computing. I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance.
         Most importantly, I am a human being going through this life with the help of human connections and open communication.
+        <br><br>
+        I usally experiment and do stuff with LLMs. I also work with <a href="https://ieeexplore.ieee.org/abstract/document/11065428" target="_blank">"efficient and exotic hardware"</a> that implement neural computations with analog circuits. I have a PhD in Neuroinformatics with a <a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">thesis</a> on synaptic plasticity and predictive processes in biological and artificial networks. 
       </div>
-
+      <br>
       <div class="icons" aria-label="Social links">
         <a href="https://github.com/matteosaponati" target="_blank"><img src="/images/general/github_icon.png" alt="GitHub"></a>
         <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><img src="/images/general/scholar_icon_circle.png" alt="Google Scholar"></a>
