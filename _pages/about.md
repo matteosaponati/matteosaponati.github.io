@@ -12,10 +12,11 @@ redirect_from:
 <style>
   :root{
     /* Quick knobs */
-    --portrait-size: 200px;            /* desktop/tablet size */
-    --portrait-size-mobile: 200px;     /* mobile image size */
+    --portrait-size: 300px;            /* desktop/tablet size */
+    --portrait-size-mobile: 300px;     /* mobile image size */
     --project-thumb-size: 80px;        /* project icon size */
     --text-size: 16px;                 /* standard body text size (was 18px) */
+
   }
 
   /* ===== centered container & header ===== */
@@ -40,6 +41,7 @@ redirect_from:
     border: 4px solid #4B0082;
     display: block;
     max-width: var(--portrait-size);
+    border-radius: 32px;
   }
   .text-col{ max-width: 640px; }
   .about-text{ font-size: var(--text-size); line-height: 1.6; }
@@ -146,10 +148,12 @@ redirect_from:
     <div class="text-col">
       <div class="about-text">
         <h2>hi, I am Matteo.</h2>
-        I am a research scientist in Machine Learning and Neuromorphic Computing. I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance.
+        I am a research scientist in Machine Learning and Neuromorphic Computing. 
+        <br><br>
+        I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance.
         Most importantly, I am a human being going through this life with the help of human connections and open communication.
         <br><br>
-        I usually experiment and do stuff with LLMs. I also work with <a href="https://ieeexplore.ieee.org/abstract/document/11065428" target="_blank">"efficient and exotic hardware"</a> that implement neural computations with analog circuits. I have a PhD in Neuroinformatics with a <a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">thesis</a> on synaptic plasticity and predictive processes in biological and artificial networks. 
+        I usually experiment and <a href="https://icml.cc/virtual/2025/poster/44452" target="_blank">do stuff with LLMs</a>. I also work with <a href="https://ieeexplore.ieee.org/abstract/document/11065428" target="_blank">"efficient and exotic hardware"</a> that implement neural computations with analog circuits. I have a PhD in Neuroinformatics with a <a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">thesis</a> on synaptic plasticity and predictive processes in biological and artificial networks. 
       </div>
       <br>
       <div class="icons" aria-label="Social links">
@@ -163,9 +167,11 @@ redirect_from:
   </section>
 
   <!-- Projects -->
-  <br><br>
+  <br>
+  <br>
   <section class="projects-wrap">
     <h2>projects.</h2>
+    <br>
     <ul class="projects-list">
 
       <li class="project-row">
@@ -175,12 +181,11 @@ redirect_from:
         <div>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-trippy-cot/">
-              finetuning an LLM on trippy mathematical reasoning (wih a couple of RTX 2080 cards)
+              <b>finetuning an LLM on trippy mathematical reasoning (wih a couple of RTX 2080 cards)</b>
             </a>
           </div>
           <div class="project-meta">
-          <br>
-            2025 - A (playful?) experiment finetuning a language model to channel “high on LSD”, dreamy rationales, push finetuning to the limit, and see if the model finds useful rationale patterns in trippy chain of thoughts.
+          a (playful?) experiment finetuning a language model to channel “high on LSD”, dreamy rationales, push finetuning to the limit, and see if the model finds useful rationale patterns in trippy chain of thoughts.
           </div>
         </div>
       </li>
@@ -192,12 +197,11 @@ redirect_from:
         <div>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-self-attention-geometry">
-              "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"
+              <b>"The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"</b>
             </a>
           </div>
           <div class="project-meta">
-          <br>
-            2025 - We show that bidirectional and autoregressive training induces symmetric and directional self-attention matrices, and that these structures can be leveraged for improving performances.
+            we show that bidirectional and autoregressive training induces symmetric and directional self-attention matrices, and that these structures can be leveraged for improving performances.
           </div>
         </div>
       </li>
@@ -208,11 +212,10 @@ redirect_from:
         </a>
         <div>
           <div class="project-title">
-            <a href="https://matteosaponati.github.io/research-feedback-control">programming mixed-signal devices on-chip with feedback control</a>
+            <a href="https://matteosaponati.github.io/research-feedback-control"><b>programming mixed-signal devices on-chip with feedback control</b></a>
           </div>
           <div class="project-meta">
-          <br>
-            2024 - I develop a novel feedback control algorithm for on-chip training of mixed-signal neuromorphic chips, opening doors for applications in smart sensors, IoT, and autonomous systems.
+          I develop a novel feedback control algorithm for on-chip training of mixed-signal neuromorphic chips, opening doors for applications in smart sensors, IoT, and autonomous systems.
           </div>
         </div>
       </li>
