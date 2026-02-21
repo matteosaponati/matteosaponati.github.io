@@ -1,0 +1,2 @@
+---
+BUNDLE_BUILD__BIGDECIMAL: "--with-cppflags=-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
