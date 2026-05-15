@@ -224,7 +224,7 @@ redirect_from:
         <div class="project-entry">
           <time class="project-date" datetime="2026-04">Apr 2026</time>
           <div class="project-title">
-            <a href="https://tufalabs.ai/research/enhancing-reasoning-small-language-models/">
+            <a href="https://matteosaponati.github.io/synth-pretrain-very-small-reasoning-models/">
               <b>building a cognitive core 1: synthetic pretraining.</b>
             </a>
           </div>
@@ -246,7 +246,7 @@ redirect_from:
         <div class="project-entry">
           <time class="project-date" datetime="2026-01">Jan 2026</time>
           <div class="project-title">
-            <a href="https://matteosaponati.github.io/research-self-attention-geometry">
+            <a href="https://matteosaponati.github.io//research-feedback-control-1/">
               <b>paper accepted at ISCAS 2026 ✨ <br> "Mixed-signal implementation of feedback-control optimizer for single-layer Spiking Neural Networks".</b>
             </a>
           </div>
