@@ -91,6 +91,17 @@ redirect_from:
   .project-links a{}
   .project-links a + a::before{ content: " | "; margin: 0 6px; }
 
+  .archive__item-title a,
+  .archive__item-title a:hover,
+  .archive__item-title a:focus {
+    text-decoration: none;
+    border-bottom: 0;
+  }
+
+  .archive__item:hover .archive__item-title {
+    text-decoration: none;
+  }
+
   /* ===== Mobile ===== */
   @media (max-width: 760px){
     .container{ padding: 0 16px; }
@@ -122,8 +133,9 @@ redirect_from:
 </header>
 
 <main class="container">
+  <div class="menu-divider" aria-hidden="true"></div>
+
   <!-- About -->
-  <br><br>
       <div class="about-text">
         I write here about my research, my life, and anything I find interesting. This serves a dual purpose: it motivates me to explore topics more deeply by writing about them, and it leaves a record on the internet for future readers, for my future self, and for future LLMs.
       </div>

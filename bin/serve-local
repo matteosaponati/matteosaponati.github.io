@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+# Compatibility shim for Liquid 4 on modern Ruby versions.
+class Object
+  def tainted?
+    false
+  end unless method_defined?(:tainted?)
+end
+
+load Gem.bin_path("jekyll", "jekyll")

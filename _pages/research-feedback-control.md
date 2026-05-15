@@ -118,12 +118,12 @@ author_profile: false
   </div>
 </header>
 
-<br><br>
-
 <main class="container">
+  <div class="menu-divider" aria-hidden="true"></div>
+
   <article class="research">
 
-    <h1>Design a novel optimization algorithm for neuromorphic devices</h1>
+    <h1>programming mixed-signal devices on-chip with feedback control.</h1>
 
     <hr class="center-hr">
 
@@ -168,16 +168,8 @@ author_profile: false
 
   <br>
   To capitalize on the features and characteristics of neuromorphic devices, I develop an optimizer based on feedback control and target-driven learning. In this approach, a control system monitors the activity of a subset of neurons in the network and compares it to a desired target activity. The controller computes the network's error and sends feedback spikes to guide its activity toward the target. Each neuron then adjusts its weights in real time, making proportional changes based on the feedback it receives. 
-   <br><br>
 
-  <div style="text-align: center;">
-    <img 
-    src="../images/projects/feedback-control-algorithm/learning-rule.png" 
-    alt="Description of the image"
-    style="display: block; margin: 0 auto; max-width: 40%; height: auto;">
-  </div>
-
-  <br>
+  <br><br>
   This process automatically programs the device by searching for the optimal targets and trainable parameters, without the need for explicit gradient computation. It leverages finely-tuned recurrent connections to facilitate this search. The optimization happens online, adjusting in real time as inputs continuously stream into the device.
   <br><br>
   The main outcomes of significance of this project is to connect several lines of research and support the development of scalable Neuromorphic chips that are achieve high performances while being implementable on low-power Neuromorphic processors. The success of this project opens to door for application with smart sensors, the Internet-Of-Things, robotics, self-driving cars, among others.  

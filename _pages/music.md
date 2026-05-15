@@ -59,6 +59,8 @@ author_profile: false
 </header>
 
 <main class="container">
+  <div class="menu-divider" aria-hidden="true"></div>
+
   <section class="music-body">
     <p>soon.</p>
   </section>

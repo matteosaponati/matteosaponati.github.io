@@ -69,6 +69,10 @@ author_profile: false
     line-height: 1.6;
   }
 
+  .menu-divider {
+    width: min(700px, 100%);
+  }
+
   /* Mobile responsive adjustments */
   @media (max-width: 600px) {
     .single-column h1 {
@@ -95,9 +99,10 @@ author_profile: false
         <li><a href="/files/cv.pdf">cv</a></li>
       </ul>
     </nav>
+
+  <div class="menu-divider" aria-hidden="true"></div>
   
   <div class="content">
-    <br><br>
 
 <div style="text-align: left;">
 <p style="font-size: 18px; margin-top: 5px;">
