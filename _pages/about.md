@@ -4,6 +4,7 @@ permalink: /
 title: "about"
 excerpt: "about"
 author_profile: false
+last_modified_at: 2026-05-08
 redirect_from: 
   - /about/
   - /about.html
@@ -12,10 +13,11 @@ redirect_from:
 <style>
   :root{
     /* Quick knobs */
-    --portrait-size: 300px;            /* desktop/tablet size */
-    --portrait-size-mobile: 300px;     /* mobile image size */
+    --portrait-size: 180px;            /* desktop/tablet size */
+    --portrait-size-mobile: 180px;     /* mobile image size */
     --project-thumb-size: 80px;        /* project icon size */
     --text-size: 16px;                 /* standard body text size (was 18px) */
+    --accent-color: #3a0a57;
 
   }
 
@@ -24,29 +26,44 @@ redirect_from:
   .page-header { padding-top: 18px; }
   .topbar { display: flex; justify-content: flex-end; }
   .link-list { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
+  .link-list a{ color: var(--accent-color); }
 
   /* ===== two-column about block ===== */
   .about-grid{
     display: grid;
-    grid-template-columns: var(--portrait-size) minmax(420px, 1fr);
-    column-gap: 56px;
-    align-items: stretch;
-    margin-top: 36px;
+    grid-template-columns: var(--portrait-size) minmax(300px, 420px);
+    grid-template-areas: "image text";
+    column-gap: 0;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 0;
   }
-  .image-col{ align-self: stretch; display: flex; justify-content: center; align-items: center; }
+  .image-col{
+    grid-area: image;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
   .portrait{
-    width: 100%;
-    height: auto;
+    width: var(--portrait-size);
+    height: var(--portrait-size);
     object-fit: cover;
-    border: 4px solid #4B0082;
+    border: 3px solid #000;
     display: block;
     max-width: var(--portrait-size);
-    border-radius: 32px;
+    border-radius: 50%;
   }
-  .text-col{ max-width: 640px; }
+  .text-col{ grid-area: text; max-width: 420px; }
   .about-text{ font-size: var(--text-size); line-height: 1.6; }
-  .icons{ margin-top: 16px; }
-  .icons a{ margin-right: 8px; display: inline-block; }
+  .about-text h2{ margin-top: 0; }
+  .icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin: 56px auto 0;
+  }
+  .icons a{ display: inline-block; }
   .icons img{ width: 1.5em; height: 1.5em; }
 
   /* ===== News ===== */
@@ -59,48 +76,73 @@ redirect_from:
   .news-wrap .date{ font-weight: bold; white-space: nowrap; margin-right: 8px; }
 
   /* ===== Projects ===== */
-  .projects-wrap{ margin: 24px 0 70px; }
-  .projects-wrap h2{ margin: 0 0 8px 0; font-size: 22px; }
+  .projects-wrap{
+    margin: 36px 0 70px;
+  }
+  .projects-wrap h2{
+    display: inline-block;
+    margin: 0;
+    font-size: 22px;
+  }
 
   .projects-list{
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 18px 0 4px 52px;
+    margin: 14px 0 0 0;
     display: grid;
-    row-gap: 12px;
+    row-gap: 24px;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .projects-list::before{
+    content: "";
+    position: absolute;
+    top: -6px;
+    bottom: 0;
+    left: 18px;
+    width: 4px;
+    background: var(--accent-color);
+    opacity: .3;
   }
 
   .project-row{
-    display: grid;
-    grid-template-columns: var(--project-thumb-size) 1fr;
-    column-gap: 12px;
-    align-items: start;
-    padding: 8px 4px;
-    border-radius: 10px;
+    --project-title-midline: calc(15.6px + 4px + 0.7em);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    min-height: 32px;
+    padding: 0;
   }
 
-  /* clickable image, no underline/border */
-  .project-thumb-link{ text-decoration: none; display: inline-block; }
-  .project-thumb{
-    width: var(--project-thumb-size);
-    height: auto;
-    object-fit: cover;
-    border: none;
-    display: block; /* prevent descender gap */
+  .project-row::before{
+    content: "";
+    position: absolute;
+    left: -39px;
+    top: calc(var(--project-title-midline) - 7px);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--accent-color);
+  }
+
+  .project-entry{
+    position: relative;
+    display: grid;
+    row-gap: 4px;
+    padding-left: 6px;
+  }
+
+  .project-date{
+    font-size: 13px;
+    line-height: 1.2;
+    color: #7a8288;
   }
 
   /* title link without underline */
-  .project-title{ font-weight: 500; margin: 0 0 2px 0; }
+  .project-title{ font-weight: 500; margin: 0; font-size: var(--text-size); line-height: 1.4; }
   .project-title a{ text-decoration: none; }
   .project-title a:hover{ text-decoration: none; }
-
-  .project-meta,
-  .project-venue,
-  .project-links{ font-size: var(--text-size); }
-  .project-meta{ opacity: .95; margin: 0 0 2px 0; }
-  .project-venue{ font-style: italic; margin: 0 0 6px 0; }
-  .project-links a{}
-  .project-links a + a::before{ content: " | "; margin: 0 6px; }
 
   /* Last-updated line */
   .projects-updated{
@@ -114,14 +156,20 @@ redirect_from:
     .container{ padding: 0 16px; }
     .about-grid{
       grid-template-columns: 1fr;
+      grid-template-areas:
+        "image"
+        "text";
       row-gap: 18px;
-      margin-top: 16px;
+      margin-top: 0;
     }
     .image-col{ justify-content: center; }
+    .text-col{ max-width: none; }
     .portrait{
       width: var(--portrait-size-mobile);
+      height: var(--portrait-size-mobile);
       max-width: var(--portrait-size-mobile);
     }
+    .projects-list{ max-width: none; }
   }
 </style>
 
@@ -140,6 +188,8 @@ redirect_from:
 </header>
 
 <main class="container">
+  <div class="menu-divider" aria-hidden="true"></div>
+
   <!-- About -->
   <section class="about-grid">
     <aside class="image-col">
@@ -148,74 +198,88 @@ redirect_from:
     <div class="text-col">
       <div class="about-text">
         <h2>hi, I am Matteo.</h2>
-        I am a research scientist in Machine Learning and Neuromorphic Computing. 
+        I am a research scientist. 
         <br><br>
-        I am fascinated by life and intelligence, and I like to study complex systems. I love to play music and dance.
-        Most importantly, I am a human being going through this life with the help of human connections and open communication.
-        <br><br>
-        I usually experiment and <a href="https://icml.cc/virtual/2025/poster/44452" target="_blank">do stuff with LLMs</a>. I also work with <a href="https://ieeexplore.ieee.org/abstract/document/11065428" target="_blank">"efficient and exotic hardware"</a> that implement neural computations with analog circuits. I have a PhD in Neuroinformatics with a <a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">thesis</a> on synaptic plasticity and predictive processes in biological and artificial networks. 
-      </div>
-      <br>
-      <div class="icons" aria-label="Social links">
-        <a href="https://github.com/matteosaponati" target="_blank"><img src="/images/general/github_icon.png" alt="GitHub"></a>
-        <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><img src="/images/general/scholar_icon_circle.png" alt="Google Scholar"></a>
-        <a href="https://www.linkedin.com/in/matteosaponati/" target="_blank"><img src="/images/general/linkedin_icon.png" alt="LinkedIn"></a>
-        <a href="https://twitter.com/matteosaponati" target="_blank"><img src="/images/general/x_icon.png" alt="X/Twitter"></a>
-        <a href="https://www.instagram.com/matteosaponati/" target="_blank"><img src="/images/general/instagram_icon.png" alt="Instagram"></a>
+        I am fascinated by life and intelligence. Most importantly, I am a human being going through this life with the help of human connections and open communication.
+        <!-- <br><br> -->
+        <!-- I usually experiment and <a href="https://icml.cc/virtual/2025/poster/44452" target="_blank">do stuff with LLMs</a>. I also work with <a href="https://ieeexplore.ieee.org/abstract/document/11065428" target="_blank">"efficient and exotic hardware"</a> that implement neural computations with analog circuits. I have a PhD in Neuroinformatics with a <a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">thesis</a> on synaptic plasticity and predictive processes in biological and artificial networks.  -->
       </div>
     </div>
   </section>
 
+  <div class="icons" aria-label="Social links">
+    <a href="https://github.com/matteosaponati" target="_blank"><img src="/images/general/github_icon.png" alt="GitHub"></a>
+    <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><img src="/images/general/scholar_icon_circle.png" alt="Google Scholar"></a>
+    <a href="https://www.linkedin.com/in/matteosaponati/" target="_blank"><img src="/images/general/linkedin_icon.png" alt="LinkedIn"></a>
+    <a href="https://twitter.com/matteosaponati" target="_blank"><img src="/images/general/x_icon.png" alt="X/Twitter"></a>
+    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><img src="/images/general/instagram_icon.png" alt="Instagram"></a>
+  </div>
+
   <!-- Projects -->
-  <br>
-  <br>
   <section class="projects-wrap">
     <h2>projects.</h2>
-    <br>
     <ul class="projects-list">
 
       <li class="project-row">
-        <a class="project-thumb-link" href="https://matteosaponati.github.io/research-trippy-cot/">
-          <img class="project-thumb" src="/files/blog/2025-08-24-trippy-cot/ft-trippy.png" alt="Self-attention geometry logo">
-        </a>
-        <div>
+        <div class="project-entry">
+          <time class="project-date" datetime="2026-04">Apr 2026</time>
           <div class="project-title">
-            <a href="https://matteosaponati.github.io/research-trippy-cot/">
-              <b>finetuning an LLM on trippy mathematical reasoning (wih a couple of RTX 2080 cards)</b>
+            <a href="https://tufalabs.ai/research/enhancing-reasoning-small-language-models/">
+              <b>building a cognitive core 1: synthetic pretraining.</b>
             </a>
-          </div>
-          <div class="project-meta">
-          a (playful?) experiment finetuning a language model to channel “high on LSD”, dreamy rationales, push finetuning to the limit, and see if the model finds useful rationale patterns in trippy chain of thoughts.
           </div>
         </div>
       </li>
 
       <li class="project-row">
-        <a class="project-thumb-link" href="https://matteosaponati.github.io/research-self-attention-geometry">
-          <img class="project-thumb" src="/files/research/self-attention-geometry/logo-post.png" alt="Self-attention geometry logo">
-        </a>
-        <div>
+        <div class="project-entry">
+          <time class="project-date" datetime="2026-02">Feb 2026</time>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-adversarial-robustness">
+              <b>paper accepted at CVPR 2026 ✨ <br> "A combination of noise and bilateral filters achieve supralinear and scalable adversarial robustness in CNNs".</b>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="project-row">
+        <div class="project-entry">
+          <time class="project-date" datetime="2026-01">Jan 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-self-attention-geometry">
-              <b>"The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"</b>
+              <b>paper accepted at ISCAS 2026 ✨ <br> "Mixed-signal implementation of feedback-control optimizer for single-layer Spiking Neural Networks".</b>
             </a>
-          </div>
-          <div class="project-meta">
-            we show that bidirectional and autoregressive training induces symmetric and directional self-attention matrices, and that these structures can be leveraged for improving performances.
           </div>
         </div>
       </li>
 
       <li class="project-row">
-        <a class="project-thumb-link" href="https://matteosaponati.github.io/research-feedback-control">
-          <img class="project-thumb" src="/files/research/feedback-control/logo-post.png" alt="Optimization algorithms for neuromorphic devices logo">
-        </a>
-        <div>
+        <div class="project-entry">
+          <time class="project-date" datetime="2025-08">Aug 2025</time>
           <div class="project-title">
-            <a href="https://matteosaponati.github.io/research-feedback-control"><b>programming mixed-signal devices on-chip with feedback control</b></a>
+            <a href="https://matteosaponati.github.io/research-trippy-cot/">
+              <b>finetuning Qwen2.5-7B on trippy mathematical reasoning.</b>
+            </a>
           </div>
-          <div class="project-meta">
-          I develop a novel feedback control algorithm for on-chip training of mixed-signal neuromorphic chips, opening doors for applications in smart sensors, IoT, and autonomous systems.
+        </div>
+      </li>
+
+      <li class="project-row">
+        <div class="project-entry">
+          <time class="project-date" datetime="2025-05">May 2025</time>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-self-attention-geometry">
+              <b>paper accepted at ICML 2025 ✨ <br> "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training".</b>
+            </a>
+          </div>
+        </div>
+      </li>
+
+      <li class="project-row">
+        <div class="project-entry">
+          <time class="project-date" datetime="2024-03">Mar 2024</time>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-feedback-control"><b>programming mixed-signal devices on-chip with feedback control.</b></a>
           </div>
         </div>
       </li>
@@ -223,12 +287,7 @@ redirect_from:
     </ul>
     <br><br>
     <div class="projects-updated">
-      last update:
-      {% if page.last_modified_at %}
-        {{ page.last_modified_at | date: "%d %b %Y" }}
-      {% else %}
-        {{ page.date | date: "%d %b %Y" }}
-      {% endif %}
+      last update: {{ page.last_modified_at | date: "%d %b %Y" }}
     </div>
   </section>
 </main>
