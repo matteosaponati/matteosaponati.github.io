@@ -41,6 +41,7 @@ author_profile: false
 
   /* ===== make the article text follow --text-size (even if inline font-size is set) ===== */
   .research{ font-size: var(--text-size); line-height: 1.65; }
+  .research .section-title{ color: #3a0a57; font-weight: 700; }
   .research p{ font-size: var(--text-size) !important; line-height: 1.65; }
   .research li{ font-size: var(--text-size); }
   .news-wrap ul, .news-wrap li{ font-size: var(--text-size); }
@@ -117,29 +118,12 @@ author_profile: false
   </div>
 </header>
 
-<br><br>
-
 <main class="container">
+  <div class="menu-divider" aria-hidden="true"></div>
+
   <article class="research">
 
-    <h1>The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training</h1>
-
-    <hr class="center-hr">
-
-    <!-- News -->
-    <section class="news-box">
-      <ul>
-        <li>
-          <strong>01.05.25</strong> — The paper got accepted to ICML 2025 :)
-          <br>
-          “The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training” —
-          <a href="https://arxiv.org/abs/2502.10927" target="_blank">ArXiv</a> ·
-          <a href="https://github.com/matteosaponati/attention-geometry" target="_blank">code</a>
-        </li>
-      </ul>
-    </section>
-
-    <hr class="center-hr">
+    <h1>"The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training"</h1>
 
   <div style="text-align: center;">
   <br>
@@ -148,11 +132,15 @@ author_profile: false
   <br>
   Self-attention hides a simple geometry: bidirectional encoders induce symmetric matrices, while autoregressive decoders grow a few supersized columns that make the matrices directional. We find this pattern across ModernBERT, GPT, LLaMA 3, and many other models. We also show that symmetric initialization for small and large encoder models reduces training time by up to 70 % without hurting accuracy.
 
+  <div style="text-align: center; margin: 18px 0 0;">
+    <a href="https://icml.cc/virtual/2025/poster/44452" target="_blank">ICML 2025 paper</a>
+  </div>
+
   <hr style="width: 40%; margin: 20px auto;">
 
   <br>
   <div style="text-align: center;">
-  <strong>1 - Self-attention and bilinear forms</strong>
+  <strong class="section-title">1 - Self-attention and bilinear forms</strong>
   </div>
   <br>
 
@@ -182,7 +170,7 @@ author_profile: false
   
   <br><br>
   <div style="text-align: center;">
-  <strong>2 - Deriving the implicit gradients of self-attention</strong>
+  <strong class="section-title">2 - Deriving the implicit gradients of self-attention</strong>
   </div>
   <br>
 
@@ -258,7 +246,7 @@ author_profile: false
 
   <br><br>
   <div style="text-align: center;">
-  <strong>3 - How context and prediction impact the gradient differently</strong>
+  <strong class="section-title">3 - How context and prediction impact the gradient differently</strong>
   </div>
   <br>
 
@@ -277,7 +265,7 @@ author_profile: false
 
   <br><br>
   <div style="text-align: center;">
-  <strong>4 - The relation between objective functions and structures in self-attention matrices</strong>
+  <strong class="section-title">4 - The relation between objective functions and structures in self-attention matrices</strong>
   </div>
   <br>
 
@@ -296,7 +284,7 @@ author_profile: false
 
   <br><br>
   <div style="text-align: center;">
-  <strong>5 - Symmetric and directional structures are predominant in Transformer models</strong>
+  <strong class="section-title">5 - Symmetric and directional structures are predominant in Transformer models</strong>
   </div>
   <br>
 
@@ -315,7 +303,7 @@ author_profile: false
   
   <br><br>
   <div style="text-align: center;">
-  <strong>6 - Enforcing symmetry at initialization improves the training of encoder-only models</strong>
+  <strong class="section-title">6 - Enforcing symmetry at initialization improves the training of encoder-only models</strong>
   </div>
   <br>
 
@@ -409,7 +397,7 @@ author_profile: false
 
   <br><br>
   <div style="text-align: center;">
-  <strong>7 - Conclusions</strong>
+  <strong class="section-title">7 - Conclusions</strong>
   </div>
   <br>
 
@@ -438,5 +426,3 @@ author_profile: false
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
-
-
