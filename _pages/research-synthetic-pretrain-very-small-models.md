@@ -91,7 +91,7 @@ author_profile: false
   <br><br>
   To this goal, this project asks a first practical question: can synthetic pretraining data make very small language models better at reasoning?
   <br><br>
-  We pretrain dense 0.8B Qwen-style models on a math corpus, then compare the original data against three synthetic augmentations. The answer is yes: synthetic pretraining improves few-shot reasoning on GSM8K and MATH500, strengthens in-context learning, and reaches the original model's final performance with substantially fewer training tokens.
+  I pretrain dense 0.8B Qwen-style models on a math corpus, then compare the original data against three synthetic augmentations. The answer is yes: synthetic pretraining improves few-shot reasoning on GSM8K and MATH500, strengthens in-context learning, and reaches the original model's final performance with substantially fewer training tokens.
 
   <div class="paper-link">
     <a href="https://tufalabs.ai/research/enhancing-reasoning-small-language-models/" target="_blank">Research post (Tufa Labs)</a>
@@ -105,13 +105,13 @@ author_profile: false
   </div>
   <br>
 
-  Synthetic data is becoming a central part of modern language-model pretraining. Beyond simply adding more text, it gives us control over the training signal: we can rewrite examples to expose hidden reasoning steps, add missing context, and make dependencies easier for an autoregressive learner to recover.
+  Synthetic data is becoming a central part of modern language-model pretraining. Beyond simply adding more text, it gives me control over the training signal: I can rewrite examples to expose hidden reasoning steps, add missing context, and make dependencies easier for an autoregressive learner to recover.
 
   <br><br>
   The hypothesis here is simple. If math-heavy data is rewritten into more explicit, reasoning-friendly trajectories, then each token should carry more useful supervision. This should matter especially for very small models, where every token and every parameter has to work harder.
 
   <br><br>
-  We test three data transformations:
+  I test three data transformations:
   <br>
   1. <strong>TPT</strong>, which adds explicit thought-process structure.
   <br>
@@ -128,7 +128,7 @@ author_profile: false
   </div>
   <br>
 
-  We evaluate the pretrained models on GSM8K and MATH500 using chain-of-thought prompting across different numbers of demonstrations. The key metric is the gain over zero-shot accuracy:
+  I evaluate the pretrained models on GSM8K and MATH500 using chain-of-thought prompting across different numbers of demonstrations. The key metric is the gain over zero-shot accuracy:
 
   $$
   \text{gain}(k) = \text{acc}(k) - \text{acc}(0).
@@ -151,7 +151,7 @@ author_profile: false
   </div>
   <br>
 
-  Few-shot evaluation can be fragile: results depend on which examples are shown, in what order, and how closely the prompt format matches the model's training distribution. To check that the effect is not just a lucky set of demonstrations, we repeat the evaluation with random chain-of-thought examples sampled per question.
+  Few-shot evaluation can be fragile: results depend on which examples are shown, in what order, and how closely the prompt format matches the model's training distribution. To check that the effect is not just a lucky set of demonstrations, I repeat the evaluation with random chain-of-thought examples sampled per question.
 
   <div class="figure-block">
     <img src="/images/projects/cc-1-synthetic-pretraining/figure-2.png" alt="Few-shot gain with randomly sampled chain-of-thought demonstrations across random seeds.">
@@ -168,7 +168,7 @@ author_profile: false
   </div>
   <br>
 
-  Math benchmarks can reward formatting as well as reasoning. For example, a model may know the answer but fail because it does not place it in the expected format. To separate these effects, we compare strict parsing with more flexible answer extraction.
+  Math benchmarks can reward formatting as well as reasoning. For example, a model may know the answer but fail because it does not place it in the expected format. To separate these effects, I compare strict parsing with more flexible answer extraction.
 
   <div class="figure-block">
     <img src="/images/projects/cc-1-synthetic-pretraining/figure-3.png" alt="Breakdown of cases where the original model fails under strict and flexible parsing.">

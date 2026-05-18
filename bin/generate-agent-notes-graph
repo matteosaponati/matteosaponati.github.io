@@ -1,0 +1,185 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "fileutils"
+require "json"
+require "time"
+require "yaml"
+
+begin
+  require "kramdown"
+  require "kramdown-parser-gfm"
+rescue LoadError
+  # The system Ruby on macOS may not have Kramdown. The generator still runs,
+  # but HTML rendering is best when invoked with the Homebrew Ruby used by Jekyll.
+end
+
+ROOT = File.expand_path("..", __dir__)
+SOURCE = File.join(ROOT, "agents.md")
+OUTPUT = File.join(ROOT, "files", "research", "agent-notes-graph", "graph.json")
+
+def clean_heading(text)
+  text = text.gsub(/\s+\{#[^}]+\}\s*$/, "")
+  text = text.gsub(/[`*_]/, "")
+  text = text.gsub(/\[(.*?)\]\((.*?)\)/, '\1')
+  text = text.gsub(/\s+/, " ").strip
+  text.sub(/\A\d+(\.\d+)*\.?\s*/, "")
+end
+
+def slugify(text)
+  slug = text.to_s.downcase.gsub(/[^a-z0-9]+/, "-").gsub(/\A-|-+\z/, "")
+  slug.empty? ? "section" : slug
+end
+
+def normalize_list(value)
+  case value
+  when nil
+    []
+  when Array
+    value.flat_map { |item| normalize_list(item) }
+  else
+    value.to_s.split(",").map(&:strip).reject(&:empty?)
+  end
+end
+
+def parse_frontmatter(raw)
+  return [{}, raw, 1] unless raw.start_with?("---\n")
+
+  lines = raw.lines
+  closing_index = lines[1..]&.index("---\n")
+  return [{}, raw, 1] unless closing_index
+
+  closing_index += 1
+  frontmatter_text = lines[1...closing_index].join
+  body = lines[(closing_index + 1)..].join
+  data = YAML.safe_load(frontmatter_text, aliases: true, permitted_classes: [Date, Time]) || {}
+  [data, body, closing_index + 2]
+rescue Psych::SyntaxError
+  [{}, raw, 1]
+end
+
+def group_for(label, ancestor_labels)
+  haystack = ([label] + ancestor_labels).join(" ").downcase
+  return "research" if haystack.match?(/research|literature|scientific|paper|ml|models as research/)
+  return "workflow" if haystack.match?(/coding|codebase|codex|claude|workflow|approval|testing|scaffold|steps|done|skills|development|tool/)
+  return "structure" if haystack.match?(/curate|context|docs|agents\.md|memory|safety|cost|definition/)
+
+  "practice"
+end
+
+def word_count(text)
+  text.scan(/[A-Za-z][A-Za-z0-9']*/).length
+end
+
+def markdown_to_html(markdown)
+  return "" if markdown.to_s.strip.empty?
+
+  if defined?(Kramdown)
+    Kramdown::Document.new(
+      markdown,
+      input: "GFM",
+      hard_wrap: false,
+      syntax_highlighter: nil
+    ).to_html
+  else
+    escaped = markdown.to_s
+      .gsub("&", "&amp;")
+      .gsub("<", "&lt;")
+      .gsub(">", "&gt;")
+    "<pre><code>#{escaped}</code></pre>"
+  end
+end
+
+raw = File.read(SOURCE)
+frontmatter, body, body_start_line = parse_frontmatter(raw)
+body_lines = body.lines
+
+in_fence = false
+headings = []
+body_lines.each_with_index do |line, index|
+  in_fence = !in_fence if line.start_with?("```")
+  next if in_fence
+
+  match = line.match(/^(#+)\s+(.+?)\s*#*\s*$/)
+  next unless match
+  next if match[1].length > 6
+
+  label = clean_heading(match[2])
+  next if label.empty?
+
+  headings << {
+    level: match[1].length,
+    label: label,
+    line: body_start_line + index,
+    body_index: index
+  }
+end
+
+first_heading_index = headings.first&.fetch(:body_index) || body_lines.length
+intro_markdown = body_lines[0...first_heading_index].join.strip
+
+nodes = [{
+  id: "agents-md",
+  label: frontmatter["title"] || "agents.md",
+  level: 0,
+  group: "structure",
+  line: 1,
+  end_line: raw.lines.length,
+  tags: normalize_list(frontmatter["tags"]),
+  status: frontmatter["status"],
+  body_markdown: intro_markdown,
+  body_html: markdown_to_html(intro_markdown),
+  word_count: word_count(intro_markdown)
+}]
+edges = []
+stack = [{ level: 0, id: "agents-md", label: "agents.md" }]
+seen_slugs = Hash.new(0)
+
+headings.each_with_index do |heading, index|
+  stack.pop while stack.any? && stack.last[:level] >= heading[:level]
+  parent = stack.last || { id: "agents-md", label: "agents.md", level: 0 }
+  ancestor_labels = stack.map { |item| item[:label] }
+  slug = slugify(heading[:label])
+  seen_slugs[slug] += 1
+  id = seen_slugs[slug] == 1 ? slug : "#{slug}-#{seen_slugs[slug]}"
+  next_peer_or_ancestor = headings[(index + 1)..]&.find { |item| item[:level] <= heading[:level] }
+  next_heading = headings[index + 1]
+  end_line = next_peer_or_ancestor ? next_peer_or_ancestor[:line] - 1 : raw.lines.length
+  body_end_index = next_heading ? next_heading[:body_index] : body_lines.length
+  section_markdown = body_lines[(heading[:body_index] + 1)...body_end_index].join.strip
+
+  nodes << {
+    id: id,
+    label: heading[:label],
+    level: heading[:level],
+    group: group_for(heading[:label], ancestor_labels),
+    line: heading[:line],
+    end_line: end_line,
+    parent: parent[:id],
+    body_markdown: section_markdown,
+    body_html: markdown_to_html(section_markdown),
+    word_count: word_count(section_markdown)
+  }
+  edges << { source: parent[:id], target: id, kind: "contains" }
+  stack << { level: heading[:level], id: id, label: heading[:label] }
+end
+
+graph = {
+  generated_at: Time.now.utc.iso8601,
+  source: "agents.md",
+  frontmatter: {
+    tags: normalize_list(frontmatter["tags"]),
+    status: frontmatter["status"],
+    connections: normalize_list(frontmatter["connections"])
+  },
+  connection_sources: %w[headings],
+  node_count: nodes.length,
+  edge_count: edges.length,
+  edge_counts: { contains: edges.length },
+  nodes: nodes,
+  edges: edges
+}
+
+FileUtils.mkdir_p(File.dirname(OUTPUT))
+File.write(OUTPUT, JSON.pretty_generate(graph) + "\n")
+puts "Wrote #{OUTPUT} with #{nodes.length} nodes and #{edges.length} heading-tree edges."

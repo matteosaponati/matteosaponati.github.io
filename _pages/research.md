@@ -107,9 +107,33 @@ author_profile: false
 <div style="text-align: left;">
 <p style="font-size: 18px; margin-top: 5px;">
 
-<div>
+  <div>
   Here you can find my current and previous research projects:
   <br><hr><br>
+
+  <div style="display: flex; align-items: center; margin-bottom: 20px;">
+      <div style="width: 100px; height: 72px; margin-right: 15px; display: flex; align-items: center; justify-content: center;">
+        <svg viewBox="0 0 100 72" role="img" aria-label="Agent notes table of contents preview" style="width: 100px; height: 72px;">
+          <line x1="50" y1="36" x2="22" y2="18" stroke="#b9acbf" stroke-width="2"/>
+          <line x1="50" y1="36" x2="78" y2="17" stroke="#b9acbf" stroke-width="2"/>
+          <line x1="50" y1="36" x2="28" y2="55" stroke="#b9acbf" stroke-width="2"/>
+          <line x1="50" y1="36" x2="75" y2="56" stroke="#b9acbf" stroke-width="2"/>
+          <line x1="22" y1="18" x2="28" y2="55" stroke="#a0b7c9" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <circle cx="50" cy="36" r="9" fill="#4B0082"/>
+          <circle cx="22" cy="18" r="6" fill="#2f6f73"/>
+          <circle cx="78" cy="17" r="6" fill="#9a5a28"/>
+          <circle cx="28" cy="55" r="6" fill="#6f6f75"/>
+          <circle cx="75" cy="56" r="6" fill="#2f6f73"/>
+        </svg>
+      </div>
+      <div>
+          <a href="https://matteosaponati.github.io/research-agent-notes-graph" style="text-decoration: none;">
+              <b>agents.md table of contents</b>
+              <br>
+              (research project idea)
+          </a>
+      </div>
+  </div>
 
   <div style="display: flex; align-items: center; margin-bottom: 20px;">
       <img src="/files/research/feedback-control/logo-post.png" alt="Optimization Algorithms Image" style="width: 100px; height: auto; margin-right: 15px;">
