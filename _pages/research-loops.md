@@ -320,7 +320,7 @@ Below I list the experiment batches, with takeaways and next steps. Feel free to
   <div id="first-batch-gpt-53-spark-180526" class="section-anchor experiment-header">
     <strong class="section-title">the unexpected effectiveness of gpt-5.3-spark.</strong>
     <div class="experiment-date">19.05.26</div>
-    <a class="experiment-link" href="#" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
+    <a class="experiment-link" href="https://x.com/matteosaponati/status/2056730668936069395?s=20" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
   </div>
   <br>
 
@@ -399,7 +399,7 @@ If you are interested, I try to document everything as max as possible. You find
   <div id="first-batch-gpt-53-spark-200526" class="section-anchor experiment-header">
     <strong class="section-title">coming soon.</strong>
     <div class="experiment-date">??.??.26</div>
-    <a class="experiment-link" href="#" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
+    <a class="experiment-link" href="https://x.com/matteosaponati/status/2056730668936069395?s=20" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
   </div>
   <br>
 
