@@ -389,6 +389,8 @@ While gpt-5.3-codex mostly explores learning rate tuning, both gpt-5.3-codex-spa
 <strong>Final evaluation.</strong> Agents can achieve significant improvements in final validation loss within my custom harness, though this holds for some agents and not others. The harness reveals clear differences in agentic behavior, and a surprising effectiveness of gpt-5.3-codex-spark, at least within this research loop window. The interesting question is what happens beyond it.
 
 
+If you are interested, I try to document everything as max as possible. You find all the agent traces, the experiments tried in eeach experiments, and all the artifacts in <a href="https://github.com/matteosaponati/research-loop-self-improvement/tree/experiments-batch-1" target="_blank">here</a>.
+
 
 
 <br><br>
