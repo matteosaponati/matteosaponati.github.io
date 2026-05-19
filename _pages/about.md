@@ -4,7 +4,7 @@ permalink: /
 title: "about"
 excerpt: "about"
 author_profile: false
-last_modified_at: 2026-05-08
+last_modified_at: 2026-05-18
 redirect_from: 
   - /about/
   - /about.html
@@ -219,6 +219,17 @@ redirect_from:
   <section class="projects-wrap">
     <h2>projects.</h2>
     <ul class="projects-list">
+
+    <li class="project-row">
+        <div class="project-entry">
+          <time class="project-date" datetime="2026-05">May 2026</time>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-loops/">
+              <b>research loops and self-improvement.</b>
+            </a>
+          </div>
+        </div>
+      </li>
 
       <li class="project-row">
         <div class="project-entry">
