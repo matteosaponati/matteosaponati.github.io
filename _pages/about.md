@@ -193,7 +193,7 @@ redirect_from:
   <!-- About -->
   <section class="about-grid">
     <aside class="image-col">
-      <img class="portrait" src="/images/about/me_ini-2.png" alt="Portrait of Matteo Saponati">
+      <img class="portrait" src="images/about/me-swiss.png" alt="Portrait of Matteo Saponati">
     </aside>
     <div class="text-col">
       <div class="about-text">
