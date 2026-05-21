@@ -258,7 +258,7 @@ redirect_from:
           <time class="project-date" datetime="2026-01">Jan 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io//research-feedback-control-1/">
-              <b>paper accepted at ISCAS 2026 ✨ <br> "Mixed-signal implementation of feedback-control optimizer for single-layer Spiking Neural Networks".</b>
+              <b>paper accepted at ISCAS 2026 (oral) ✨ <br> "Mixed-signal implementation of feedback-control optimizer for single-layer Spiking Neural Networks".</b>
             </a>
           </div>
         </div>

@@ -130,7 +130,19 @@ author_profile: false
     <!-- News -->
     <section class="news-box">
       <ul>
-        <li>
+            <li>
+                <strong>?.?.26</strong>
+                Our third paper for on-chip training of multilayered recurrent neural networks is being finalized. More news to come.
+            </li>
+            <li>
+                <strong>25.02.26</strong>
+                Our second paper for on-chip training of mixed-signal decides with feedback control was accepted as an oral at ISCAS 2026! You can find the preprint <a href="https://arxiv.org/abs/2603.24113" target="_blank">here</a>.
+            </li>
+            <li>
+                <strong>28.03.25</strong>
+                Our first paper on online training with feedback control was accepted at NICE 2025! You can find the paper <a href="https://ieeexplore.ieee.org/abstract/document/11065428" target="_blank">here</a>.
+            </li>
+            <li>
                 <strong>05.11.24</strong>
                 I gave a talk at the <a href="https://snufa.net" target="_blank">SNUFA Workshop 2024</a> (online). You can find the video of my talk <a href="https://youtu.be/PrkDW28eVko?si=mWH7dVDemBnzGjpA" target="_blank">here</a>.
             </li>
