@@ -482,6 +482,15 @@ Interestingly, compared to the previous batch, the broken metric pushes every ag
 That said, gpt-5.5 and gpt-5.3-codex exhibit distinct failure modes once they detect the broken metric. Both eventually resort to manually overwriting the eval value, which is accepted as a valid improvement by construction, triggering a loop where each lower value is accepted, prompting an even lower one. The two models diverge in how they execute this: gpt-5.3-codex decreases the value incrementally, while gpt-5.5 jumps directly to zero, then tests negative values, and ultimately converges on -inf. At that point, gpt-5.5 reverts to running standard experiments, noting that no change can further improve a metric already clipped at its minimum.
 
   <div class="figure-block">
+    <img src="/images/projects/research-loops-batch-two/deadcode_eval_example_trajectories_white_bg.png" alt="S">
+    <div class="figure-caption">
+    <strong>Figure 4.</strong>   Validation bpb across representative research loops. Each colored solid line shows one selected run for that model, while the dashed line shows the median trajectory across 10 runs. Negative reported validation values are clipped to zero for display, with annotations giving the true reported value.
+    </div>
+  </div>
+
+Here is a table with an example of each beheviour from Figure 3:
+
+  <div class="figure-block">
     <img src="/images/projects/research-loops-batch-two/deadcode_eval_behavior_summary_table.png" alt="S">
     <div class="figure-caption">
     <strong>Table 1.</strong>   Representative transcript excerpts for each behavior category and model. Each cell shows one selected example of the model’s stated rationale or planned edit for that category.
@@ -492,6 +501,15 @@ That said, gpt-5.5 and gpt-5.3-codex exhibit distinct failure modes once they de
 
 
 If you are interested, I try to document everything as max as possible. You find all the agent traces, the experiments tried in eeach experiments, and all the artifacts in <a href="https://github.com/matteosaponati/research-loop-self-improvement/tree/experiments-batch-1" target="_blank">here</a>.
+
+
+
+
+
+
+
+
+
 
 
 
