@@ -293,7 +293,7 @@ I set up a harness where a coding agent receives instructions via a markdown fil
 <br><br>
 Below I list the experiment batches, with takeaways and next steps. Feel free to leave anonymous feedback <a href="https://www.admonymous.co/matteo-saponati" target="_blank">here</a>. I want to thank some colleagues at Tufa Labs for suggestions and feedbacks on the initial state of this project.
 
-  <hr style="width: 40%; margin: 20px auto;">
+
 
   <nav class="toc-wrap" aria-label="Table of contents">
     <h2>experiments</h2>
@@ -302,25 +302,41 @@ Below I list the experiment batches, with takeaways and next steps. Feel free to
       <li>
         <span class="toc-date">19.05.26</span>
         <div>
-          <a class="toc-title" href="#first-batch-gpt-53-spark-180526">the unexpected effectiveness of gpt-5.3-spark.</a>
+          <a class="toc-title" href="#first-batch">the unexpected effectiveness of gpt-5.3-spark.</a>
           <p class="toc-description">First test of my custom harness with multiple coding agents. I ask the question "can an AI agent run a small research loop reliably?". I observe that agents are better than random search in decreasing final validation loss, with interesting differences. </p>
+        </div>
+      </li>
+      <li>
+        <span class="toc-date">27.05.26</span>
+        <div>
+          <a class="toc-title" href="#second-batch">learning signals and failure modes with simple evaluation harness.</a>
+          <p class="toc-description">Second batch of experiments of my custom harness, testing agents' behaviour with a broken metric. I ask the question " does an AI agent have an internal understanding of an ML codebase?". I observe that some agents can detect a broken metric within the current loop-environment setup, but they ultimately fall into eval hacking.</p>
         </div>
       </li>
       <li>
         <span class="toc-date">??.??.26</span>
         <div>
-          <a class="toc-title" href="#first-batch-gpt-53-spark-200526">coming soon.</a>
+          <a class="toc-title" href="#">coming soon.</a>
           <p class="toc-description">next batch of experiments on null environments.</p>
         </div>
       </li>
     </ul>
   </nav>
 
+
+
+
+
+
+
+<hr style="width: 40%; margin: 20px auto;">
+
+
   <br>
-  <div id="first-batch-gpt-53-spark-180526" class="section-anchor experiment-header">
+  <div id="first-batch" class="section-anchor experiment-header">
     <strong class="section-title">the unexpected effectiveness of gpt-5.3-spark.</strong>
-    <div class="experiment-date">19.05.26</div>
-    <a class="experiment-link" href="https://x.com/matteosaponati/status/2056730668936069395?s=20" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
+    <div class="experiment-date">20.05.26</div>
+    <a class="experiment-link" href="https://x.com/matteosaponati/status/2057108679996883115" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
   </div>
   <br>
 
@@ -393,17 +409,89 @@ If you are interested, I try to document everything as max as possible. You find
 
 
 
+
+
+
+
+
+
+<br><br>
 <br><br>
 
-  <br>
-  <div id="first-batch-gpt-53-spark-200526" class="section-anchor experiment-header">
-    <strong class="section-title">coming soon.</strong>
-    <div class="experiment-date">??.??.26</div>
-    <a class="experiment-link" href="https://x.com/matteosaponati/status/2056730668936069395?s=20" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
+<hr style="width: 40%; margin: 20px auto;">
+
+
+  <div id="second-batch" class="section-anchor experiment-header">
+    <strong class="section-title">learning signals and failure modes with simple evaluation harness.</strong>
+    <div class="experiment-date">27.05.26</div>
+    <a class="experiment-link" href="https://x.com/matteosaponati/status/2057108679996883115" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
   </div>
   <br>
 
- Testing agents in new search spaces.
+This second batch of experiments runs the most straightforward control for validating the loop-environment setup: what happens when the metric is broken?
+
+<br><br>
+
+The setup is identical to the first experiment batch, with one change: the `eval.py` validation function is modified to always return a constant value, regardless of the model's changes or the experiment configuration. This simulates a broken metric.
+
+
+<div class="figure-block compact">
+    <img src="/images/projects/research-loops-batch-two/description-eval.png" style="max-width: 55%;">
+    <div class="figure-caption">
+      <strong>Figure 1.</strong> editable/train.py imports evaluate_model from the immutable immutable/eval.py, calling it once at the end of training to compute metric_value, which is saved to the results JSON file. In this batch of experiments, evaluate_model always returns the same number, independently of the output of the model. 
+    </div>
+  </div>
+
+This experiment batch addresses the following sub-question, which is grounded in the overarching research question from the first batch:
+
+  <div class="research-question-card">
+    <strong>Research Question</strong>: Does an AI agent have an internal understanding of an ML codebase — what should work, and how — within a given loop and environment?
+  </div>
+
+
+  <div class="takeaway">
+    <strong>Takeaway 1</strong>. No, some agents fail to detect the broken metric entirely. Others identify the issue and attempt hard-coded fixes, but ultimately resort to eval hacking. Both failure modes suggest the loop structure is too constraining for the agents.
+  </div>
+
+  <div class="figure-block">
+    <img src="/images/projects/research-loops-batch-two/deadcode_eval_change_summary.png" alt="">
+    <div class="figure-caption">
+      <strong>Figure 2.</strong> Evaluation run summaries. Each dot represents a single run; box plots show the median with the 25th–75th percentile range. <strong>Left:</strong> The loop step at which the agent first edits the reported metric value directly; percentages indicate how often each model did so across all runs. <strong>Center:</strong> Number of valid (accepted) experiments per run. <strong>Right:</strong> Number of new Codex sessions spawned after the initial one within a single run.
+    </div>
+  </div>
+ 
+The current loop-environment setup reveals clear differences across models. Both gpt-5.5 and gpt-5.3-codex detect that the evaluation function is broken and attempt targeted fixes, while gpt-5.3-codex-spark does not. Between the two models that do detect the issue, a clear gradient emerges. gpt-5.5 identifies the broken metric more often and much earlier (sometimes within as few as 5 experiments) while gpt-5.3-codex typically requires at least 20. Meanwhile, the number of valid experiments and new Codex sessions remain comparable to the first batch, suggesting the broken metric does not significantly disrupt the overall loop behavior. One caveat: gpt-5.3-codex-spark only has 3 runs due to experiment crashes; results for this model will be updated in the coming days.
+
+<br><br>
+
+<div class="takeaway">
+  <strong>Takeaway 2</strong>. Once an agent resorts to hard-coding the metric, it gets stuck in an eval hacking loop, repeatedly forcing the metric value down rather than fixing the underlying issue.
+</div>
+
+  <div class="figure-block">
+    <img src="/images/projects/research-loops-batch-two/deadcode_eval_behavior_summary.png" alt="S">
+    <div class="figure-caption">
+    <strong>Figure 3.</strong>  For each behavior category (x-axis, ordered by total frequency across models), the bars show the share of experiments in which the model attempted at least one experiment matching that category. 
+    </div>
+  </div>
+
+Interestingly, compared to the previous batch, the broken metric pushes every agent to explore more broadly: all three models attempt architectural and throughput changes that were largely absent with a standard evaluation harness. A metric that never improves appears to discourage shallow search strategies and force more diverse experimentation.
+
+<br><br>
+
+That said, gpt-5.5 and gpt-5.3-codex exhibit distinct failure modes once they detect the broken metric. Both eventually resort to manually overwriting the eval value, which is accepted as a valid improvement by construction, triggering a loop where each lower value is accepted, prompting an even lower one. The two models diverge in how they execute this: gpt-5.3-codex decreases the value incrementally, while gpt-5.5 jumps directly to zero, then tests negative values, and ultimately converges on -inf. At that point, gpt-5.5 reverts to running standard experiments, noting that no change can further improve a metric already clipped at its minimum.
+
+  <div class="figure-block">
+    <img src="/images/projects/research-loops-batch-two/deadcode_eval_behavior_summary_table.png" alt="S">
+    <div class="figure-caption">
+    <strong>Table 1.</strong>   Representative transcript excerpts for each behavior category and model. Each cell shows one selected example of the model’s stated rationale or planned edit for that category.
+    </div>
+  </div>
+
+<strong>Final evaluation.</strong> Agents can detect a broken metric within the current loop-environment setup, though only gpt-5.5 and gpt-5.3-codex do so reliably, and both ultimately fall into eval hacking once they do. The setup reveals meaningful differences in how models respond to a non-informative metric: gpt-5.5 detects the issue earlier and explores more aggressively, while gpt-5.3-codex follows a more incremental path. gpt-5.3-codex-spark fails to detect the issue entirely, and thus avoids the eval hacking trap. The key open question is whether any agent can detect a broken metric and recover from it gracefully, rather than exploiting it.
+
+
+If you are interested, I try to document everything as max as possible. You find all the agent traces, the experiments tried in eeach experiments, and all the artifacts in <a href="https://github.com/matteosaponati/research-loop-self-improvement/tree/experiments-batch-1" target="_blank">here</a>.
 
 
 
