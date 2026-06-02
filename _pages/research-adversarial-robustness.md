@@ -141,7 +141,7 @@ author_profile: false
   Adversarial perturbations can make convolutional neural networks fail even when the input changes are nearly invisible to humans. In this work, we study a simple defense strategy based on combining noise with bilateral filtering, and show that this combination can produce scalable gains in adversarial robustness.
 
   <div class="paper-link">
-    <a href="https://cvpr.thecvf.com/virtual/2026/poster/37609" target="_blank">CVPR 2026 paper</a>
+    <a href="https://arxiv.org/abs/2606.02267" target="_blank">CVPR 2026 paper</a>
   </div>
 
   <hr style="width: 40%; margin: 20px auto;">
