@@ -222,6 +222,18 @@ redirect_from:
 
     <li class="project-row">
         <div class="project-entry">
+          <time class="project-date" datetime="2026-06">Jun 2026</time>
+          <div class="project-title">
+            <a href="https://matteosaponati.github.io/research-predictive-law-OPSD">
+              <b>paper accepted at ICML 2026 (RLxF workshop) ✨ <br> "A Predictive Law for On-Policy
+            Self-Distillation From World Feedback".</b>
+            </a>
+          </div>
+        </div>
+      </li>
+
+    <li class="project-row">
+        <div class="project-entry">
           <time class="project-date" datetime="2026-05">May 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-loops/">
