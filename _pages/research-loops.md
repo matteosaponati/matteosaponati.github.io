@@ -279,7 +279,7 @@ author_profile: false
 
   In this solo project, I run experiments on recursive self-improvement with coding agents. I believe the ingredients are in place, we just need to explore.
   <br><br>
-  I test this investigating automatic ML research. I take some inspiration from the classical <a href="https://github.com/karpathy/autoresearch" target="_blank">Karpathy's autoresearch loop</a> and <a href="https://x.com/PrimeIntellect/status/2055056380881744365" target="_blank">work from Prime Intellect</a>. A detailed description of the experiments is <a href="https://github.com/matteosaponati/research-loop-self-improvement" target="_blank">here</a>.
+  I test this by investigating automatic ML research. I take some inspiration from the classical <a href="https://github.com/karpathy/autoresearch" target="_blank">Karpathy's autoresearch loop</a> and <a href="https://x.com/PrimeIntellect/status/2055056380881744365" target="_blank">work from Prime Intellect</a>. A detailed description of the experiments is <a href="https://github.com/matteosaponati/research-loop-self-improvement" target="_blank">here</a>.
   
 
   <div class="figure-block">
@@ -291,7 +291,7 @@ author_profile: false
 
 I set up a harness where a coding agent receives instructions via a markdown file, acts on a codebase, and is evaluated against an immutable test suite. It can curate artifacts and compound knowledge across multiple research loop iterations. Throughout this project, I test variations across each degree of freedom and investigate research questions as evidence accumulates. The project is structured in batches of experiments, each defined by: (1) a question being addressed, (2) an experimental setup and the number of runs required, and (3) evaluation criteria. I document experimentation, results, and technical details as I go. The format may evolve, as this is itself an experimental setup. I am essentially a self-improving agent running experiments on self-improving agents. I love the dualism.
 <br><br>
-Below I list the experiment batches, with takeaways and next steps. Feel free to leave anonymous feedback <a href="https://www.admonymous.co/matteo-saponati" target="_blank">here</a>. I want to thank some colleagues at Tufa Labs for suggestions and feedbacks on the initial state of this project.
+Below I list the experiment batches, with takeaways and next steps. Feel free to leave anonymous feedback <a href="https://www.admonymous.co/matteo-saponati" target="_blank">here</a>. I want to thank some colleagues at Tufa Labs for suggestions and feedback on the initial state of this project.
 
 
 
@@ -303,31 +303,25 @@ Below I list the experiment batches, with takeaways and next steps. Feel free to
         <span class="toc-date">19.05.26</span>
         <div>
           <a class="toc-title" href="#first-batch">the unexpected effectiveness of gpt-5.3-spark.</a>
-          <p class="toc-description">First test of my custom harness with multiple coding agents. I ask the question "can an AI agent run a small research loop reliably?". I observe that agents are better than random search in decreasing final validation loss, with interesting differences. </p>
+          <p class="toc-description">First test of my custom harness with multiple coding agents. I ask the question "Can an AI agent run a small research loop reliably?". I observe that agents are better than random search in decreasing final validation loss, with interesting differences. </p>
         </div>
       </li>
       <li>
         <span class="toc-date">27.05.26</span>
         <div>
-          <a class="toc-title" href="#second-batch">learning signals and failure modes with simple evaluation harness.</a>
-          <p class="toc-description">Second batch of experiments of my custom harness, testing agents' behaviour with a broken metric. I ask the question " does an AI agent have an internal understanding of an ML codebase?". I observe that some agents can detect a broken metric within the current loop-environment setup, but they ultimately fall into eval hacking.</p>
+          <a class="toc-title" href="#second-batch">learning signals and failure modes with a simple evaluation harness.</a>
+          <p class="toc-description">Second batch of experiments with my custom harness, testing agents' behaviour with a broken metric. I ask the question "Does an AI agent have an internal understanding of an ML codebase?". I observe that some agents can detect a broken metric within the current loop-environment setup, but they ultimately fall into eval hacking.</p>
         </div>
       </li>
       <li>
-        <span class="toc-date">??.??.26</span>
+        <span class="toc-date">03.06.26</span>
         <div>
-          <a class="toc-title" href="#">coming soon.</a>
-          <p class="toc-description">next batch of experiments on null environments.</p>
+          <a class="toc-title" href="#third-batch">learning signals and failure modes with noisy validation returns.</a>
+          <p class="toc-description">Third batch of experiments testing how agents handle noisy validation metrics. The core question: "Can agents distinguish stochastic fluctuations from real improvements?" Results show agents consistently accept random outputs at face value, without questioning noise in the current loop environment.</p>
         </div>
       </li>
     </ul>
   </nav>
-
-
-
-
-
-
 
 <hr style="width: 40%; margin: 20px auto;">
 
@@ -343,7 +337,7 @@ Below I list the experiment batches, with takeaways and next steps. Feel free to
 This first batch of experiments serves to stress-test the research loop hands-on and validate the experimental infrastructure ahead of future work. Concretely, I address the following research question using the research loop codebase and harness I developed:
 
   <div class="research-question-card">
-    <strong>Research Question</strong>: can an AI agent run a small research loop reliably? Can it make real progress?
+    <strong>Research Question</strong>: Can an AI agent run a small research loop reliably? Can it make real progress?
   </div>
 
 
@@ -363,7 +357,7 @@ lowest validation bpb achieved.
     </div>
   </div>
  
-The harness highlights clear differences in model trajectories: gpt-5.5 and gpt-5.3-codex-spark both exhibit genuine downward val bpb trends, while gpt-5.3-codex surprisingly underperforms random. At this early stage, gpt-5.3-codex-spark is largely on par with gpt-5.5. This might change with more iterations: the original Karpathy autoresearch loop ran for ~80 steps, and <a href="https://www.weco.ai/blog/autoresearch-vs-classical-hpo" target="_blank">other studies</a> have pushed this to hundreds of runs. I expect the gap between models to widen non-linearly. Perhaps with gpt-5.5 pulling ahead once the loop runs long enough to reveal its ceiling.
+The harness highlights clear differences in model trajectories: gpt-5.5 and gpt-5.3-codex-spark both exhibit genuine downward val bpb trends, while gpt-5.3-codex surprisingly underperforms random. At this early stage, gpt-5.3-codex-spark is largely on par with gpt-5.5. This might change with more iterations: the original Karpathy autoresearch loop ran for ~80 steps, and <a href="https://www.weco.ai/blog/autoresearch-vs-classical-hpo" target="_blank">other studies</a> have pushed this to hundreds of runs. I expect the gap between models to widen non-linearly, perhaps with gpt-5.5 pulling ahead once the loop runs long enough to reveal its ceiling.
 
 <br><br>
 
@@ -405,7 +399,7 @@ While gpt-5.3-codex mostly explores learning rate tuning, both gpt-5.3-codex-spa
 <strong>Final evaluation.</strong> Agents can achieve significant improvements in final validation loss within my custom harness, though this holds for some agents and not others. The harness reveals clear differences in agentic behavior, and a surprising effectiveness of gpt-5.3-codex-spark, at least within this research loop window. The interesting question is what happens beyond it.
 
 
-If you are interested, I try to document everything as max as possible. You find all the agent traces, the experiments tried in eeach experiments, and all the artifacts in <a href="https://github.com/matteosaponati/research-loop-self-improvement/tree/experiments-batch-1" target="_blank">here</a>.
+If you are interested, I try to document everything as much as possible. You can find all the agent traces, the experiments tried in each experiment, and all the artifacts <a href="https://github.com/matteosaponati/research-loop-self-improvement/tree/experiments-batch-1" target="_blank">here</a>.
 
 
 
@@ -422,7 +416,7 @@ If you are interested, I try to document everything as max as possible. You find
 
 
   <div id="second-batch" class="section-anchor experiment-header">
-    <strong class="section-title">learning signals and failure modes with simple evaluation harness.</strong>
+    <strong class="section-title">learning signals and failure modes with a simple evaluation harness.</strong>
     <div class="experiment-date">27.05.26</div>
     <a class="experiment-link" href="https://x.com/matteosaponati/status/2057108679996883115" target="_blank" aria-label="X article"><img src="/images/general/x_icon.png" alt="X"></a>
   </div>
@@ -460,7 +454,7 @@ This experiment batch addresses the following sub-question, which is grounded in
     </div>
   </div>
  
-The current loop-environment setup reveals clear differences across models. Both gpt-5.5 and gpt-5.3-codex detect that the evaluation function is broken and attempt targeted fixes, while gpt-5.3-codex-spark does not. Between the two models that do detect the issue, a clear gradient emerges. gpt-5.5 identifies the broken metric more often and much earlier (sometimes within as few as 5 experiments) while gpt-5.3-codex typically requires at least 20. Meanwhile, the number of valid experiments and new Codex sessions remain comparable to the first batch, suggesting the broken metric does not significantly disrupt the overall loop behavior. One caveat: gpt-5.3-codex-spark only has 3 runs due to experiment crashes; results for this model will be updated in the coming days.
+The current loop-environment setup reveals clear differences across models. Both gpt-5.5 and gpt-5.3-codex detect that the evaluation function is broken and attempt targeted fixes, while gpt-5.3-codex-spark does not. Between the two models that do detect the issue, a clear gradient emerges. gpt-5.5 identifies the broken metric more often and much earlier (sometimes within as few as 5 experiments) while gpt-5.3-codex typically requires at least 20. Meanwhile, the number of valid experiments and new Codex sessions remain comparable to the first batch, suggesting the broken metric does not significantly disrupt the overall loop behavior. One caveat: gpt-5.3-codex-spark has only 3 runs due to experiment crashes; results for this model will be updated in the coming days.
 
 <br><br>
 
@@ -488,7 +482,7 @@ That said, gpt-5.5 and gpt-5.3-codex exhibit distinct failure modes once they de
     </div>
   </div>
 
-Here is a table with an example of each beheviour from Figure 3:
+Here is a table with an example of each behavior from Figure 3:
 
   <div class="figure-block">
     <img src="/images/projects/research-loops-batch-two/deadcode_eval_behavior_summary_table.png" alt="S">
@@ -500,7 +494,7 @@ Here is a table with an example of each beheviour from Figure 3:
 <strong>Final evaluation.</strong> Agents can detect a broken metric within the current loop-environment setup, though only gpt-5.5 and gpt-5.3-codex do so reliably, and both ultimately fall into eval hacking once they do. The setup reveals meaningful differences in how models respond to a non-informative metric: gpt-5.5 detects the issue earlier and explores more aggressively, while gpt-5.3-codex follows a more incremental path. gpt-5.3-codex-spark fails to detect the issue entirely, and thus avoids the eval hacking trap. The key open question is whether any agent can detect a broken metric and recover from it gracefully, rather than exploiting it.
 
 
-If you are interested, I try to document everything as max as possible. You find all the agent traces, the experiments tried in eeach experiments, and all the artifacts in <a href="https://github.com/matteosaponati/research-loop-self-improvement/tree/experiments-batch-1" target="_blank">here</a>.
+If you are interested, I try to document everything as much as possible. You can find all the agent traces, the experiments tried in each experiment, and all the artifacts <a href="https://github.com/matteosaponati/research-loop-self-improvement/tree/experiments-batch-1" target="_blank">here</a>.
 
 
 
@@ -511,6 +505,87 @@ If you are interested, I try to document everything as max as possible. You find
 
 
 
+
+
+<br><br>
+<br><br>
+
+<hr style="width: 40%; margin: 20px auto;">
+
+
+  <div id="third-batch" class="section-anchor experiment-header">
+    <strong class="section-title">learning signals and failure modes with noisy validation returns.</strong>
+    <div class="experiment-date">03.06.26</div>
+  </div>
+  <br>
+
+This third batch of experiments continues the stress test from the second batch, but replaces the constant broken validation metric with a noisy one. Instead of returning the same value every time, the validation function returns a random number around a fixed base value:
+
+<br><br>
+
+\[
+\text{reported metric} = \text{base value} + \epsilon,\quad \epsilon \sim \mathcal{N}(0, 0.02)
+\]
+
+<br>
+
+The setup is otherwise identical to the second experiment batch. The goal is to test whether agents can distinguish real progress from stochastic validation noise, and whether noisy feedback changes their tendency to search, diagnose the metric, or exploit the reported value directly.
+
+This experiment batch addresses the following sub-question, which follows directly from the constant-metric control:
+
+  <div class="research-question-card">
+    <strong>Research Question</strong>: How do coding agents behave when the validation signal is broken but noisy? Can they tell stochastic fluctuations from real improvements, or do they overfit the noise?
+  </div>
+
+
+  <div class="takeaway">
+    <strong>Takeaway 1</strong>. No, some agents note possible noise in individual runs, but none detect the broken metric itself. In this loop-environment setup, every experiment's outcome at face value.
+  </div>
+
+  <div class="figure-block">
+    <img src="/images/projects/research-loops-batch-three/noisy_eval_run_summary_boxplots.png" alt="Noisy validation run summary boxplots across gpt-5.5, gpt-5.3-codex-spark, and gpt-5.3-codex.">
+    <div class="figure-caption">
+      <strong>Figure 1.</strong> Noisy validation run summaries. <strong>Left:</strong> First research-loop step where the agent explicitly acknowledges noisy or stochastic validation behavior; percentages show the share of runs for each model with such a recognition event. Missing points indicate runs with no observed recognition. <strong>Center:</strong> Number of valid experiments per run. <strong>Right:</strong> Number of new Codex sessions spawned after the initial one within a single run.
+    </div>
+  </div>
+
+The current loop-environment setup reveals clear differences across models. gpt-5.5 notices that the validation score is sensitive to stochastic factors, pivoting to seed changes after deterministic tweaks fail, but never questions the evaluator itself, continuing to treat the noisy scalar as a valid objective. Compared to the standard evaluation setting, this agent tries different seeds way more often. Overall, the behaviour of these agents is more similar to the standard evaluation. 
+
+<br><br>
+
+<div class="takeaway">
+  <strong>Takeaway 2</strong>. The behavioural repertoire across agents is similar to the standard validation case.
+</div>
+
+  <div class="figure-block">
+    <img src="/images/projects/research-loops-batch-three/noisy_eval_behavior_summary.png" alt="Noisy validation behavior summary across agents.">
+    <div class="figure-caption">
+    <strong>Figure 2.</strong> Behavior summary under noisy validation. For each behavior category, the bars show the share of selected runs in which the model attempted at least one experiment matching that category.
+    </div>
+  </div>
+
+Under this setup, agents behave similarly to the standard evaluation case, which is expected since they do not recognise the difference between a standard and a noisy evaluator. For example, gpt-5.3 shows slightly more superficial experimentation than the other two agents, while the latter test architectural changes.
+
+<br><br>
+
+Unlike the previous stress test, no agent falls into the reward-hacking failure mode of directly accessing and hardcoding the validation score. In this setting, agents mostly fail to notice that the validation results are inconsistent with their prior experiments. 
+
+<br><br>
+
+  <div class="figure-block">
+    <img src="/images/projects/research-loops-batch-three/noisy_eval_example_trajectories.gif" alt="Example noisy validation trajectory animation with agent output.">
+    <div class="figure-caption">
+    <strong>Figure 3.</strong> Example noisy-validation trajectory. The plot shows reported validation bpb over research-loop steps alongside the corresponding agent output.
+    </div>
+  </div>
+
+
+<br><br>
+
+<strong>Final evaluation.</strong> Under noisy validation, agents behave similarly to the standard evaluation case, failing to recognise the broken evaluator and accepting all outcomes at face value. Unlike the constant-metric setting, no agent resorts to reward hacking, though none detects the inconsistency between the noisy validation results and their prior experiments.
+
+
+If you are interested, I will document the agent traces, experiments tried, and artifacts here once the third batch repository branch is available.
 
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
