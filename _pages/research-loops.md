@@ -320,6 +320,13 @@ Below I list the experiment batches, with takeaways and next steps. Feel free to
           <p class="toc-description">Third batch of experiments testing how agents handle noisy validation metrics. The core question: "Can agents distinguish stochastic fluctuations from real improvements?" Results show agents consistently accept random outputs at face value, without questioning noise in the current loop environment.</p>
         </div>
       </li>
+        <li>
+        <span class="toc-date">??.??.26</span>
+        <div>
+          <a class="toc-title" href="">next batch coming soon.</a>
+          <p class="toc-description"></p>
+        </div>
+      </li>
     </ul>
   </nav>
 
@@ -539,7 +546,7 @@ This experiment batch addresses the following sub-question, which follows direct
 
 
   <div class="takeaway">
-    <strong>Takeaway 1</strong>. No, some agents note possible noise in individual runs, but none detect the broken metric itself. In this loop-environment setup, every experiment's outcome at face value.
+    <strong>Takeaway 1</strong>. No, some agents note possible noise in individual runs, but none detect the broken metric itself. In this loop-environment setup, every experiment's outcome is accepted at face value.
   </div>
 
   <div class="figure-block">
@@ -578,9 +585,6 @@ Unlike the previous stress test, no agent falls into the reward-hacking failure 
     <strong>Figure 3.</strong> Example noisy-validation trajectory. The plot shows reported validation bpb over research-loop steps alongside the corresponding agent output.
     </div>
   </div>
-
-
-<br><br>
 
 <strong>Final evaluation.</strong> Under noisy validation, agents behave similarly to the standard evaluation case, failing to recognise the broken evaluator and accepting all outcomes at face value. Unlike the constant-metric setting, no agent resorts to reward hacking, though none detects the inconsistency between the noisy validation results and their prior experiments.
 
