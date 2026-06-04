@@ -589,9 +589,6 @@ Unlike the previous stress test, no agent falls into the reward-hacking failure 
 <strong>Final evaluation.</strong> Under noisy validation, agents behave similarly to the standard evaluation case, failing to recognise the broken evaluator and accepting all outcomes at face value. Unlike the constant-metric setting, no agent resorts to reward hacking, though none detects the inconsistency between the noisy validation results and their prior experiments.
 
 
-If you are interested, I will document the agent traces, experiments tried, and artifacts here once the third batch repository branch is available.
-
-
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
