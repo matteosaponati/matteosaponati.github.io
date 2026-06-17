@@ -17,8 +17,13 @@ redirect_from:
     --portrait-size-mobile: 180px;     /* mobile image size */
     --project-thumb-size: 80px;        /* project icon size */
     --text-size: 16px;                 /* standard body text size (was 18px) */
+    --terminal-font: "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Lucida Console", monospace;
     --accent-color: #3a0a57;
 
+  }
+
+  body{
+    font-family: var(--terminal-font);
   }
 
   /* ===== centered container & header ===== */
@@ -30,19 +35,8 @@ redirect_from:
 
   /* ===== two-column about block ===== */
   .about-grid{
-    display: grid;
-    grid-template-columns: var(--portrait-size) minmax(300px, 420px);
-    grid-template-areas: "image text";
-    column-gap: 0;
-    justify-content: space-between;
-    align-items: start;
+    display: block;
     margin-top: 0;
-  }
-  .image-col{
-    grid-area: image;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
   }
   .portrait{
     width: var(--portrait-size);
@@ -53,9 +47,32 @@ redirect_from:
     max-width: var(--portrait-size);
     border-radius: 50%;
   }
-  .text-col{ grid-area: text; max-width: 420px; }
+  .text-col{ max-width: none; }
   .about-text{ font-size: var(--text-size); line-height: 1.6; }
-  .about-text h2{ margin-top: 0; }
+  .about-text h2{
+    margin-top: 0;
+    min-height: 1.45em;
+    font-size: 34px;
+    line-height: 1.25;
+  }
+  .typed-heading{
+    display: inline-block;
+    width: 0;
+    max-width: max-content;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid var(--accent-color);
+    font-family: var(--terminal-font);
+    animation:
+      terminal-type 1.45s steps(15, end) .25s forwards,
+      terminal-cursor 1s step-end infinite;
+  }
+  @keyframes terminal-type{
+    to{ width: 15ch; }
+  }
+  @keyframes terminal-cursor{
+    50%{ border-color: transparent; }
+  }
   .icons{
     display: flex;
     justify-content: center;
@@ -140,7 +157,7 @@ redirect_from:
   }
 
   /* title link without underline */
-  .project-title{ font-weight: 500; margin: 0; font-size: var(--text-size); line-height: 1.4; }
+  .project-title{ font-weight: normal; margin: 0; font-size: var(--text-size); line-height: 1.4; }
   .project-title a{ text-decoration: none; }
   .project-title a:hover{ text-decoration: none; }
 
@@ -155,15 +172,10 @@ redirect_from:
   @media (max-width: 760px){
     .container{ padding: 0 16px; }
     .about-grid{
-      grid-template-columns: 1fr;
-      grid-template-areas:
-        "image"
-        "text";
-      row-gap: 18px;
       margin-top: 0;
     }
-    .image-col{ justify-content: center; }
     .text-col{ max-width: none; }
+    .about-text h2{ font-size: 28px; }
     .portrait{
       width: var(--portrait-size-mobile);
       height: var(--portrait-size-mobile);
@@ -192,15 +204,14 @@ redirect_from:
 
   <!-- About -->
   <section class="about-grid">
-    <aside class="image-col">
-      <img class="portrait" src="images/about/me-swiss.png" alt="Portrait of Matteo Saponati">
-    </aside>
     <div class="text-col">
       <div class="about-text">
-        <h2>hi, I am Matteo.</h2>
-        I am a research scientist. 
+        <h2><span class="typed-heading">hi, I am Matteo </span></h2>
+        I am an extrovert, a curious mind, and I like to build things. 
         <br><br>
-        I am fascinated by life and intelligence. Most importantly, I am a human being going through this life with the help of human connections and open communication.
+        My path has been guided by a fascination with life and engineering intelligence. I first wanted to understand how the world works, so I studied physics and self-organizing matter at university. I then realized biological systems are just complicated meshes of self-organizing matter, so I worked as a researcher in theoretical neuroscience labs. From there, I realized neural networks and differentiable programming are complicated meshes of self-organizing matter, so I did a PhD in ML and Neuroinformatics. To actually build intelligent systems myself, I got an ETH fellowship, spending two years on edge AI, mechanistic interpretability, and building LLMs. I now work in frontier AI labs and companies, where the frontier of research is actually being built.
+        <br><br>
+         Most importantly, I am a human being going through this life with the help of human connections. I believe in open communication, the right to seek your goals and your freedom, and empathy. Together with a deep openness to technological advancement, these will bring humanity to its best future.
         <!-- <br><br> -->
         <!-- I usually experiment and <a href="https://icml.cc/virtual/2025/poster/44452" target="_blank">do stuff with LLMs</a>. I also work with <a href="https://ieeexplore.ieee.org/abstract/document/11065428" target="_blank">"efficient and exotic hardware"</a> that implement neural computations with analog circuits. I have a PhD in Neuroinformatics with a <a href="https://repository.ubn.ru.nl/handle/2066/297621" target="_blank">thesis</a> on synaptic plasticity and predictive processes in biological and artificial networks.  -->
       </div>
@@ -208,11 +219,10 @@ redirect_from:
   </section>
 
   <div class="icons" aria-label="Social links">
+    <a href="https://twitter.com/matteosaponati" target="_blank"><img src="/images/general/x_icon.png" alt="X"></a>
     <a href="https://github.com/matteosaponati" target="_blank"><img src="/images/general/github_icon.png" alt="GitHub"></a>
-    <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><img src="/images/general/scholar_icon_circle.png" alt="Google Scholar"></a>
     <a href="https://www.linkedin.com/in/matteosaponati/" target="_blank"><img src="/images/general/linkedin_icon.png" alt="LinkedIn"></a>
-    <a href="https://twitter.com/matteosaponati" target="_blank"><img src="/images/general/x_icon.png" alt="X/Twitter"></a>
-    <a href="https://www.instagram.com/matteosaponati/" target="_blank"><img src="/images/general/instagram_icon.png" alt="Instagram"></a>
+    <a href="https://scholar.google.com/citations?user=kF4valcAAAAJ" target="_blank"><img src="/images/general/scholar_icon_circle.png" alt="Google Scholar"></a>
   </div>
 
   <!-- Projects -->
@@ -225,8 +235,8 @@ redirect_from:
           <time class="project-date" datetime="2026-06">Jun 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-predictive-law-OPSD">
-              <b>paper accepted at ICML 2026 (RLxF workshop) ✨ <br> "A Predictive Law for On-Policy
-            Self-Distillation From World Feedback".</b>
+              paper accepted at ICML 2026 (RLxF workshop) ✨ <br> "A Predictive Law for On-Policy
+            Self-Distillation From World Feedback".
             </a>
           </div>
         </div>
@@ -237,7 +247,7 @@ redirect_from:
           <time class="project-date" datetime="2026-05">May 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-loops/">
-              <b>research loops and self-improvement.</b>
+              research loops and self-improvement.
             </a>
           </div>
         </div>
@@ -248,7 +258,7 @@ redirect_from:
           <time class="project-date" datetime="2026-04">Apr 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/synth-pretrain-very-small-reasoning-models/">
-              <b>building a cognitive core 1: synthetic pretraining.</b>
+              building a cognitive core 1: synthetic pretraining.
             </a>
           </div>
         </div>
@@ -259,7 +269,7 @@ redirect_from:
           <time class="project-date" datetime="2026-02">Feb 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-adversarial-robustness">
-              <b>paper accepted at CVPR 2026 ✨ <br> "A combination of noise and bilateral filters achieve supralinear and scalable adversarial robustness in CNNs".</b>
+              paper accepted at CVPR 2026 ✨ <br> "A combination of noise and bilateral filters achieve supralinear and scalable adversarial robustness in CNNs".
             </a>
           </div>
         </div>
@@ -270,7 +280,7 @@ redirect_from:
           <time class="project-date" datetime="2026-01">Jan 2026</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io//research-feedback-control-1/">
-              <b>paper accepted at ISCAS 2026 (oral) ✨ <br> "Mixed-signal implementation of feedback-control optimizer for single-layer Spiking Neural Networks".</b>
+              paper accepted at ISCAS 2026 (oral) ✨ <br> "Mixed-signal implementation of feedback-control optimizer for single-layer Spiking Neural Networks".
             </a>
           </div>
         </div>
@@ -281,7 +291,7 @@ redirect_from:
           <time class="project-date" datetime="2025-08">Aug 2025</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-trippy-cot/">
-              <b>finetuning Qwen2.5-7B on trippy mathematical reasoning.</b>
+              finetuning Qwen2.5-7B on trippy mathematical reasoning.
             </a>
           </div>
         </div>
@@ -292,7 +302,7 @@ redirect_from:
           <time class="project-date" datetime="2025-05">May 2025</time>
           <div class="project-title">
             <a href="https://matteosaponati.github.io/research-self-attention-geometry">
-              <b>paper accepted at ICML 2025 ✨ <br> "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training".</b>
+              paper accepted at ICML 2025 ✨ <br> "The underlying structures of self-attention: symmetry, directionality, and emergent dynamics in Transformer training".
             </a>
           </div>
         </div>
@@ -302,7 +312,7 @@ redirect_from:
         <div class="project-entry">
           <time class="project-date" datetime="2024-03">Mar 2024</time>
           <div class="project-title">
-            <a href="https://matteosaponati.github.io/research-feedback-control"><b>programming mixed-signal devices on-chip with feedback control.</b></a>
+            <a href="https://matteosaponati.github.io/research-feedback-control">programming mixed-signal devices on-chip with feedback control.</a>
           </div>
         </div>
       </li>
@@ -310,7 +320,7 @@ redirect_from:
     </ul>
     <br><br>
     <div class="projects-updated">
-      last update: {{ page.last_modified_at | date: "%d %b %Y" }}
+      last update: {{ site.time | date: "%d %b %Y" }}
     </div>
   </section>
 </main>

@@ -401,7 +401,6 @@ author_profile: false
   That's it for this first post. There are still many things I want to try, especially the big chunk of RL that is still missing, but for now I am relatively happy with the results. If you enjoyed the post or have any ideas or feedback, feel free to drop me an email. I am looking forward to the next steps in this journey!
 
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
