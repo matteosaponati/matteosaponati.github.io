@@ -13,20 +13,21 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Lucida Console", monospace;
+$terminal-font-stack        : "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Lucida Console", monospace;
+$serif                      : $terminal-font-stack;
+$sans-serif                 : $terminal-font-stack;
+$monospace                  : $terminal-font-stack;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
-$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+$helvetica                  : $terminal-font-stack;
 
 /* serif typefaces */
-$georgia                    : Georgia, serif;
-$times                      : Times, serif;
-$bodoni                     : "Bodoni MT", serif;
-$calisto                    : "Calisto MT", serif;
-$garamond                   : Garamond, serif;
+$georgia                    : $terminal-font-stack;
+$times                      : $terminal-font-stack;
+$bodoni                     : $terminal-font-stack;
+$calisto                    : $terminal-font-stack;
+$garamond                   : $terminal-font-stack;
 
 $global-font-family         : $monospace;
 $header-font-family         : $monospace;
